@@ -1,7 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import { loadProjects } from '../../data/load-projects';
-import { score, trunc, verificationLabel, originLabel, accessLabel, CRITERION_SHORT, FORMAT } from '../../components/format';
+import { score, trunc, originLabel, accessLabel, CRITERION_SHORT } from '../../components/format';
 
 export async function getStaticPaths() {
   return loadProjects().map((p) => ({ params: { slug: p.slug }, props: { p } }));
@@ -11,94 +11,92 @@ const title = p.title || p.slug;
 const reviews = p.reviews.slice(0, 2);
 const crits = ['leverage', 'execution', 'impact', 'creativity'] as const;
 const probe = p.media.probeBefore || p.media.probeAfter;
-
-// agreement-at-a-glance: for each criterion, gap between the two blind scores
-function gapOf(c: string): number | null {
-  if (reviews.length < 2) return null;
-  const a = reviews[0].criteria[c as keyof typeof reviews[0]['criteria']]?.score;
-  const b = reviews[1].criteria[c as keyof typeof reviews[1]['criteria']]?.score;
-  if (a == null || b == null) return null;
-  return Math.abs(a - b);
-}
-const gaps = Object.fromEntries(crits.map((c) => [c, gapOf(c)]));
 ---
 <Base title={`${title} — webmcp/analysis`} description={trunc(p.pitch, 150) ?? undefined}>
-  <div class="wrap">
-    <nav aria-label="Breadcrumb" style="padding: 22px 0 0; font-size: var(--text-sm); color: var(--ink-3);">
-      <a href="/" style="color: var(--ink-2);">Rankings</a> <span aria-hidden="true">/</span> {p.rank ? `#${p.rank}` : 'not in final dataset'}
-    </nav>
-
-    <section class="hero" style="padding-bottom: 8px;">
+  <section class="hero hero-texture project-hero">
+    <div class="wrap">
+      <nav class="project-breadcrumb" aria-label="Breadcrumb">
+        <a href="/">Rankings</a> <span aria-hidden="true">/</span> {p.rank ? `#${p.rank}` : 'not in final dataset'}
+      </nav>
       <div class="hero-row">
-        <div>
+        <div class="project-hero-copy">
           <h1 style="margin-bottom: 8px;">{title}</h1>
           <p class="lede">{p.pitch ?? ''}</p>
         </div>
-        <div class="meta-stack">
-          {p.rank ? <span class="chip accent"><span class="dot"></span>Rank {p.rank} of {FORMAT.RANKED}</span> : <span class="chip">Not in final dataset</span>}
-          <span class="chip">{p.finalStage === 'S2' ? 'Stage 2 · live-product evidence' : 'Stage 1 · packet evidence only'}</span>
-          {p.webmcpVerification ? <span class="chip">{verificationLabel(p.webmcpVerification)}</span> : null}
-        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin: 18px 0 8px;">
+  <div class="wrap">
+
+    <section class="score-summary" aria-label="Consolidated scores">
       {[
         { label: 'Aggregate', value: score(p.scores.aggregate), strong: true },
         ...crits.map((c) => ({ label: CRITERION_SHORT[c], value: score(p.scores[c]), strong: false })),
       ].map((x: { label: string; value: string; strong: boolean }) => (
-        <div style="background: var(--canvas); padding: 14px 16px;">
-          <div style="font-size: var(--text-xs); color: var(--ink-3);">{x.label}</div>
-          <div style={`font-size: ${x.strong ? 'var(--text-2xl)' : 'var(--text-lg)'}; font-weight: 600; font-variant-numeric: tabular-nums;`}>{x.value}</div>
+        <div class={`score-item ${x.strong ? 'score-total' : ''}`}>
+          <span class="score-label">{x.label}</span>
+          <strong class="score-value">{x.value}</strong>
           {x.value === '—' ? <div style="font-size: var(--text-2xs); color: var(--ink-3); margin-top: 2px;">withheld — reviewers differ</div> : null}
         </div>
       ))}
     </section>
-    <p style="color: var(--ink-3); font-size: var(--text-xs); margin: 0 0 26px;">
+    <p class="score-note">
       Each criterion 1–10, equally weighted; aggregate is their sum. Ranking is the pipeline's consolidated output.
     </p>
 
-    <section>
-      <p class="sec-mark"><span class="n">01</span> The two blind reviews</p>
-      <p style="color: var(--ink-2); margin: 0 0 12px; max-width: var(--measure);">
-        Two independent reviewers scored this project blind, from a sanitized evidence packet.
-        <span class="dim">A dashed cell below means they differed by more than 2 points: the score is withheld, never averaged, never zero.</span>
-      </p>
-      {reviews.length === 2 ? (
-        <div class="agree-bar" role="list" aria-label="Reviewer agreement per criterion">
-          {crits.map((c) => {
-            const g = gaps[c];
-            const cls = g == null ? 'na' : g > 2 ? 'warn' : 'ok';
-            const word = g == null ? 'n/a' : g > 2 ? `differs by ${g}` : 'agreed';
-            return (
-              <span class="agree-cell" role="listitem" title={`${CRITERION_SHORT[c]}: reviewers ${word}`}>
-                <span class={`sw ${cls}`} aria-hidden="true"></span>
-                {CRITERION_SHORT[c]} <span class="dim">· {word}</span>
-              </span>
-            );
-          })}
+    <section class="project-overview">
+      <p class="sec-mark"><span class="n">01</span> Links & metadata</p>
+      <div class="overview-grid">
+        <div class="project-actions">
+          <h2>Open the source material</h2>
+          <div class="action-list">
+            {p.links.devpost ? <a class="btn primary" href={p.links.devpost} target="_blank" rel="noopener noreferrer">View on Devpost</a> : null}
+            {p.links.live ? <a class="btn" href={p.links.live} target="_blank" rel="noopener noreferrer">Open live project</a> : null}
+            {p.links.repository ? <a class="btn" href={p.links.repository} target="_blank" rel="noopener noreferrer">View repository</a> : null}
+            {p.links.video ? <a class="btn" href={p.links.video} target="_blank" rel="noopener noreferrer">Watch demo video</a> : null}
+          </div>
         </div>
-      ) : null}
+        <dl class="meta-list">
+          <div><dt>Category</dt><dd>{p.categories.length ? p.categories.join(' / ') : '—'}</dd></div>
+          <div><dt>Origin</dt><dd>{p.origin.filter(Boolean).map(originLabel).join(' / ') || '—'}</dd></div>
+          <div><dt>Access</dt><dd>{accessLabel(p.access) || '—'}</dd></div>
+          <div><dt>Eligibility</dt><dd>{p.eligibility.filter(Boolean).join(' / ') || '—'}</dd></div>
+          <div><dt>Substitution</dt><dd>{p.substitution.filter(Boolean).join(' / ') || '—'}</dd></div>
+          <div><dt>Demo liveness</dt><dd>{p.corpus.demoAlive ?? '—'}</dd></div>
+        </dl>
+      </div>
+      <p class="meta-note">
+        Origin, access model, eligibility, and substitution are reviewer diagnostics, not judging criteria. Authentication requirements are not penalized.
+      </p>
+    </section>
+
+    <section class="review-section">
+      <p class="sec-mark"><span class="n">02</span> The two blind reviews</p>
+      <p class="section-intro">
+        Two independent reviewers scored this project blind, from a sanitized evidence packet.
+        <span class="dim">Scores are shown separately so the reasoning stays inspectable. A withheld score means the reviewers differed by more than two points.</span>
+      </p>
       <div class="review-grid">
         {reviews.map((rev, idx) => (
           <article class={`review-card r${idx + 1}`}>
-            <header style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 10px;">
-              <h3 style="margin: 0; font-size: var(--text-sm); font-weight: 600;">{rev.reviewerLabel}</h3>
-              <span style="color: var(--ink-3); font-size: var(--text-xs);">confidence {rev.overallConfidence == null ? '—' : `${Math.round(rev.overallConfidence * 100)}%`}</span>
+            <header class="review-card-head">
+              <h3>{rev.reviewerLabel}</h3>
+              <span>confidence {rev.overallConfidence == null ? '—' : `${Math.round(rev.overallConfidence * 100)}%`}</span>
             </header>
-            <dl style="margin: 0;">
+            <dl class="review-list">
               {crits.map((c) => (
-                <div style="padding: 9px 0; border-top: 1px solid var(--border);">
-                  <div style="display: flex; justify-content: space-between; gap: 10px; align-items: baseline;">
-                    <dt style="font-weight: 550; font-size: var(--text-sm);">{CRITERION_SHORT[c]}</dt>
-                    <dd style="margin: 0; font-variant-numeric: tabular-nums; font-weight: 600;">{rev.criteria[c].score}<span style="color: var(--border-strong); font-weight: 400;"> /10</span></dd>
+                <div class="review-criterion">
+                  <div class="review-criterion-head">
+                    <dt>{CRITERION_SHORT[c]}</dt>
+                    <dd class="review-score">{score(rev.criteria[c].score)}<span> /10</span></dd>
                   </div>
-                  <p style="margin: 4px 0 0; color: var(--ink-2); font-size: var(--text-sm);">{rev.criteria[c].rationale}</p>
+                  <p class="review-rationale">{rev.criteria[c].rationale}</p>
                   {rev.criteria[c].evidence.length ? (
-                    <div style="margin-top: 8px;">
-                      <div style="font-size: var(--text-2xs); font-weight: 550; color: var(--ink-3); margin-bottom: 2px;">Evidence cited</div>
-                      <ul style="margin: 0; padding-inline-start: 18px; color: var(--ink-3); font-size: var(--text-xs); border-inline-start: 2px solid var(--border);">
-                        {rev.criteria[c].evidence.map((ev) => <li style="margin: 3px 0;">{ev}</li>)}
+                    <div class="review-evidence">
+                      <div class="review-evidence-label">Evidence cited</div>
+                      <ul>
+                        {rev.criteria[c].evidence.map((ev) => <li>{ev}</li>)}
                       </ul>
                     </div>
                   ) : null}
@@ -112,25 +110,28 @@ const gaps = Object.fromEntries(crits.map((c) => [c, gapOf(c)]));
     </section>
 
     {(p.standouts.length || p.redFlags.length) ? (
-    <section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 18px; margin: 34px 0;">
+    <section class="review-highlights">
+      <p class="sec-mark"><span class="n">03</span> Review highlights</p>
+      <div class="highlights-grid">
       {p.standouts.length ? (
         <div>
-          <p class="sec-mark"><span class="n">02</span> Standouts across reviewers</p>
-          <ul style="margin: 0; padding-inline-start: 20px; color: var(--ink-2); font-size: var(--text-sm);">{p.standouts.map((s) => <li style="margin: 4px 0;">{s}</li>)}</ul>
+          <h3>Standouts across reviewers</h3>
+          <ul>{p.standouts.map((s) => <li>{s}</li>)}</ul>
         </div>
       ) : null}
       {p.redFlags.length ? (
         <div>
-          <p class="sec-mark" style="color: var(--accent-ink);"><span class="n" style="color: var(--accent-ink);">03</span> Red flags</p>
-          <ul style="margin: 0; padding-inline-start: 20px; color: var(--ink-2); font-size: var(--text-sm);">{p.redFlags.map((s) => <li style="margin: 4px 0;">{s}</li>)}</ul>
+          <h3 class="red-flag-title">Red flags</h3>
+          <ul>{p.redFlags.map((s) => <li>{s}</li>)}</ul>
         </div>
       ) : null}
+      </div>
     </section>
     ) : null}
 
-    <section style="border-top: 1px solid var(--border); padding-top: 24px; margin-top: 8px;">
-      <p class="sec-mark"><span class="n">{p.standouts.length || p.redFlags.length ? '04' : '02'}</span> Evidence</p>
-      <p style="color: var(--ink-2); margin: 0 0 14px; max-width: var(--measure);">
+    <section class="evidence-section">
+      <p class="sec-mark"><span class="n">{p.standouts.length || p.redFlags.length ? '04' : '03'}</span> Evidence</p>
+      <p class="section-intro">
         What each artifact proves is labeled on the artifact itself. A Devpost page capture is packaging evidence, not proof the product runs;
         video frames are evidence from the submitted demo, not live verification.
         {probe ? ' Probe captures come from Stage 2 interactive testing of the live product by a reviewer.' : ''}
@@ -187,28 +188,5 @@ const gaps = Object.fromEntries(crits.map((c) => [c, gapOf(c)]));
       ) : null}
     </section>
 
-    <section style="border-top: 1px solid var(--border); padding: 24px 0 60px; margin-top: 26px;">
-      <p class="sec-mark"><span class="n">{p.standouts.length || p.redFlags.length ? '05' : '03'}</span> Links & metadata</p>
-      <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 16px;">
-        {p.links.devpost ? <a class="btn primary" href={p.links.devpost} target="_blank" rel="noopener noreferrer">View on Devpost</a> : null}
-        {p.links.live ? <a class="btn" href={p.links.live} target="_blank" rel="noopener noreferrer">Open live project</a> : null}
-        {p.links.repository ? <a class="btn" href={p.links.repository} target="_blank" rel="noopener noreferrer">View repository</a> : null}
-        {p.links.video ? <a class="btn" href={p.links.video} target="_blank" rel="noopener noreferrer">Watch demo video</a> : null}
-      </div>
-      <table class="meta-table">
-        <tbody>
-          <tr><td>Category (both reviewers)</td><td>{p.categories.length ? p.categories.join(' / ') : '—'}</td></tr>
-          <tr><td>Project origin</td><td>{p.origin.filter(Boolean).map(originLabel).join(' / ') || '—'}</td></tr>
-          <tr><td>Access model</td><td>{accessLabel(p.access) || '—'}</td></tr>
-          <tr><td>Eligibility read</td><td>{p.eligibility.filter(Boolean).join(' / ') || '—'}</td></tr>
-          <tr><td>Substitution class <span title="Diagnostic: could a general agent replicate this without WebMCP? Not a judging criterion.">ⓘ</span></td><td>{p.substitution.filter(Boolean).join(' / ') || '—'}</td></tr>
-          <tr><td>Demo liveness at collection</td><td>{p.corpus.demoAlive ?? '—'}</td></tr>
-        </tbody>
-      </table>
-      <p style="color: var(--ink-3); font-size: var(--text-xs); max-width: var(--measure);">
-        Origin, access model, eligibility, and substitution are diagnostics recorded by reviewers. They are metadata, not judging criteria, and never entered the scores.
-        Authentication requirements are not penalized anywhere in this analysis.
-      </p>
-    </section>
   </div>
 </Base>

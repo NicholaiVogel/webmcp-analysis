@@ -1,7 +1,7 @@
 # DESIGN BRIEF - WebMCP Analysis Results Site (durable identity, frozen)
 
 Selected candidate: seed-02 attempt 2 'Archive of Evidence'
-sha256: c401198a54d39d400694017ad9f7be8044f939397d167e0f2c648c2432e96f9b
+sha256: 2b37901126b88da410c317fef7c1cd23fb9ae98415491a44b1899431fb460853
 Selected by user 2026-09-05 after parent visual review of all four candidates (see taste/ artifacts in run root).
 
 ## Emotional target

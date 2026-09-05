@@ -102,7 +102,7 @@ export interface Project {
   slug: string;
   rank: number | null;              // artifact rank; null when absent from final_ranking.json
   rankStatus: RankStatus;
-  finalStage: 'S1' | 'S2' | null;   // evidence depth backing the final score
+  finalStage: 'S1' | 'S1R' | 'S2' | null; // evidence depth backing the final score
   webmcpVerification: VerificationLevel;
   sortAggregate: number | null;
   title: string;
@@ -117,7 +117,8 @@ export interface Project {
     creativity: number | null;
     aggregate: number | null;
   };
-  confidence: number | null;        // mean of the two blind reviews' overall confidence
+  confidence: number | null;        // artifact confidence, else mean of blind reviewers' own confidence
+  rescored: { priorAggregate: number; newAggregate: number; audioNeutral: boolean } | null;
   reviewCount: number;              // 0, 1 (pipeline gap), or 2
   substitution: [string | null, string | null]; // diagnostics per reviewer
   origin: [string | null, string | null];

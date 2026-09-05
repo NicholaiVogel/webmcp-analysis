@@ -51,15 +51,17 @@ const leaderRows = [...leaders.entries()]
   .sort((a, b) => (cats.get(b[0]) ?? 0) - (cats.get(a[0]) ?? 0))
   .map(([c, arr]) => ({ c, n: cats.get(c) ?? 0, top: arr.sort((x, y) => x.r - y.r).slice(0, 3) }));
 ---
-<Base title="Explore — webmcp/analysis" active="explore" description="Visual exploration of the WebMCP analysis field.">
+<Base
+  title="Explore — webmcp/analysis"
+  active="explore"
+  description="Visual exploration of the WebMCP analysis field."
+  hero={{ eyebrow: 'WebMCP analysis · visual field guide', title: 'Explore the field', lede: 'Read the score, then the reason — and then the shape of the whole field.' }}
+>
   <div class="wrap prose">
-    <p class="epigraph">Read the score, then the reason — and then the shape of the whole field.</p>
-    <h1>Explore</h1>
-
     <section style="margin: 26px 0 40px;">
       <p class="sec-mark"><span class="n">01</span> Leverage vs Execution</p>
       <p style="margin: 0 0 10px;">Each dot is a submission (2,500). Tap or click any dot to open its project. Coral rings mark disagreement rows; gray depth encodes category (legend below).</p>
-      <div class="bleed" style="border: 1px solid var(--border); border-radius: 10px; padding: 8px;">
+      <div class="explore-chart">
         <canvas id="scatter" width="1200" height="640" style="width: 100%; height: auto; touch-action: pan-y;" aria-label="Scatter plot of WebMCP Leverage versus Execution for all ranked projects"></canvas>
         <div id="legend-slot"></div>
         <div id="tip" style="position: fixed; display: none; pointer-events: none; background: var(--ink); color: #fff; font-size: var(--text-xs); padding: 6px 10px; border-radius: 6px; z-index: 10;"></div>

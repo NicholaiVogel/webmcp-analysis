@@ -51,6 +51,7 @@ export function loadProjects(): Project[] {
       rankStatus: f ? 'final' : 'provisional',
       sortAggregate: f ? f.aggregate : (p?.aggregate ?? null),
       finalStage: f ? f.stage : null,
+      rescored: f?.rescored ?? null,
       webmcpVerification: f ? (f.webmcpVerification as Project['webmcpVerification']) : null,
       title: c.title || f?.title || slug,
       pitch: c.pitch,
@@ -72,7 +73,8 @@ export function loadProjects(): Project[] {
             creativity: p?.scores.creativity ?? null,
             aggregate: p?.aggregate ?? null,
           },
-      confidence: p?.confidenceMean ?? null,
+      // Artifact confidence when present; fall back to the blind reviewers' mean.
+      confidence: f?.confidence ?? (p?.confidenceMean ?? null),
       reviewCount,
       substitution: [r1?.substitution ?? null, r2?.substitution ?? null],
       origin: [r1?.origin ?? null, r2?.origin ?? null],
@@ -133,8 +135,9 @@ export interface SummaryRow {
   title: string;
   pitch: string;
   category: string | null;
-  stage: 'S1' | 'S2' | null;
+  stage: 'S1' | 'S1R' | 'S2' | null;
   verification: string | null;
+  rescored: { priorAggregate: number; newAggregate: number; audioNeutral: boolean } | null;
   leverage: number | null;
   execution: number | null;
   impact: number | null;
@@ -160,6 +163,7 @@ export function loadSummaries(): SummaryRow[] {
     category: p.category,
     stage: p.finalStage,
     verification: p.webmcpVerification,
+    rescored: p.rescored,
     leverage: p.scores.leverage,
     execution: p.scores.execution,
     impact: p.scores.impact,
