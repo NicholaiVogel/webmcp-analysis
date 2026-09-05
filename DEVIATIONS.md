@@ -52,3 +52,71 @@ no corpus slugs had been dropped in S1 — the provisional step had already cove
 all 2,500). The 8 reinstated projects appear at their computed ranks:
 ufo-web 235, seatline-kolkata 236, arrastra-relay 265, prodpermit 295,
 promo-1l6nrv 500, livingpage 709, lore-wjdexz 710, circuit-lab 712.
+
+## 2026-09-05 — Video capture gap: source sheet undercounted video_links
+
+**What happened.** 88 projects' Devpost pages had demo videos whose links were not
+present in the source sheet's `video_links` column (2,412 of 2,500 did have one).
+These projects were reviewed with `has_video: false` and `video_evidence` marked
+unclear. This is a CAPTURE gap, not a reviewer error — reviewers correctly reported
+what was in their packets. One user-visible instance: slug `bingus` (Sushi Daw)
+actually has a submitted YouTube video (170s).
+
+**Fix.** Video_links re-extraction pass from live Devpost HTML for all 2,500 pages;
+keyframes generated for newly found videos. Affects future stages only; S1/S2
+scores already finalized stand, with this limitation recorded.
+
+**Status.** bingus: video id -ObHnsF4Cg4, 87 frames / 3 contact sheets extracted,
+corpus record updated. Broader re-extraction queued.
+
+## 2026-09-05 — BLOCKER FIXED: final ranking was stage-concatenated, not globally sorted
+
+**What happened.** The first FINAL_RANKING.csv/site JSON sorted Stage 2 projects
+among themselves and appended Stage 1-only projects after them. Result: ranks 1-716
+were all S2 (aggregates 38.0 down to 4.0), ranks 717-2500 were all S1-only (34.5
+down to 4.0). 731,223 cross-stage ordering inversions; e.g. rank 716 (S2, 4.0)
+outranked rank 717 (S1-only, 34.5). Independent audit (correctness-audit.md)
+caught this; I verified the defect (731,223 inversions confirmed) and fixed it.
+
+**Fix.** Rebuilt the ranking with ONE global comparator over ALL 2,500 projects:
+S2 aggregate where valid S2 scoring exists, else S1 provisional aggregate; sort by
+aggregate desc, then leverage/execution/impact/creativity desc, then slug asc.
+Fail-closed monotonicity assertion added (adjacent aggregate must be non-increasing).
+CSV and site-data regenerated from the fixed ranking and re-verified monotonic.
+
+**Effect on the published table.** Top of the table (S2-heavy) is unchanged; ranks
+shift substantially for mid-table projects, and S1-only projects now interleave by
+score. bingus (Sushi Daw) moves from rank 167 to rank 480 — the earlier 167 was an
+artifact of it sitting in the S2 block.
+
+**Lesson encoded.** Every future regeneration must run the monotonicity assertion;
+any adjacent inversion is a hard failure, not a warning.
+
+## 2026-09-05 — RE-SCORING PASS launched (video-metadata defect + audio modality bias)
+
+Scope (analysis/rerun_scope.json, 1353 projects, S1-only):
+- 1344 packets had has_video=false while frame sheets existed on disk and were
+  listed for viewing (video_meta collector hit YouTube IP wall at 261/2398).
+- 40 music-audio projects get an audio-neutrality directive (31 overlap with
+  the video group): sonic quality is NOT ASSESSABLE and must move confidence,
+  never scores.
+- 22 music-audio projects already in S2 keep their live-observation scores;
+  sensitivity table to be published.
+
+Deviations from S1 protocol (pre-registered here, before any re-review ran):
+1. Packets rebuilt with corrected video fields (has_video/sheets/frame_count)
+   — the correction itself. All other fields source-identical to S1 corpus
+   (verified: 0 mismatches across 1353 on non-corrected fields).
+2. Reviewer preamble (make_prompt_v2.py) states sheets are AUTHORITATIVE
+   video evidence; otherwise identical rubric/schema/rules to S1.
+3. Audio-neutrality directive appended to flagged packets only.
+4. Single re-scoring round (not two): this pass corrects an evidence defect,
+   it does not re-measure inter-reviewer variance. S1's two-round design
+   already measured variance (mean delta 0.46 dry-run); the corrected pass
+   inherits those calibration ranges.
+5. Score combination: same rules as S1 (|delta|<=2 mean; else mean+cap,
+   labeled). Re-scored aggregates REPLACE S1 aggregates for the 1353; S2
+   scores unchanged. Final ranking regenerated after, monotonic gate on.
+
+Known limitation carried forward: duration known for only 261 videos;
+transcripts 216/2398 (IP wall). Packets mark duration null rather than 0.
