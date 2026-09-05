@@ -42,6 +42,9 @@ def scan():
                 if k.lower() in FORBIDDEN_KEYS:
                     failures.append(f"{p}:{ln} forbidden key: {k}")
             text = json.dumps(d, ensure_ascii=False).lower()
+            # hanclinto.github.io is a legitimate submission host (his pages host demos);
+            # strip it, then flag any remaining 'hanclinto' mention (judgment metadata)
+            text = text.replace("hanclinto.github.io", "")
             for m in HANCLINTO_MARKERS:
                 if m.lower() in text:
                     failures.append(f"{p}:{ln} hanclinto marker in text: {m}")
