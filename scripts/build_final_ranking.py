@@ -160,17 +160,22 @@ for slug in corpus:
                     capped.append(crit)
             aggregate = round(sum(scores[c] for c in CRIT), 1)
             adj = "mean-capped:" + ",".join(capped) if capped else ""
+        # Re-scoring pass provenance: scope slugs were re-reviewed 2026-09-05
+        # (analysis/results/rr/); their values ARE the rr scores now.
+        rescored = "rescored" in p
         rec = {
-            "slug": slug, "stage": "S1", "scores": scores,
+            "slug": slug, "stage": "S1R" if rescored else "S1", "scores": scores,
             "aggregate": aggregate,
             "adjudication": adj if adj else ("DISAGREEMENT-FLAGGED" if pr.get("disagreement") else ""),
             "verification": "UNVERIFIED",
-            "reviewer_ids": ["s1-blind-1", "s1-blind-2"],
-            "reviewer_files": p.get("review_files", []),
+            "reviewer_ids": ["rr-reviewer"] if rescored else ["s1-blind-1", "s1-blind-2"],
+            "reviewer_files": (["analysis/results/rr/"] if rescored
+                               else p.get("review_files", [])),
             "evidence": {
                 "live_observation": False,
                 "video_frames": bool(c.get("video_frame_sheets")),
                 "probe": False,
+                "rescored": p["rescored"] if rescored else None,
             },
             "confidence": round(pr.get("confidence_mean") or 0, 3),
         }
@@ -241,7 +246,8 @@ build_meta = {
     "inputs": input_manifest,
     "row_count": len(out),
     "stage_split": {"S2": sum(1 for r in out if r["stage"]=="S2"),
-                    "S1": sum(1 for r in out if r["stage"]=="S1")},
+                    "S1": sum(1 for r in out if r["stage"]=="S1"),
+                    "S1R": sum(1 for r in out if r["stage"]=="S1R")},
 }
 out_wrapped = {"build_meta": build_meta, "ranking": out}
 with open(f"{BASE}/analysis/final_ranking.json", "w") as f:

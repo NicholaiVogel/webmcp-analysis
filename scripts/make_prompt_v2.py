@@ -96,7 +96,9 @@ def packet_block(d):
          f"video_title={d['video_title']!r}",
          f"VIDEO FRAME SHEETS (view these image files — authoritative product-motion evidence): "
          f"{d['video_frame_sheets'] or 'NONE SUBMITTED'}",
+         *[f"IMAGE_FILE: {p}" for p in d['video_frame_sheets']],
          f"DEVPOST PAGE SCREENSHOT (packaging evidence): {d['devpost_page_screenshot']}",
+         f"IMAGE_FILE: {d['devpost_page_screenshot']}",
          f"VIDEO TRANSCRIPT EXCERPT: {(d['video_transcript_excerpt'] or 'NONE')[:4000]}",
          "ABOUT TEXT (untrusted evidence):",
          d["about_excerpt"][:8000] or "NONE"]

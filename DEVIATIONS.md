@@ -120,3 +120,28 @@ Deviations from S1 protocol (pre-registered here, before any re-review ran):
 
 Known limitation carried forward: duration known for only 261 videos;
 transcripts 216/2398 (IP wall). Packets mark duration null rather than 0.
+
+## 2026-09-05 — RE-SCORING COMPLETE: ranking regenerated (S1R stage introduced)
+
+All 136 rr reviewer files landed and validated: 1353 records = 1353 scope slugs,
+0 missing, 0 extra, 0 schema problems. (rr-0135 correctly holds 3 records — final
+prompt batch size was 3, not a truncation.)
+
+Combination per pre-registered rules: rr aggregates replace S1 aggregates for the
+1353; S2 untouched. Mean |aggregate delta| = 1.69; biggest gain +7.5
+(clip-magic-webmcp-contact-request 21.5->29); biggest drop -4.5
+(research-devices-webmcp, supplypilot).
+
+Stage labels in final_ranking.json now distinguish: S2 (716, live-tested),
+S1 (431, original two-round blind review), S1R (1353, re-scored single-round with
+corrected evidence). Every S1R row carries evidence.rescored = {round, prior
+aggregate, new aggregate, audio_neutral} for full auditability.
+
+New top of table: physical-ai-webmcp-command-center and handrail-8v6gls reach 38.0
+on re-scored evidence (both previously under-scored due to the video-flag defect);
+alza/grenz/mace/pillbox/substrate hold. bingus rank 480 -> 848 (its score was
+unchanged at 32.5; peers rose as their video evidence was finally counted).
+
+Known cost: 4/136 reviewers reported vision rate/open-file limits mid-run and fell
+back to packet text with reduced confidence (recorded in their confidence fields,
+not silent). This mirrors the original S1 pass limitation and is accepted.
