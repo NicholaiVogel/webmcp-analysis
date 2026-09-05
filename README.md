@@ -35,6 +35,17 @@ The earlier [HanClinto WebMCP analysis](https://gist.github.com/HanClinto/496ae2
 
 See [`PROTOCOL.md`](./PROTOCOL.md) for the full methodology.
 
+## The compute
+
+This analysis was produced by 873 AI agents: one orchestrator directing 872 independent reviewer agents, each spawned fresh with zero shared context, across 8,182 API calls.
+
+* 255,522,981 tokens consumed (333,148,133 counting cache reads)
+* 7,381 individual judgments in the final ranking: 5,233 blind Stage-1 reviews (two full passes over all 2,500 projects), 716 live product observations, and 1,432 blind Stage-2 rescores (716 projects × 2 independent scorers)
+* 70.6 hours of agent review time compressed into a 3.3-hour wall-clock window, about 21 reviews in flight on average
+* 2,500 of 2,500 projects scored and ranked
+
+Every number is exact and comes from the run ledger: see [`VOLUME.md`](./VOLUME.md).
+
 ## Disclaimer
 
 This is an independent experiment, not an official ranking or prediction of the WebMCP Challenge results.
