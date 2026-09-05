@@ -13,6 +13,7 @@ const clientRows = rows.map((r) => ({
   c: r.category ?? '', st: r.stage ?? '', v: r.verification ?? '',
   l: r.leverage, e: r.execution, i: r.impact, cr: r.creativity, a: r.aggregate,
   cf: r.confidence, d: r.disagreement ? 1 : 0, o: r.origin ?? '', ac: r.access ?? '',
+  rs: r.rescored ? 1 : 0,
 }));
 ---
 <Base title="Rankings — webmcp/analysis" active="rankings">
@@ -48,7 +49,7 @@ const clientRows = rows.map((r) => ({
         <option value="repo">Has public repo</option>
         <option value="video">Has video</option>
       </select>
-      <span class="count" id="count">Showing 1–{initial.length} of 2,492 ranked</span>
+      <span class="count" id="count">Showing 1–{initial.length} of {FORMAT.RANKED} ranked</span>
     </div>
 
     <div class="table-scroll">
@@ -87,9 +88,10 @@ const clientRows = rows.map((r) => ({
     </table>
     <p id="rank-desc" class="count" style="padding: 12px 2px;">
       Scores are the consolidated four-criterion sums from the analysis pipeline (each criterion 1–10, aggregate 4–40).
-      Confidence is the mean of the two blind Stage 1 reviewers' self-reported confidence. “—” means the reviewers'
+      1,353 projects were re-scored (2026-09-05) after a video-evidence defect was corrected; those rows carry a single
+      re-reviewer's confidence, the rest the mean of two blind Stage 1 reviewers. “—” means the reviewers'
       scores were withheld (they differ by more than 2) or the datum is unavailable; it never means zero. Open any row
-      to read both reviewers' full reasoning.
+      to read the reviewers' full reasoning.
     </p>
     <div class="empty" id="empty" hidden>
       <p style="margin: 0 0 10px;">No matches for that search or filter.</p>

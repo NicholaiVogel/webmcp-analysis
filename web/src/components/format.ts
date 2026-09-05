@@ -2,9 +2,10 @@
 
 export const FORMAT = {
   TOTAL: '2,500',
-  RANKED: '2,492',
-  S2: '708',
-  VERIFIED: '216',
+  RANKED: '2,500',
+  S2: '716',
+  RESCORED: '1,353',
+  VERIFIED: '217',
 } as const;
 
 export function score(v: number | null | undefined): string {
