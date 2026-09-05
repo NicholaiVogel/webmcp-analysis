@@ -1,0 +1,46 @@
+---
+/**
+ * About page: what this project is, why, independence, dataset, caveats.
+ */
+import Base from '../layouts/Base.astro';
+import { FORMAT } from '../components/format';
+---
+<Base title="About — webmcp/analysis" active="about">
+  <div class="wrap prose">
+    <p class="epigraph">Mostly I'm just trying to look at all of them without bullshitting myself.</p>
+    <h1>About</h1>
+    <p>
+      This site publishes the results of an independent, unofficial analysis of the roughly {FORMAT.TOTAL} submissions
+      to the WebMCP Challenge. It is not an official ranking, not affiliated with the challenge or Devpost, and not a prediction.
+    </p>
+
+    <h2>Why</h2>
+    <p>
+      A field of 2,500 submissions is too big to reason about from descriptions alone. The analysis reads every entry
+      against the challenge's actual judging criteria, then goes further where evidence allows: demo videos, live products,
+      repositories, and WebMCP runtime verification. The point is a defensible order of the whole field, with the reasoning
+      inspectable rather than hidden behind a single number.
+    </p>
+
+    <h2>The dataset</h2>
+    <ul>
+      <li>Source: public Devpost submissions to the WebMCP Challenge.</li>
+      <li>{FORMAT.TOTAL} sanitized evidence packets; every project received two blind Stage 1 reviews.</li>
+      <li>{FORMAT.S2} projects advanced to Stage 2 and were scored with live-product evidence; {FORMAT.VERIFIED} have runtime-verified WebMCP behavior.</li>
+      <li>The consolidated ranking covers {FORMAT.RANKED} projects; a handful were excluded by the pipeline.</li>
+    </ul>
+
+    <h2>Caveats</h2>
+    <ul>
+      <li>This is a qualitative analysis by AI reviewers under a frozen protocol, not a ground truth. Read the methodology and the per-project reasoning and judge for yourself.</li>
+      <li>Scores rest on the evidence available at each stage; "claims only" means exactly that.</li>
+      <li>Authentication is metadata, never a penalty. Pre-existing projects are judged on the submitted concept, not the maturity of the surrounding product.</li>
+      <li>An earlier description-first community analysis exists; per protocol it stays quarantined until Stage 4 and does not appear anywhere on this site.</li>
+    </ul>
+
+    <p>
+      The full protocol, rubric, funnel, and calibration docs live in the
+      <a href="https://github.com/">analysis repository</a>, alongside every artifact this site displays.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,2 @@
+Using keyring backend: keyring
+error[auth]: Sheets auth failed: Failed to get token

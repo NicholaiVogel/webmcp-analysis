@@ -1,0 +1,142 @@
+{
+  "assessmentDate": "2026-09-05",
+  "status": "Superseded; preserved for comparison",
+  "criteria": [
+    "WebMCP Leverage",
+    "Execution",
+    "Potential Impact",
+    "Creativity & Ambition"
+  ],
+  "projects": [
+    {
+      "slug": "jig-yrwiue",
+      "name": "Jig",
+      "rank": 1,
+      "scores": [
+        9.5,
+        9,
+        8.5,
+        9.5
+      ],
+      "scoreOutOf100": 91.25,
+      "url": "https://devpost.com/software/jig-yrwiue"
+    },
+    {
+      "slug": "jupyterlite-webmcp",
+      "name": "JupyterLite WebMCP",
+      "rank": 2,
+      "scores": [
+        9.5,
+        9,
+        9,
+        8.5
+      ],
+      "scoreOutOf100": 90,
+      "url": "https://devpost.com/software/jupyterlite-webmcp"
+    },
+    {
+      "slug": "roque-nights-plan-the-sky-with-your-agent",
+      "name": "Roque Nights",
+      "rank": 3,
+      "scores": [
+        9.5,
+        9,
+        8.5,
+        9
+      ],
+      "scoreOutOf100": 90,
+      "url": "https://devpost.com/software/roque-nights-plan-the-sky-with-your-agent"
+    },
+    {
+      "slug": "safety-critical-roadway-design-engine",
+      "name": "Roadway Design Compiler",
+      "rank": 4,
+      "scores": [
+        9,
+        9,
+        9,
+        9
+      ],
+      "scoreOutOf100": 90,
+      "url": "https://devpost.com/software/safety-critical-roadway-design-engine"
+    },
+    {
+      "slug": "probepilot-studio",
+      "name": "ProbePilot Studio",
+      "rank": 5,
+      "scores": [
+        9,
+        9,
+        8.5,
+        9
+      ],
+      "scoreOutOf100": 88.75,
+      "url": "https://devpost.com/software/probepilot-studio"
+    },
+    {
+      "slug": "stand-an-arranging-studio-your-agent-writes-in",
+      "name": "Stand",
+      "rank": 6,
+      "scores": [
+        9,
+        8.5,
+        9,
+        9
+      ],
+      "scoreOutOf100": 88.75,
+      "url": "https://devpost.com/software/stand-an-arranging-studio-your-agent-writes-in"
+    },
+    {
+      "slug": "field-assist",
+      "name": "Field Assist",
+      "rank": 7,
+      "scores": [
+        9,
+        8,
+        9,
+        9.5
+      ],
+      "scoreOutOf100": 88.75,
+      "url": "https://devpost.com/software/field-assist"
+    },
+    {
+      "slug": "agentdesk-gf918v",
+      "name": "AgentDesk",
+      "rank": 8,
+      "scores": [
+        9.5,
+        8.5,
+        8.5,
+        8.5
+      ],
+      "scoreOutOf100": 87.5,
+      "url": "https://devpost.com/software/agentdesk-gf918v"
+    },
+    {
+      "slug": "living-evidence",
+      "name": "Living Evidence",
+      "rank": 9,
+      "scores": [
+        9,
+        8,
+        9,
+        9
+      ],
+      "scoreOutOf100": 87.5,
+      "url": "https://devpost.com/software/living-evidence"
+    },
+    {
+      "slug": "alza",
+      "name": "Alza",
+      "rank": 10,
+      "scores": [
+        9,
+        8.5,
+        8.5,
+        8.5
+      ],
+      "scoreOutOf100": 86.25,
+      "url": "https://devpost.com/software/alza"
+    }
+  ]
+}

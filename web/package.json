@@ -1,0 +1,22 @@
+{
+  "name": "webmcp-analysis-web",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.5",
+    "astro": "^5.12.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^22.16.0",
+    "playwright-core": "^1.63.0",
+    "typescript": "^5.8.3"
+  }
+}

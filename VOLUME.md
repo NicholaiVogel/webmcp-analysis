@@ -1,13 +1,16 @@
 # VOLUME.md — compute and scope ledger
 
-Final numbers, corrected after the ranking bugfix (see Output volume and
-DEVIATIONS.md 2026-09-05 "FINAL RANKING v1"). Session 20260905_075512_8f5462
-completed 2026-09-05 ~13:39 MDT (last activity 13:38:56; ~5.7h wall from the
-07:55:47 start). Sources: Hermes session store (~/.hermes/state.db —
-sessions, session_model_usage, async_delegations) plus artifact counts from
-analysis/. This document covers the volume and scope of the AI-driven
-analysis only; methodology lives in PROTOCOL.md, FUNNEL.md, RUBRIC.md,
-CALIBRATION.md, CATEGORIES.md, and DEVIATIONS.md.
+Status: STALE — a video-metadata bug surfaced at ~14:30 MDT that invalidated
+the video-evidence fields in 1,640 packets (1,344 S1-only + 296 S2-funnel), so
+Stage-1 rescoring and re-consolidation of the affected projects is pending a
+re-run decision; the totals below are the ledger of work done SO FAR and will
+move again. Numbers last reconciled 2026-09-05 14:33 MDT. Session
+20260905_075512_8f5462 (start 07:55:47; last activity 14:27:28, still open).
+Sources: Hermes session store (~/.hermes/state.db — sessions,
+session_model_usage, async_delegations) plus artifact counts from analysis/.
+This document covers the volume and scope of the AI-driven analysis only;
+methodology lives in PROTOCOL.md, FUNNEL.md, RUBRIC.md, CALIBRATION.md,
+CATEGORIES.md, and DEVIATIONS.md.
 
 ## Scope of the experiment
 
@@ -60,14 +63,14 @@ repair-labeled units (r1: 16, r2: 6, S2 observations: 10).
 
 ## Token volume
 
-Parent session (glm-5.3-flash), final:
+Parent session (glm-5.3-flash), as of 14:33 MDT:
 
 | Lane | API calls | Input | Output | Cache read | Reasoning |
 |---|---|---|---|---|---|
-| Main agent loop | 347 | 495,429 | 277,080 | 70,896,320 | 85,389 |
-| Background compass/review lane | 17 | 948,622 | 32,943 | 6,728,832 | 18,349 |
-| Aux (title gen, approvals) | 4 | 1,973 | 2,314 | 0 | 2,286 |
-| Parent subtotal | 368 | 1,446,024 | 312,337 | 77,625,152 | 106,024 |
+| Main agent loop | 396 | 558,552 | 296,055 | 97,539,648 | 91,032 |
+| Background compass/review lane | 21 | 1,485,794 | 43,616 | 8,327,872 | 23,750 |
+| Aux (title gen, approvals, vision) | 5 | 4,664 | 2,515 | 0 | 2,286 |
+| Parent subtotal | 422 | 2,049,010 | 342,186 | 105,867,520 | 117,068 |
 
 Subagent fleet (gpt-5.6-luna, 872 tasks):
 
@@ -95,19 +98,20 @@ Per-phase fleet tokens (per-task attribution; mixed batches split):
 | S2 rescoring | 120 | 28,873,767 | 764,072 |
 | Fleet total | 872 | 248,018,170 | 5,640,426 |
 
-Grand totals, all agents:
+Grand totals, all agents (as of 14:33 MDT):
 
 | Metric | Value |
 |---|---|
-| API calls | 8,182 |
-| Input + output + reasoning (excl. cache reads) | 255,522,981 |
-| Same, including parent cache reads | 333,148,133 |
-| Fleet share of non-cached I/O | 99.3% |
+| API calls | 8,236 |
+| Input + output + reasoning (excl. cache reads) | 256,166,860 |
+| Same, including parent cache reads | 362,034,380 |
+| Fleet share of non-cached I/O | 99.0% |
 
 ## Time volume
 
 | Metric | Value |
 |---|---|
+| Session wall (07:55:47 start, open at snapshot; last activity 14:27:28) | 6.5h |
 | Delegation window (first dispatch 10:15:56 to last completion 13:34:52 MDT) | 3.32h |
 | Cumulative subagent runtime | 70.6 agent-hours |
 | Wall compression vs sequential | ~21x (70.6 agent-hours inside a 3.3h window) |
@@ -119,10 +123,10 @@ Grand totals, all agents:
 | Blind review records, S1 round 1 (analysis/results/r1-*.jsonl) | 2,617 records / 300 files |
 | Blind review records, S1 round 2 (r2-*.jsonl) | 2,616 records / 300 files |
 | Interactive observation records (obs-*.jsonl) | 716 records / 121 files |
-| S2 rescoring verdicts (s2/rescore/*.md) | 120 files (60 a-series + 60 b-series, 6 projects each = 716 projects × 2 scorers, incl. overlap) |
-| Total individual review/observation/verification records | ~6,069 |
+| S2 rescoring verdicts (s2/rescore/*.md) | 120 files (60 a-series + 60 b-series) covering 716 projects × 2 independent scorers = 1,432 blind rescores |
+| Total individual review/observation/verification records | 7,381 (5,233 S1 reviews + 716 observations + 1,432 rescores) |
 | Provisional S1 scored projects (provisional.jsonl) | 2,500 (all OK); 2,469 with numeric aggregate, range 4.0-38.5 (scale 4-40) |
-| Final ranked projects (final_ranking.json / FINAL_RANKING.csv) | 2,500 of 2,500 corpus, each exactly once (after 2026-09-05 bugfix; v1 had 2,492) |
+| Final ranked projects (final_ranking.json / FINAL_RANKING.csv) | 2,500 of 2,500 corpus, each exactly once (after 2026-09-05 adjudication bugfix; v1 had 2,492) — SUPERSEDED by the pending video-metadata re-run |
 | Projects carrying S2 blind rescoring (s2_scores in final ranking) | 716 of 716 queued (708 clean means + 8 reinstated with adjudication: mean-capped) |
 | Final aggregates, S2-scored projects | range 4.0-38.0 |
 | WebMCP verification labels on S2-scored projects (post-fix) | VERIFIED_RUNTIME 217, CLAIM_ONLY 236, VIDEO_VERIFIED 69, REPO_VERIFIED 15, FAILED 107, UNVERIFIED 72 |
@@ -146,6 +150,18 @@ reinstated with computed scores and `adjudication: mean-capped`, at ranks 235,
 236, 265, 295, 500, 709, 710, 712. Verified post-fix: 2,500 rows, 2,500 unique
 slugs, set-equal to the corpus, no duplicates; ranks below 712 unchanged; top
 3 unchanged (alza 38.0, grenz-a-policy-layer-for-webmcp 38.0, mace 37.5).
+
+Video-metadata incident (surfaced ~14:30 MDT, re-run pending): the
+video_meta.py collector hit YouTube's IP wall at ~260 videos, so 1,640
+projects carried self-contradictory packets — video contact sheets on disk
+and listed in the packet, but `has_video: false` with no duration. Damage
+splits three ways: 296 projects in the S2 funnel (low impact — their live
+observations dominated the rescoring), 1,344 S1-only projects (real risk of
+video evidence under-weighted), and 598 projects with genuinely no video
+(packets honest, no action). Proposed fix awaiting go-ahead: re-score the
+1,344 S1-only projects (optionally all 1,640) with corrected packets, then
+re-combine; estimated 3-4 hours at demonstrated rates. Until that lands, the
+current FINAL_RANKING is provisional.
 
 ## Why the volume looks like this
 

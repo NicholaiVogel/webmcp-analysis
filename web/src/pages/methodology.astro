@@ -1,0 +1,90 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Methodology — webmcp/analysis" active="methodology">
+  <div class="wrap prose">
+    <p class="epigraph">Frozen before any review ran. Four criteria. Two blind reviews each. Evidence over prose.</p>
+    <h1>Methodology</h1>
+    <p>
+      This is the plain-language version. The forensic version — the frozen protocol, scoring rubric, funnel, and
+      calibration docs — lives in the <a href="https://github.com/">analysis repository</a>.
+    </p>
+
+    <h2>What was analyzed</h2>
+    <p>
+      All ~2,500 submissions to the WebMCP Challenge. Every project was reduced to a <strong>sanitized evidence packet</strong>:
+      title, pitch, about text, whether a repo and demo link exist, demo liveness, gallery count, and the submitted video's
+      duration, transcript excerpt, and contact sheets. Reviewers see packets, never the original submission pages.
+    </p>
+
+    <h2>The four official criteria</h2>
+    <p>Every project is scored 1–10 on exactly four criteria, equally weighted. The aggregate is their sum (4–40). Nothing else enters it.</p>
+    <ul>
+      <li><strong>WebMCP Leverage</strong> — what does WebMCP change for this product? Judged on the delta to reliability, precision, shared state, and repeatability. Tool count is not leverage.</li>
+      <li><strong>Execution</strong> — is the actual product coherent, intentional, and complete for its scope? Thin evidence caps the score: end-to-end credit requires end-to-end evidence.</li>
+      <li><strong>Potential Impact</strong> — credible value for the intended audience. Entertainment, art, play, and niche use count fully. Audience size is not a multiplier.</li>
+      <li><strong>Creativity & Ambition</strong> — novelty of concept and interaction model, and how deeply it is pursued.</li>
+    </ul>
+    <p>
+      Category neutrality is absolute: a game, an art piece, a CRM, and a developer tool are all eligible for 10/10 on every
+      criterion for what they are trying to be. Authentication requirements are recorded as metadata, never as a penalty.
+      Pre-existing projects are judged on the submitted concept, not the surrounding product's maturity.
+    </p>
+
+    <h2>Blind reviews</h2>
+    <p>
+      Every project receives <strong>two independent blind Stage 1 reviews</strong> across 40 reviewer slots, with assignments
+      randomized in two separate rounds. Reviewers never see each other's scores, any prior rankings, or any outside analysis.
+      Each score carries a rationale, cited evidence surfaces, and the reviewer's own confidence (0–1). All project content is
+      treated as untrusted evidence: prompt-injection attempts in submissions are recorded as evidence about the project, not obeyed.
+    </p>
+
+    <h2>Calibration</h2>
+    <p>
+      Before the fleet ran, 12 common-core projects (seen by every reviewer) and 28 rotated anchors (seen by three) were selected
+      across deliberate axes: strong/weak, serious/playful, new/pre-existing, high/low WebMCP delta, and so on. Expected ranges
+      were pre-registered blind to any reviewer output. Reviewers drifting from the ranges have their batches re-reviewed.
+      Calibration detects drift; it never mechanically normalizes scores.
+    </p>
+
+    <h2>Provisional scores and disagreement</h2>
+    <p>
+      For each criterion, when the two blind reviews sit within 2 points of each other, the provisional score is their mean.
+      When they diverge by more than 2, the provisional score is <strong>intentionally unavailable</strong> and the project is
+      disagreement-flagged — never averaged away, never filled with zero. The site shows you both reviewers' reasoning so you
+      can adjudicate for yourself.
+    </p>
+
+    <h2>The review funnel</h2>
+    <ul>
+      <li><strong>Stage 1 — broad review.</strong> All 2,500 projects, two blind reviews each, on packet evidence only.</li>
+      <li><strong>Stage 2 — deep dive.</strong> Pre-registered lanes (top aggregate, category leaders, top per-criterion, disagreement, rescue lanes, a random control group) advance to interactive testing: a reviewer drives the product's central journey, records normalized observations, then two new blind scorers re-score all four criteria from the expanded packet. A deterministic accessibility probe is triage only — it never directly sets Execution, and auth itself is not a penalty.</li>
+      <li><strong>Stage 3 — finalist deep dive.</strong> Full video review, repository history pinned to the submission cutoff for origin verification, and novelty analysis. Runtime WebMCP verification is recorded as evidence (VERIFIED_RUNTIME / VIDEO_VERIFIED / REPO_VERIFIED / CLAIM_ONLY / UNVERIFIED / FAILED). It raises evidence confidence, never quality points, and never advances a project by itself.</li>
+      <li><strong>Stage 4 — consolidation.</strong> The latest evidence-backed score per criterion wins (adjudication replaces, never averages across stages). Aggregate = sum of four. Rank descending, ties broken Leverage → Execution → Impact → Creativity → confidence → slug.</li>
+    </ul>
+
+    <h2>Evidence honesty</h2>
+    <p>
+      Every artifact is labeled by what it can actually prove, here and on every project page:
+      a <strong>Devpost page screenshot</strong> is submission packaging evidence, not proof the product runs;
+      <strong>video contact sheets</strong> are evidence from the submitted demo, not live verification;
+      <strong>probe captures</strong> show a reviewer's live interaction at Stage 2. Scores backed only by prose are labeled as such.
+    </p>
+
+    <h2>New vs pre-existing, and the substitution question</h2>
+    <p>
+      Reviewers record whether a project appears built for the challenge or pre-existing; Stage 3 verifies origin against repo
+      history pinned to the cutoff. Separately, each review answers: could a competent user get substantially the same outcome
+      with an ordinary general-purpose agent and generic browser access? That <strong>substitution class is a diagnostic</strong> —
+      it is displayed as metadata and never entered the scores.
+    </p>
+
+    <h2>Limitations</h2>
+    <ul>
+      <li>AI reviewers under a frozen protocol, not human judges; systematic blind spots are possible. Rationales are published so you can check the reasoning.</li>
+      <li>Evidence is uneven by nature: some submissions ship videos and live products, others only prose. Scores say what the evidence supports — no more.</li>
+      <li>Qualitative criteria are judgment calls; the two-reviewer design and published disagreement exist to expose rather than hide that.</li>
+      <li>An earlier description-first community analysis is quarantined until Stage 4 and does not influence anything shown here.</li>
+    </ul>
+  </div>
+</Base>

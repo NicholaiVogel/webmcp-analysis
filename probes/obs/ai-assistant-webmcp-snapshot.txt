@@ -1,0 +1,3 @@
+- heading "WebMCP Auto" [level=1, ref=e1]
+- link "Get started free" [ref=e2]
+- link "Log in" [ref=e3]

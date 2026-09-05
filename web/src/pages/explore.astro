@@ -1,0 +1,230 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadProjects } from '../data/load-projects';
+
+const projects = loadProjects().filter((p) => p.rank != null);
+
+// Build-time aggregation only — the page ships static data, not an analysis engine.
+const cats = new Map<string, number>();
+for (const p of projects) if (p.category) cats.set(p.category, (cats.get(p.category) ?? 0) + 1);
+const topCats = [...cats.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
+
+const scatter = projects.map((p) => ({
+  s: p.slug, t: p.title, r: p.rank, c: p.category ?? '',
+  l: p.scores.leverage ?? 0, e: p.scores.execution ?? 0, a: p.scores.aggregate ?? 0,
+  d: p.provisional?.disagreement ? 1 : 0,
+}));
+
+// Score distributions (per criterion, 0.5-bucket counts).
+const buckets = (vals: number[]) => {
+  const m = new Map<string, number>();
+  for (const v of vals) {
+    const k = (Math.round(v * 2) / 2).toFixed(1);
+    m.set(k, (m.get(k) ?? 0) + 1);
+  }
+  return [...m.entries()].sort((a, b) => parseFloat(a[0]) - parseFloat(b[0]));
+};
+const dist = {
+  leverage: buckets(projects.map((p) => p.scores.leverage).filter((v): v is number => v != null)),
+  execution: buckets(projects.map((p) => p.scores.execution).filter((v): v is number => v != null)),
+  impact: buckets(projects.map((p) => p.scores.impact).filter((v): v is number => v != null)),
+  creativity: buckets(projects.map((p) => p.scores.creativity).filter((v): v is number => v != null)),
+};
+
+// Verification breakdown. Plain object — define:vars serializes JSON, Maps arrive empty.
+const ver: Record<string, number> = {};
+for (const p of projects) {
+  const k = p.webmcpVerification ?? 'UNVERIFIED';
+  ver[k] = (ver[k] ?? 0) + 1;
+}
+
+// Category leaders: top 3 per category by rank.
+const leaders = new Map<string, { t: string; r: number; s: string; a: number | null }[]>();
+for (const p of projects) {
+  if (!p.category || p.rank == null) continue;
+  const arr = leaders.get(p.category) ?? [];
+  arr.push({ t: p.title, r: p.rank, s: p.slug, a: p.scores.aggregate });
+  leaders.set(p.category, arr);
+}
+const leaderRows = [...leaders.entries()]
+  .filter(([c]) => (cats.get(c) ?? 0) >= 8)
+  .sort((a, b) => (cats.get(b[0]) ?? 0) - (cats.get(a[0]) ?? 0))
+  .map(([c, arr]) => ({ c, n: cats.get(c) ?? 0, top: arr.sort((x, y) => x.r - y.r).slice(0, 3) }));
+---
+<Base title="Explore — webmcp/analysis" active="explore" description="Visual exploration of the WebMCP analysis field.">
+  <div class="wrap prose">
+    <p class="epigraph">Read the score, then the reason — and then the shape of the whole field.</p>
+    <h1>Explore</h1>
+
+    <section style="margin: 26px 0 40px;">
+      <p class="sec-mark"><span class="n">01</span> Leverage vs Execution</p>
+      <p style="margin: 0 0 10px;">Each dot is a submission (2,492). Tap or click any dot to open its project. Coral rings mark disagreement rows; gray depth encodes category (legend below).</p>
+      <div class="bleed" style="border: 1px solid var(--border); border-radius: 10px; padding: 8px;">
+        <canvas id="scatter" width="1200" height="640" style="width: 100%; height: auto; touch-action: pan-y;" aria-label="Scatter plot of WebMCP Leverage versus Execution for all ranked projects"></canvas>
+        <div id="legend-slot"></div>
+        <div id="tip" style="position: fixed; display: none; pointer-events: none; background: var(--ink); color: #fff; font-size: var(--text-xs); padding: 6px 10px; border-radius: 6px; z-index: 10;"></div>
+        <noscript><p style="color: var(--ink-2);">Enable JavaScript for the interactive scatter; the ranking page covers the same data as a table.</p></noscript>
+      </div>
+    </section>
+
+    <section style="margin: 0 0 40px;">
+      <p class="sec-mark"><span class="n">02</span> Score distributions</p>
+      <div id="dists" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px;"></div>
+    </section>
+
+    <section style="margin: 0 0 40px;">
+      <p class="sec-mark"><span class="n">03</span> Runtime verification</p>
+      <div id="verbars" style="display: grid; gap: 6px; max-width: 560px;"></div>
+      <p style="color: var(--ink-3); font-size: var(--text-xs);">Verification is evidence labeling, not points: it raises confidence in the leverage read, never the score itself.</p>
+    </section>
+
+    <section style="margin: 0 0 40px;">
+      <p class="sec-mark"><span class="n">04</span> Category leaders</p>
+      <p style="margin: 0 0 14px;">Top three by final rank within each category of at least eight projects. Categories frame the field; they never adjusted any score.</p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px;">
+        {leaderRows.map((row) => (
+          <div style="border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px;">
+            <h3 style="margin: 0 0 6px; font-size: var(--text-sm); font-weight: 600;">{row.c} <span style="color: var(--ink-3); font-weight: 400;">· {row.n}</span></h3>
+            <ol style="margin: 0; padding-inline-start: 20px; font-size: var(--text-sm);">
+              {row.top.map((x) => (
+                <li style="margin: 4px 0;"><a href={`/project/${x.s}/`}>{x.t}</a> <span style="color: var(--ink-3);">#{x.r} · {x.a ?? '—'}</span></li>
+              ))}
+            </ol>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <script define:vars={{ scatter, dist, ver, topCats }}>
+    // ---- scatter ----
+    const canvas = document.getElementById('scatter');
+    const ctx = canvas.getContext('2d');
+    const dpr = window.devicePixelRatio || 1;
+    const W = 1200, H = 640, pad = { l: 52, r: 20, t: 16, b: 46 };
+    canvas.width = W * dpr; canvas.height = H * dpr;
+    ctx.scale(dpr, dpr);
+    const xMin = 0, xMax = 10.5, yMin = 0, yMax = 10.5;
+    const X = (v) => pad.l + (v - xMin) / (xMax - xMin) * (W - pad.l - pad.r);
+    const Y = (v) => H - pad.b - (v - yMin) / (yMax - yMin) * (H - pad.t - pad.b);
+
+    // category -> stable index for the neutral ramp
+    const catIdx = new Map(topCats.map(([c], i) => [c, i]));
+    // neutral ramp: every step >=3:1 against white so dots read as graphics
+    const catColor = (c) => {
+      const i = catIdx.get(c);
+      if (i == null) return 'rgb(0 0 0 / 45%)';
+      return `rgb(0 0 0 / ${82 - (i % 5) * 8}%)`;
+    };
+    const isOpen = (s) => scatterDisagreed.has(s);
+    const scatterDisagreed = new Set(scatter.filter((p) => p.d).map((p) => p.s));
+
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      ctx.font = '500 13px Inter Variable, system-ui, sans-serif';
+      ctx.fillStyle = 'rgb(0 0 0 / 56%)';
+      for (let g = 0; g <= 10; g += 2) {
+        ctx.fillText(String(g), pad.l - 20, Y(g) + 4);
+        ctx.fillText(String(g), X(g) - 4, H - pad.b + 20);
+        ctx.strokeStyle = 'rgb(0 0 0 / 8%)';
+        ctx.beginPath(); ctx.moveTo(X(g), pad.t); ctx.lineTo(X(g), H - pad.b); ctx.stroke();
+      }
+      ctx.strokeStyle = 'rgb(0 0 0 / 35%)';
+      ctx.strokeRect(pad.l, pad.t, W - pad.l - pad.r, H - pad.t - pad.b);
+      ctx.fillStyle = 'rgb(0 0 0 / 64%)';
+      ctx.fillText('WebMCP Leverage →', W / 2 - 56, H - 8);
+      ctx.save(); ctx.translate(14, H / 2 + 56); ctx.rotate(-Math.PI / 2);
+      ctx.fillText('Execution →', 0, 0); ctx.restore();
+
+      for (const p of scatter) {
+        ctx.beginPath();
+        if (isOpen(p.s)) {
+          // disagreement rows read at a glance
+          ctx.strokeStyle = '#e85d3d'; ctx.lineWidth = 2;
+          ctx.arc(X(p.l), Y(p.e), 4.4, 0, Math.PI * 2); ctx.stroke();
+          ctx.lineWidth = 1;
+        } else {
+          ctx.fillStyle = catColor(p.c);
+          ctx.arc(X(p.l), Y(p.e), 4.4, 0, Math.PI * 2); ctx.fill();
+        }
+      }
+    }
+    draw();
+
+    const tip = document.getElementById('tip');
+    // category legend directly under the chart (static DOM, no hover needed)
+    {
+      const legend = document.createElement('div');
+      legend.style.cssText = 'display:flex;flex-wrap:wrap;gap:8px 16px;padding:10px 6px 4px;font-size:12px;color:rgb(0 0 0 / 64%);';
+      legend.innerHTML = topCats.map(([c]) =>
+        `<span style="display:inline-flex;align-items:center;gap:6px;">
+          <span style="width:9px;height:9px;border-radius:50%;background:${catColor(c)};display:inline-block;"></span>${c}
+        </span>`).join('') +
+        `<span style="display:inline-flex;align-items:center;gap:6px;">
+          <span style="width:10px;height:10px;border-radius:50%;border:2px solid #e85d3d;display:inline-block;"></span>reviewer disagreement
+        </span>`;
+      document.getElementById('legend-slot')?.appendChild(legend);
+    }
+    function hit(ev) {
+      const rect = canvas.getBoundingClientRect();
+      const mx = (ev.clientX - rect.left) * (W / rect.width);
+      const my = (ev.clientY - rect.top) * (H / rect.height);
+      let best = null, bd = 196; // 14px hit radius
+      for (const p of scatter) {
+        const dx = X(p.l) - mx, dy = Y(p.e) - my, d = dx * dx + dy * dy;
+        if (d < bd) { bd = d; best = p; }
+      }
+      if (best) {
+        tip.style.display = 'block';
+        tip.style.left = ev.clientX + 12 + 'px';
+        tip.style.top = ev.clientY + 12 + 'px';
+        tip.textContent = `#${best.r} · ${best.t} — L ${best.l} / E ${best.e}`;
+        canvas.style.cursor = 'pointer';
+      } else { tip.style.display = 'none'; canvas.style.cursor = 'default'; }
+      return best;
+    }
+    canvas.addEventListener('mousemove', hit);
+    canvas.addEventListener('click', (ev) => {
+      const p = hit(ev);
+      if (p) location.href = `/project/${p.s}/`;
+    });
+
+    // ---- distributions ----
+    const critNames = { leverage: 'WebMCP Leverage', execution: 'Execution', impact: 'Potential Impact', creativity: 'Creativity & Ambition' };
+    const dists = document.getElementById('dists');
+    for (const [key, buckets] of Object.entries(dist)) {
+      const max = Math.max(...buckets.map(([, n]) => n));
+      const html = buckets.map(([b, n]) => {
+        const h = Math.round(n / max * 64);
+        return `<div style="display:flex;align-items:flex-end;gap:2px;flex:1;" title="${b}: ${n}">
+          <div style="flex:1;background:rgb(0 0 0 / 45%);height:${Math.max(h, 2)}px;border-radius:2px 2px 0 0;"></div>
+        </div>`;
+      }).join('');
+      const card = document.createElement('div');
+      card.style.cssText = 'border:1px solid var(--border);border-radius:10px;padding:14px 16px;';
+      card.innerHTML = `<h3 style="margin:0 0 4px;font-size:14px;font-weight:600;">${critNames[key]}</h3>
+        <div style="display:flex;gap:2px;align-items:flex-end;height:70px;">${html}</div>
+        <div style="display:flex;justify-content:space-between;color:var(--ink-3);font-size:12px;margin-top:4px;"><span>1</span><span>score</span><span>10</span></div>`;
+      dists.appendChild(card);
+    }
+
+    // ---- verification bars ----
+    const verTotal = Object.values(ver).reduce((a, b) => a + b, 0);
+    const order = ['VERIFIED_RUNTIME', 'VIDEO_VERIFIED', 'REPO_VERIFIED', 'CLAIM_ONLY', 'UNVERIFIED', 'FAILED'];
+    const label = { VERIFIED_RUNTIME: 'Runtime verified', VIDEO_VERIFIED: 'Video verified', REPO_VERIFIED: 'Repo verified', CLAIM_ONLY: 'Claims only', UNVERIFIED: 'Not verified', FAILED: 'Failed at check' };
+    const verbars = document.getElementById('verbars');
+    for (const k of order) {
+      const n = ver[k] || 0;
+      const row = document.createElement('div');
+      row.style.cssText = 'display:grid;grid-template-columns:130px 1fr 60px;gap:10px;align-items:center;font-size:13px;';
+      const strong = k === 'VERIFIED_RUNTIME';
+      // ink = strongest neutral for "verified"; coral is reserved for attention/disagreement
+      row.innerHTML = `<span style="color:var(--ink-2);">${label[k]}</span>
+        <div style="background:rgb(0 0 0 / 6%);border-radius:4px;height:10px;overflow:hidden;">
+          <div style="width:${(n / verTotal * 100).toFixed(1)}%;height:100%;background:${strong ? '#000000' : 'rgb(0 0 0 / 50%)'};"></div>
+        </div>
+        <span style="color:var(--ink-2);font-variant-numeric:tabular-nums;text-align:right;">${n.toLocaleString()}</span>`;
+      verbars.appendChild(row);
+    }
+  </script>
+</Base>

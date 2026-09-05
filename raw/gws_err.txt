@@ -1,0 +1,6 @@
+error[validation]: error: unrecognized subcommand 'values'
+
+Usage: gws [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+

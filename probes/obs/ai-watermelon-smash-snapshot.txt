@@ -1,0 +1,7 @@
+- region "AI Watermelon Smash game" [ref=e1]
+  - textbox "Message from guide A" [ref=e2]
+  - button "SEND" [ref=e3]
+  - textbox "Message from guide B" [ref=e4]
+  - button "SEND" [ref=e5]
+  - textbox "Message from guide C" [ref=e6]
+  - button "SEND" [ref=e7]

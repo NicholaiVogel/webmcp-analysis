@@ -1,0 +1,47 @@
+---
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import { FORMAT } from '../components/format';
+
+interface Props {
+  title: string;
+  description?: string;
+  active?: 'rankings' | 'explore' | 'methodology' | 'about';
+  /** suppress the default hero paddings for full-bleed pages */
+  compact?: boolean;
+}
+const { title, description = 'Independent qualitative analysis of roughly 2,500 WebMCP Challenge submissions.', active, compact } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div class="wrap masthead-inner">
+        <a class="wordmark" href="/">webmcp<span class="slash">/</span><span class="sub">analysis</span></a>
+        <nav class="nav" aria-label="Main">
+          <a href="/" aria-current={active === 'rankings' ? 'page' : undefined}>Rankings</a>
+          <a href="/explore/" aria-current={active === 'explore' ? 'page' : undefined}>Explore</a>
+          <a href="/methodology/" aria-current={active === 'methodology' ? 'page' : undefined}>Methodology</a>
+          <a href="/about/" aria-current={active === 'about' ? 'page' : undefined}>About</a>
+        </nav>
+      </div>
+    </header>
+    <main class={compact ? undefined : undefined}>
+      <slot />
+    </main>
+    <footer class="footer">
+      <div class="wrap">
+        <span>Independent, unofficial analysis. Not affiliated with the WebMCP Challenge or Devpost.</span>
+        <span>{FORMAT.TOTAL} submissions · four equally weighted criteria · two blind reviews per project</span>
+      </div>
+    </footer>
+  </body>
+</html>

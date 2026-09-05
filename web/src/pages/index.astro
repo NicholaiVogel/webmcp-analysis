@@ -1,0 +1,238 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadSummaries, loadCategoryCounts, hasFinal } from '../data/load-projects';
+import { score, FORMAT, verificationLabel } from '../components/format';
+
+const rows = loadSummaries();
+const categories = loadCategoryCounts();
+const initial = rows.slice(0, 50);
+
+// The bounded client dataset: short keys, ~590KB raw / ~150KB gzipped.
+const clientRows = rows.map((r) => ({
+  s: r.slug, r: r.rank, t: r.title, p: r.pitch || '',
+  c: r.category ?? '', st: r.stage ?? '', v: r.verification ?? '',
+  l: r.leverage, e: r.execution, i: r.impact, cr: r.creativity, a: r.aggregate,
+  cf: r.confidence, d: r.disagreement ? 1 : 0, o: r.origin ?? '', ac: r.access ?? '',
+}));
+---
+<Base title="Rankings — webmcp/analysis" active="rankings">
+  <section class="hero hero-texture">
+    <div class="wrap hero-row">
+      <div>
+        <p class="eyebrow">Independent analysis · {FORMAT.TOTAL} submissions · four equally weighted criteria</p>
+        <h1>The field, in order<span class="dim">.</span></h1>
+        <p class="lede">
+          Every WebMCP Challenge submission, read blind and scored on the four official criteria.
+          Read the score, then the reason: open any project to inspect both reviewers' reasoning.
+        </p>
+      </div>
+      <span class="chip"><span class="dot"></span>Final consolidated ranking · {FORMAT.RANKED} ranked</span>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="controls" role="search">
+      <input id="q" class="control search" type="search" placeholder="Search projects…" aria-label="Search projects" autocomplete="off" />
+      <select id="cat" class="control" aria-label="Category">
+        <option value="">All categories</option>
+        {categories.map((c) => <option value={c.name}>{c.name} ({c.count})</option>)}
+      </select>
+      <select id="depth" class="control" aria-label="Evidence depth">
+        <option value="">All evidence</option>
+        <option value="s2">Live-product tested</option>
+        <option value="verified">Runtime verified</option>
+      </select>
+      <select id="extra" class="control" aria-label="Review filters">
+        <option value="">All reviews</option>
+        <option value="dis">Reviewer disagreement</option>
+        <option value="repo">Has public repo</option>
+        <option value="video">Has video</option>
+      </select>
+      <span class="count" id="count">Showing 1–{initial.length} of 2,492 ranked</span>
+    </div>
+
+    <div class="table-scroll">
+    <table class="rank-table" aria-describedby="rank-desc">
+      <thead>
+        <tr>
+          <th scope="col" data-k="r" class="hide-sm">Rank</th>
+          <th scope="col">Project</th>
+          <th scope="col" class="hide-md">Category</th>
+          <th scope="col" data-k="a" class="sorted">Aggregate</th>
+          <th scope="col" data-k="l" class="hide-md" title="WebMCP Leverage (1–10)">Leverage</th>
+          <th scope="col" data-k="e" class="hide-md" title="Execution (1–10)">Execution</th>
+          <th scope="col" data-k="i" class="hide-md" title="Potential Impact (1–10)">Impact</th>
+          <th scope="col" data-k="cr" title="Creativity &amp; Ambition (1–10)">Creativity</th>
+          <th scope="col" class="hide-sm">Confidence</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        {initial.map((r) => (
+          <tr data-href={`/project/${r.slug}/`}>
+            <td class="rk hide-sm">{r.rank ?? '—'}</td>
+            <td class="name">
+              <span class="t">{r.title}</span>
+              <span class="p">{r.pitch}</span>
+            </td>
+            <td class="cat hide-md">{r.category ?? '—'}</td>
+            <td class="agg">{score(r.aggregate)}</td>
+            <td class="num hide-md">{score(r.leverage)}</td>
+            <td class="num hide-md">{score(r.execution)}</td>
+            <td class="num hide-md">{score(r.impact)}</td>
+            <td class="num">{score(r.creativity)}</td>
+            <td class="conf hide-sm">{r.confidence == null ? '—' : `${Math.round(r.confidence * 100)}%`}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <p id="rank-desc" class="count" style="padding: 12px 2px;">
+      Scores are the consolidated four-criterion sums from the analysis pipeline (each criterion 1–10, aggregate 4–40).
+      Confidence is the mean of the two blind Stage 1 reviewers' self-reported confidence. “—” means the reviewers'
+      scores were withheld (they differ by more than 2) or the datum is unavailable; it never means zero. Open any row
+      to read both reviewers' full reasoning.
+    </p>
+    <div class="empty" id="empty" hidden>
+      <p style="margin: 0 0 10px;">No matches for that search or filter.</p>
+      <button class="btn" id="clear">Clear filters</button>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = '/data/rankings.json';
+    interface Row {
+      s: string; r: number | null; t: string; p: string;
+      c: string; st: string; v: string;
+      l: number | null; e: number | null; i: number | null; cr: number | null; a: number | null;
+      cf: number | null; d: 0 | 1; o: string; ac: string;
+    }
+    let data: Row[] = [];
+    let state = { q: '', cat: '', depth: '', extra: '', sort: 'r', dir: 1 };
+    let rendered = 0;
+    const BATCH = 50;
+    let fetched = false;
+
+    const $ = (id: string) => document.getElementById(id) as HTMLInputElement | HTMLSelectElement;
+    const tbody = $('tbody');
+    const count = $('count');
+    const empty = $('empty');
+    const fmt = (v: number | null) => (v == null ? '—' : Number.isInteger(v) ? String(v) : v.toFixed(1));
+    const esc = (s: string) => s.replace(/[&<>"']/g, (m) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m] as string));
+
+    async function ensureData() {
+      if (fetched) return;
+      const res = await fetch(DATA_URL);
+      data = await res.json();
+      fetched = true;
+    }
+
+    function filtered(): Row[] {
+      const q = state.q.trim().toLowerCase();
+      let out = data.filter((r) => {
+        if (q && !(r.t.toLowerCase().includes(q) || r.p.toLowerCase().includes(q) || r.s.includes(q) || r.c.toLowerCase().includes(q))) return false;
+        if (state.cat && r.c !== state.cat) return false;
+        if (state.depth === 's2' && r.st !== 'S2') return false;
+        if (state.depth === 'verified' && r.v !== 'VERIFIED_RUNTIME') return false;
+        if (state.extra === 'dis' && !r.d) return false;
+        if (state.extra === 'repo' && r.o === '') return false; // placeholder, replaced below
+        return true;
+      });
+      // repo/video filters use flags we kept out of the shortkey set via pitch presence;
+      // fetch full flags from the initial server rows is unnecessary — use dedicated flags:
+      out = out.filter((r) => {
+        if (state.extra === 'repo') return (r as any).rp === 1;
+        if (state.extra === 'video') return (r as any).vd === 1;
+        return true;
+      });
+      const k = state.sort as keyof Row;
+      if (k === 'r') {
+        out.sort((x, y) => ((x.r ?? 1e9) - (y.r ?? 1e9)) * state.dir);
+      } else {
+        out.sort((x, y) => {
+          const xv = x[k] as number | null, yv = y[k] as number | null;
+          const xn = xv == null ? -1 : xv, yn = yv == null ? -1 : yv;
+          return (yn - xn) * state.dir || ((x.r ?? 1e9) - (y.r ?? 1e9));
+        });
+      }
+      return out;
+    }
+
+    function rowHTML(r: Row): string {
+      const disp = r.r == null ? 'not ranked' : `#${r.r}`;
+      return `<tr data-href="/project/${esc(r.s)}/" ${r.r == null ? 'data-unranked="1"' : ''}>
+        <td class="rk hide-sm">${r.r ?? '—'}</td>
+        <td class="name"><span class="t">${esc(r.t)}</span><span class="p">${esc(r.p)}</span></td>
+        <td class="cat hide-md">${esc(r.c) || '—'}</td>
+        <td class="agg">${fmt(r.a)}</td>
+        <td class="num hide-md">${fmt(r.l)}</td>
+        <td class="num hide-md">${fmt(r.e)}</td>
+        <td class="num hide-md">${fmt(r.i)}</td>
+        <td class="num">${fmt(r.cr)}</td>
+        <td class="conf hide-sm">${r.cf == null ? '—' : Math.round(r.cf * 100) + '%'}</td>
+      </tr>`;
+    }
+
+    function render(reset: boolean) {
+      if (reset) rendered = 0;
+      const rows = filtered();
+      const slice = rows.slice(0, Math.max(rendered, BATCH) === rendered ? rendered + BATCH : BATCH);
+      const show = rows.slice(0, rendered === 0 ? BATCH : rendered);
+      void slice;
+      tbody.innerHTML = show.length
+        ? show.map(rowHTML).join('')
+        : '';
+      empty.hidden = show.length > 0;
+      const from = rows.length ? 1 : 0;
+      count.textContent = rows.length
+        ? `Showing ${from}–${show.length} of ${rows.length} ranked`
+        : 'No matches';
+      rendered = show.length;
+      if (rows.length > rendered) {
+        const tr = document.createElement('tr');
+        tr.className = 'load-more-row';
+        tr.innerHTML = `<td colspan="9"><button class="btn" id="more">Show ${Math.min(BATCH, rows.length - rendered)} more of ${rows.length - rendered} remaining</button></td>`;
+        tbody.appendChild(tr);
+        tr.querySelector('#more')?.addEventListener('click', () => { rendered += BATCH; render(false); });
+      }
+    }
+
+    // Empty-state exit: reset search and filters to the full ranking
+    document.getElementById('clear')?.addEventListener('click', async () => {
+      $('q').value = ''; $('cat').value = ''; $('depth').value = ''; $('extra').value = '';
+      state.q = ''; state.cat = ''; state.depth = ''; state.extra = '';
+      await ensureData();
+      render(true);
+    });
+
+    for (const [id, key] of [['q','q'], ['cat','cat'], ['depth','depth'], ['extra','extra']] as const) {
+      $(id).addEventListener(id === 'q' ? 'input' : 'change', async (e) => {
+        state[key] = (e.target as HTMLInputElement).value;
+        await ensureData();
+        render(true);
+      });
+    }
+
+    document.querySelectorAll<HTMLElement>('th[data-k]').forEach((th) => {
+      th.addEventListener('click', async () => {
+        const k = th.dataset.k!;
+        if (state.sort === k) state.dir = -state.dir;
+        else { state.sort = k; state.dir = 1; }
+        document.querySelectorAll('th[data-k]').forEach((x) => x.classList.remove('sorted'));
+        th.classList.add('sorted');
+        th.querySelector('.arr')?.remove();
+        th.insertAdjacentHTML('beforeend', ` <span class="arr">${state.dir === 1 ? '↓' : '↑'}</span>`);
+        await ensureData();
+        render(true);
+      });
+    });
+
+    // Row navigation (event delegation so re-rendered rows work)
+    tbody.addEventListener('click', (e) => {
+      const tr = (e.target as HTMLElement).closest('tr[data-href]');
+      if (tr && !(tr as HTMLElement).dataset.unranked) location.href = (tr as HTMLElement).dataset.href!;
+      else if (tr) location.href = (tr as HTMLElement).dataset.href!;
+    });
+
+    // Warm the dataset after first paint
+    requestIdleCallback?.(() => ensureData());
+  </script>
+</Base>

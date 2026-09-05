@@ -1,0 +1,30 @@
+{
+  "majorDimension": "ROWS",
+  "range": "Prompt!A1:T60",
+  "values": [
+    [
+      "Prompt:",
+      "Go through all the submissions from this link:"
+    ],
+    [],
+    [
+      "",
+      "https://devpost.com/software/search?page=1&query=webmcp"
+    ],
+    [],
+    [
+      "",
+      "Scrape them all, judge them according to the criteria of the contest, and give me the top 10 projects which are most likely to be chosen as the winner of the WebMCP Challenge."
+    ],
+    [],
+    [
+      "",
+      "Store any intermediates or artifacts that you need to in this workspace directory -- not in the hidden Copilot session."
+    ],
+    [],
+    [],
+    [
+      "Results on other sheets"
+    ]
+  ]
+}
