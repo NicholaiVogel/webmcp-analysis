@@ -1,4 +1,4 @@
-# WebMCP Challenge Independent Product-Based Study 
+# WebMCP Challenge Independent Product-Based Study — PROTOCOL v2 (FROZEN 2026-09-05)
 
 Frozen before any Stage 1 review ran. Changes after results exist are recorded in
 DEVIATIONS.md, never silently. Data collected so far is preserved and reused.
@@ -19,14 +19,23 @@ NO other field may enter the aggregate. usability, substitution, access_model,
 repo stats, video evidence, probe results are EVIDENCE and DIAGNOSTICS only.
 
 ## The four stages
-S1 BROAD REVIEW: all 2,500, TWO independent blind reviews each (40 reviewer-slots x
-   ~125 projects + anchors). Evidence: sanitized packet (below). Rescore only what
-   packet evidence supports; visually dependent fields return `unclear` without frames.
-S2 FUNNEL DEEP-DIVE: pre-registered selection (FUNNEL.md), live product interaction
-   by reviewer + deterministic probe as TRIAGE. All four criteria may be rescored;
-   every material change requires a stated reason. WebMCP runtime verification field.
+S1 BROAD REVIEW: all 2,500, TWO independent blind reviews each (two separately
+   randomized assignment rounds across 40 reviewer-slots). Evidence: sanitized packet
+   (analysis/reviewer_corpus.jsonl ONLY — assert_clean.py gates the fleet). Provisional
+   scores and DISAGREEMENT flags per FUNNEL.md. Rescore only what packet evidence
+   supports; visually dependent fields return `unclear` without frames.
+S2 FUNNEL DEEP-DIVE: pre-registered selection (FUNNEL.md). Probe = TRIAGE ONLY.
+   One interactive reviewer collects NORMALIZED OBSERVATIONS from driving the central
+   user journey; those observations join the packet; then TWO BLIND SCORING agents
+   independently rescore all four official criteria. No single reviewer overrides the
+   two S1 judgments; material disagreement goes to adjudication.
 S3 FINALIST DEEP-DIVE: full video review, repo history pinned to submission cutoff
-   (Sep 3 2026 13:00 PDT), novelty analysis vs closest existing product.
+   (Sep 3 2026 13:00 PDT) for project_origin verification, novelty analysis vs closest
+   existing product. Runtime WebMCP verification is recorded as EVIDENCE
+   (VERIFIED_RUNTIME / VIDEO_VERIFIED / REPO_VERIFIED / CLAIM_ONLY / UNVERIFIED /
+   FAILED): it raises evidence confidence, never quality points, and NEVER advances a
+   project by itself — inaccessibility (auth, private judge credentials, dead deploys)
+   is not a quality signal in either direction.
 S4 CONSOLIDATION + CONTROL COMPARISON: un-quarantine HanClinto, compute agreement,
    movers, and what description-only missed.
 
@@ -44,12 +53,13 @@ judgment string appears in reviewer packets.
 
 ## Evidence labeling (honesty about what each artifact proves)
 - screenshots/<slug>.png = DEVPOST PAGE screenshot (submission packaging evidence,
-  NOT proof the product runs). Stored under raw/screenshots-devpost-page/.
+  NOT proof the product runs).
 - probes/<slug>.png = deterministic LIVE PROBE (triage only: PUBLICLY_ACCESSIBLE /
   AUTH_REQUIRED / POSSIBLE_AUTH_WALL / UNREACHABLE / LOADED_UNVERIFIED / UNKNOWN).
   Probe heuristics never directly set Execution. Auth itself is not a penalty;
   it lowers OBSERVATION CONFIDENCE. Judge-supplied credentials are out of our reach.
-- raw/frames/<video_id>/f1-5.jpg = submitted VIDEO keyframes (product-motion evidence).
+- raw/frames/<video_id>/sheetN.jpg = submitted VIDEO contact sheets (product-motion
+  evidence; reviewers view images directly).
 - Stage 2 interaction notes = observed-product evidence (reviewer drives the app).
 - Runtime WebMCP verification levels: VERIFIED_RUNTIME / VIDEO_VERIFIED /
   REPO_VERIFIED / CLAIM_ONLY / UNVERIFIED / FAILED. Never fake a runtime failure.
@@ -71,12 +81,15 @@ judgment string appears in reviewer packets.
 - Per-criterion: score + rationale + evidence_surfaces + confidence.
 
 ## Calibration (frozen)
-40 calibration projects: 12 common-core (every reviewer) + 28 rotated (3 views each).
-Common core spans weak/strong, serious/playful, business/consumer, creative/technical,
-new/pre-existing, high/low WebMCP delta. Expected ranges + reasoning pre-registered by
-the adjudicator in CALIBRATION.md BEFORE fleet launch, blind to any reviewer output.
-Reviewer drift is flagged via common-core deltas (see CALIBRATION.md thresholds);
-drifted reviewers' affected batches go to re-review, not mechanical normalization.
+Calibration set spans the DELIBERATE axes: strong/weak, serious/playful,
+business/consumer, creative/technical, new/pre-existing, high/low WebMCP delta,
+polished/rough, broad/niche, and multiple product categories. Selection is by my
+adjudicated read of the sanitized packets — NOT by evidence_count; sparse evidence is
+not weakness. 12 common-core projects are seen by EVERY reviewer; 28 rotated anchors
+are each seen by 3 reviewers. Expected ranges + reasoning are pre-registered in
+CALIBRATION.md BEFORE fleet launch, blind to any reviewer output. Calibration detects
+reviewer drift and triggers re-review of affected batches; it never mechanically
+normalizes scores.
 
 ## Blind dry-run gate
 Before the full fleet: 2 reviewer subagents x 12 mixed projects (incl. 6 common-core
@@ -84,13 +97,14 @@ anchors). Their anchor output vs pre-registered ranges decides GO / NO-GO. Dry-r
 results do not enter the final dataset.
 
 ## Ranking algorithm (pre-registered, deterministic)
-1. Latest evidence-backed score per official criterion replaces earlier scores
-   (S2 > S1; never summed across stages).
-2. Per criterion, combine the project's two S1 reviews: if |delta| <= 2, mean;
-   if > 2, adjudicated (S3/S4), not averaged.
-3. aggregate = sum of four criteria; rank desc; ties broken Leverage > Execution >
-   Impact > Creativity; then higher min(evidence confidence); then alphabetical slug.
-4. FINAL column published with: rank, four scores, aggregate, substitution class,
+1. Provisional S1 scores per FUNNEL.md (mean when both reviewers within 2; None +
+   DISAGREEMENT flag otherwise). Latest evidence-backed score replaces earlier scores
+   at S2/S3 (adjudication replaces, never averages or sums across stages).
+2. aggregate = sum of four criteria; rank desc; ties broken Leverage > Execution >
+   Impact > Creativity; then higher combined evidence confidence.
+3. For capped rescue/control lanes only: seeded-hash ordering per FUNNEL.md — never
+   alphabetical truncation of quality pools.
+4. FINAL columns published: rank, four scores, aggregate, substitution class,
    usability (diagnostic), access model, eligibility, WebMCP verification level,
    evidence surfaces, screenshot path, HanClinto delta columns (appended at S4 only).
 

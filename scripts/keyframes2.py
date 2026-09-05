@@ -96,16 +96,20 @@ def work(vid):
         open(os.path.join(d, "unavailable"), "w").write(str(e)[:200])
         return vid, f"FAIL {str(e)[:60]}"
 
-todo = [v for v in byid if not (os.path.exists(os.path.join(FRAMES, v, "sheet.jpg"))
-                                or os.path.exists(os.path.join(FRAMES, v, "unavailable")))]
-print(f"todo={len(todo)}", flush=True)
-stats = {}
-with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-    futs = {ex.submit(work, v): v for v in todo}
-    for i, fu in enumerate(as_completed(futs), 1):
-        vid, st = fu.result()
-        key = st.split()[0] if st.startswith("ok") else st
-        stats[key] = stats.get(key, 0) + 1
-        if i % 50 == 0:
-            print(f"{i}/{len(todo)} {stats}", flush=True)
-print("DONE", stats, flush=True)
+def _main():
+    todo = [v for v in byid if not (os.path.exists(os.path.join(FRAMES, v, "sheet.jpg"))
+                                    or os.path.exists(os.path.join(FRAMES, v, "unavailable")))]
+    print(f"todo={len(todo)}", flush=True)
+    stats = {}
+    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
+        futs = {ex.submit(work, v): v for v in todo}
+        for i, fu in enumerate(as_completed(futs), 1):
+            vid, st = fu.result()
+            key = st.split()[0] if st.startswith("ok") else st
+            stats[key] = stats.get(key, 0) + 1
+            if i % 50 == 0:
+                print(f"{i}/{len(todo)} {stats}", flush=True)
+    print("DONE", stats, flush=True)
+
+if __name__ == "__main__":
+    _main()

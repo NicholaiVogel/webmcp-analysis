@@ -37,23 +37,33 @@ sums.
 - 3-4: thin prototype; contradictions between surfaces; placeholder content.
 - 1-2: non-functional or incoherent for its claimed scope.
 
-## Potential Impact — real audience, real problem, genuinely addressed
-- 9-10: specific real audience with a real problem/desire; solution demonstrably
-  addresses it; evident pull for that audience. (Niche counts fully.)
-- 7-8: clear audience and problem, good fit, plausible adoption path.
-- 5-6: identifiable audience, looser fit or partial address.
-- 3-4: speculative audience or strained fit; impact mostly aspirational.
-- 1-2: no coherent audience/problem pairing.
-Audience size is NOT a multiplier. A tool for a thousand obsessed people can score 10.
-
 ## Creativity & Ambition — novelty of concept and interaction model
-- 9-10: genuinely novel concept or interaction model; plausibly could not have existed
-  in this form before WebMCP; ambitious scope pursued as a coherent bet.
+Judge ONLY: novelty of the concept, novelty of the interaction model, originality
+relative to existing concepts, ambition, memorable/surprising use of the medium, and
+the depth with which the concept is pursued. WebMCP indispensability belongs under
+WebMCP Leverage, NOT here: a project can be extremely creative even if another agent
+API could theoretically have enabled something similar.
+- 9-10: genuinely novel concept or interaction model; ambitious scope pursued deeply
+  and coherently; memorable.
 - 7-8: fresh synthesis or notably original interaction; ambitious for a hackathon.
 - 5-6: competent take on a known category with a real new angle.
 - 3-4: derivative; novelty mostly surface details.
 - 1-2: clone/template with trivial changes.
 "That the category exists" is never a penalty; judge the submitted concept.
+
+## Potential Impact — credible value for the intended audience
+Judge: is there a real audience; is there a real problem, desire, or use case for that
+audience; does the demonstrated solution genuinely address it. NO commercial adoption,
+monetization, market pull, or startup viability is required. Entertainment, play, art,
+creative expression, learning, niche hobby use, experimentation, and community value
+are legitimate forms of impact. A tiny audience fully justifies a top score.
+- 9-10: specific real audience with a real problem/desire; solution demonstrably
+  addresses it; credible value, appeal, usefulness, or meaning for that audience.
+- 7-8: clear audience and problem, good fit, credible value.
+- 5-6: identifiable audience, looser fit or partial address.
+- 3-4: speculative audience or strained fit; impact mostly aspirational.
+- 1-2: no coherent audience/problem pairing.
+Audience size is NOT a multiplier.
 
 ## Aggregate & ranking
 aggregate = leverage + execution + impact + creativity (4-40). Nothing else enters.

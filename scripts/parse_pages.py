@@ -22,6 +22,9 @@ def parse_page(slug):
         h = open(path, encoding="utf-8", errors="ignore").read()
     except Exception as e:
         return {"slug": slug, "error": str(e)}
+    # browser-fetched pages carry escaped quotes from the eval round-trip
+    if '\\"' in h[:5000]:
+        h = h.replace('\\"', '"')
     d = {"slug": slug}
     m = re.search(r"<title>(.*?)</title>", h, re.S)
     d["page_title"] = clean(m.group(1)) if m else ""
