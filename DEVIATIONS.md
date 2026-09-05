@@ -145,3 +145,17 @@ unchanged at 32.5; peers rose as their video evidence was finally counted).
 Known cost: 4/136 reviewers reported vision rate/open-file limits mid-run and fell
 back to packet text with reduced confidence (recorded in their confidence fields,
 not silent). This mirrors the original S1 pass limitation and is accepted.
+
+## 2026-09-05 — Music-audio S2 sensitivity table published
+
+analysis/music_audio_s2_sensitivity.md: 22 music-audio projects that went through
+the S2 live observation (the earlier "7" figure was wrong — recomputed from
+categories; 40 S1-only got the audio-neutrality rescore instead).
+
+Reading: live observation did NOT systematically favor music projects — 13 moved
+down, 5 up, 4 unchanged. Moving down clustered with FAILED/CLAIM_ONLY verification
+(dead demos and unverifiable claims getting corrected downward, e.g. beatforge
+26.5->20.5, strudelwebmcp 29.5->22.5, stand-an-arranging-studio 36.5->30.5).
+The modality penalty from S1 was real but small; the S2 correction mostly tracked
+runtime truth rather than genre. Three music projects have None S1 aggregates
+(disagreement-flagged); their S2 scores are the only numeric evidence.
