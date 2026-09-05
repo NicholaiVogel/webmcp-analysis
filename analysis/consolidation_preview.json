@@ -1,0 +1,5031 @@
+{
+ "ranked_top250": [
+  {
+   "slug": "tail-risk",
+   "aggregate": 38.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 10.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "alza",
+   "aggregate": 38.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "clawroom",
+   "aggregate": 38.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "concord-an-agent-that-cannot-overpromise",
+   "aggregate": 38.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "heatline-6gkc1s",
+   "aggregate": 38.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 10.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "hexmend",
+   "aggregate": 38.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.5,
+    "impact": 8.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "incident-room-2m4an5",
+   "aggregate": 38.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.5,
+    "impact": 9.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "living-evidence",
+   "aggregate": 38.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "unsaid-private-context-shared-agreement",
+   "aggregate": 38.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "blindfold-kls05r",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "human-for-ai",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "mandate-ix29ek",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "paradox-qzsn3g",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "roque-nights-plan-the-sky-with-your-agent",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "seriessafe",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "sift-hnf1u7",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "unspoiled-u1qyr0",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "vouchsafe-v5toyl",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 10.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "webmcp-computer",
+   "aggregate": 37.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "agentdesk-gf918v",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "airlock-t91fnr",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "chisel-vgbh2t",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "doceo-7f1r9y",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "eevee-mcp",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "egolens-teach-your-browser-any-driving-dataset",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "elbow-room",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "gildongmu",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 10.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "graft-o1mpdy",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "grenz-a-policy-layer-for-webmcp",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "hearth-design-a-home-with-your-agent",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "intent-8tpn1v",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "intent-relay",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "interface-passport",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "interleave-syoiaz",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "jupyterlite-webmcp",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "kern",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "ladder-qvyzpe",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "lasso-draw-what-your-agent-can-touch",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "ledgerrehearsal",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "mace",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "office-of-kaiju-affairs-webmcp",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "out-of-service-srykun",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 10.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "outpocket",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "placard",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "rightsops-rights-aware-campaign-operations",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "rotaproof",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "safety-critical-roadway-design-engine",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "spatialize",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "strudel-webmcp",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "substrate-ys7ta2",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 9.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "toolbraid",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "trialbook",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "velaire-webmcp-agreements-for-service-businesses",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "vouchsafe-m3xziq",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "warrant-4ywaz2",
+   "aggregate": 37.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "agentic-service-dispatch",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "airlock-audience-overlap-without-sharing-customer-data",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "askew",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "blindfold-ikc9j5",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "cartridge-t7byp1",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "cleanroom",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "deputy",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "dojo-n1fm6c",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "groundline-p6hq9m",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "halcyon-a-rescue-for-two-crew-you-and-your-agent",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 7.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "jsonloupe",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "mandate-0bmige",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "mathburst",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "mcpx",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "pillbox-ktnp5v",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 10.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "probepilot-studio",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "prune-pldstv",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "recallops-webmcp",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "release-airlock",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "retailagentos-webmcp-agent-storefront",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "scopeshift-evidence-lease-native-webmcp",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "singularity-inc",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "stand-an-arranging-studio-your-agent-writes-in",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "take-five",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "tandem-ib6u78",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "the-board-1rpyk6",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "threshold-7jhnxb",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "toolproof-by-invarra",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "tracelayer-e1xf5t",
+   "aggregate": 36.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "adaptab",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "agentic-sandbox",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "aimily-context-review",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "bashmcp-let-your-agents-control-websites-like-a-terminal",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "biddesk",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "chameleon-ehdxmj",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "conode-visual-workflow-builder",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "fabric-nqhp31",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "ferrule",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "field-assist",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "focus-contract-studio",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "how-i-choose",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "huginn",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "islanding-restore-critical-power-w-o-energizing-the-fault",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "jig-yrwiue",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "mastery-gate",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "match-room-football-s-shared-language",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "mcpilot-adaptive-interactive-play-lab",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "mission-graph",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "offcut",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "ombuds",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "openhardware",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "orpheus-a-mystery-neither-can-solve-alone",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "queplan-x-webmcp-a-real-insurance-comparator-agent-ready",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 9.5,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "relay-one-intent-many-websites",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "relocates-io",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "runbook-zero",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "tessera-36h4k0",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "understudy-35mgb8",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "univ-deploy",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "webmcp",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "webmcp-foundry",
+   "aggregate": 36.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "actionwitness",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "aether-ybvlaf",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "agent-hands-task-board",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "agent-quote-desk-webmcp-procurement-for-shopify",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "apartment-intelligence",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "automating-urban-planning-and-geospatial-design-with-webmcp",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "autowebmcp-teach-an-agent-to-fish",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "bosai-governed-webmcp",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "brickwright",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "captain-s-table",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "citeapply",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "claimgate",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "clauseproof-or3fbd",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "consequence-flow",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "countersign-3w2d0k",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "curbcut-w12qtb",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "exactcue",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "exposure-incident-zero",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "fairground",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "fluent-notebook",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "formproof",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "gosx-3d-studio",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "groundplan",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "guildhall",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "handback-universal-agent-handoff-links",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "identitymap-witness",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "joepro-webmcp-challenge",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "linecall",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "living-ark-webmcp",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 9.0,
+    "impact": 6.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "peira",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "presence-yzjk9s",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "review-gate",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "sealed-1iorgh",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "solaris-agent-native-solar-sizing-lab",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "tailor-d4ufvj",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "teachback-de9cr3",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "temp-or6aih",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "ufo-web",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "worldline-v65kme",
+   "aggregate": 35.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "a11ymcp-websites-that-adapt-themselves",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "ai-aided-design",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "barge-in",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 7.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "bayshift",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "bubblesurface",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "cartwright-webmcp-native-storefronts",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "chatgpt-webmcp",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "cosynth",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "dom-collective",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "equaltrace",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 7.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "guild-9phql5",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "hold-the-pen-toy2vg",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "ieum",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 7.0,
+    "impact": 9.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "inclusivepatch",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "keycap-forge",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "launchpad-dzomub",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "listen-the-synth-your-agent-can-hear",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 7.5,
+    "impact": 8.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "livingtown",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 8.0,
+    "impact": 9.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "merge-queue-yxa1b3",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "name-ib6n1o",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "nightwatch-lrpi6u",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "no-seat-without-a-route",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "pagecontrol",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 7.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "paleoscope",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "proofdone",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "protocol-mirror",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "quarantine-d1ke6l",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "redini-atelier",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "routineforge",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "sceneindex",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "sealed-case",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 7.5,
+    "impact": 7.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "semaphore-hvc3ar",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 7.5,
+    "impact": 7.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "siteworks-webmcp",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "skulora-outfitter",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "spendmcp",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "stack-underflow-your-ai-agent-plays-in-the-office",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 7.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "stratum-4bsq0r",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 7.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "swagger-ui-webmcp",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "switchboard-psz0hq",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 9.0,
+    "impact": 8.5,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "traces-3snwtz",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "verb-sign-off-voice-on",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "village-ojh723",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "wadi-design-a-house-with-your-agent",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "webmcp-tda",
+   "aggregate": 35.0,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "3way",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 7.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "aergebra",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 7.5,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "airlock-agent-native-data-workspace",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 7.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "alpha7-tank-arena",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "arena-la37yu",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "arrastra-relay",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "ask-don-t-take",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "beat-z",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "borderless-canvas",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "branchline-dgbnlf",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "causaflow-an-urban-flood-forensic-lab",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "claustrum",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "codraw-app",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "consequence-sq8j5c",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "critiqor-webmcp",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "data-airlock",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 7.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "disaster-safety-web-mcp",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 7.0,
+    "impact": 10.0,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "duel-of-lands",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 8.0,
+    "impact": 7.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "enclave-ls2z4k",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "evidence-desk",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "faultline-s9f81w",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "firebreak",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "firebreak-pyabc9",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "hear-my-site",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 7.5,
+    "impact": 8.0,
+    "creativity": 9.5
+   }
+  },
+  {
+   "slug": "hitch-by-agent9",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 7.5,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "inkling-zksvyq",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "jobbbler",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 9.0,
+    "impact": 9.0,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "lemma-ik9xmy",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 9.0,
+    "impact": 8.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "liha-webmcp-adapter",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 7.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "mahaba",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 7.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "mechanism-canvas",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "nextplay",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "nexuscanvas",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "open-application-desk",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "openclawcity",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 7.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "party-of-two",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 7.5,
+    "impact": 7.0,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "prodpermit",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "proof-courier",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "quorum-agent-native-decision-rooms",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "recall-me-maybe",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 8.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "relay-df26mq",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 7.5,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "relay-proof-before-power",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "relayroom",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.0,
+    "impact": 8.5,
+    "creativity": 8.5
+   }
+  },
+  {
+   "slug": "repo-board",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 9.0,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "room-a-web-page-that-argues-back",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "savs-visual-proof-for-webmcp-agents",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.0,
+    "execution": 8.5,
+    "impact": 8.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "scopebox",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 7.0,
+    "impact": 8.5,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "signal-f4vnid",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 10.0,
+    "execution": 7.0,
+    "impact": 7.5,
+    "creativity": 10.0
+   }
+  },
+  {
+   "slug": "signal-ps7l56",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 7.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  },
+  {
+   "slug": "signett",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 9.5,
+    "execution": 8.5,
+    "impact": 8.5,
+    "creativity": 8.0
+   }
+  },
+  {
+   "slug": "spacescale",
+   "aggregate": 34.5,
+   "scores": {
+    "leverage": 8.5,
+    "execution": 8.0,
+    "impact": 9.0,
+    "creativity": 9.0
+   }
+  }
+ ],
+ "rescued": [
+  "0x1-expedition-vault",
+  "2030mcp-linkup",
+  "2d-room-planner",
+  "312deals-tonight",
+  "3da-freeda",
+  "3way",
+  "5-of-23",
+  "7h3-webmcp",
+  "a-7tlm8j",
+  "a-f80hps",
+  "a11y-mcp",
+  "a11yfix-sh6aep",
+  "a11ymcp-websites-that-adapt-themselves",
+  "a11yrelay",
+  "aal-agent-access-layer",
+  "abc-0sa2db",
+  "access-canvas",
+  "accessbridge-sgax1w",
+  "accesscanary",
+  "accessibility-repair-studio",
+  "accessible-action-mode-returns-exchanges",
+  "ackb-handshake",
+  "acorn-ud3i70",
+  "acoustom",
+  "acrobat-webmcp-toolkit",
+  "actalume",
+  "actgex-human-controlled-ai-actions",
+  "action-check",
+  "actionwitness",
+  "actuo-expense-manager",
+  "ad-pilot",
+  "adamastor",
+  "adapt-g2lsec",
+  "adaptab",
+  "adaptive-webmcp",
+  "adgate-for-webmcp",
+  "advocate-49z36m",
+  "aegis-agent-native-emergency-dispatch",
+  "aegis-operations",
+  "aeon-7bzqct",
+  "aergebra",
+  "aerorun-a-shared-human-agent-shoe-shop",
+  "aether-ybvlaf",
+  "aetherdraw",
+  "aethersketch-architecture-copilot",
+  "affogata-live-data-explorer",
+  "african-market-os-webmcp-decision-readiness-lab",
+  "afterfail",
+  "ag-slide",
+  "agenomics-agent-spend-console",
+  "agent-airplane-co-pilot",
+  "agent-arena-games-that-any-agent-can-play",
+  "agent-blueprint",
+  "agent-canvas-i-gave-ai-a-cursor-in-excalidraw-with-webmcp",
+  "agent-chess",
+  "agent-city-the-web-built-for-humans-and-agents",
+  "agent-control-plane-cwqo5j",
+  "agent-escape-room",
+  "agent-file-workbench",
+  "agent-hands-task-board",
+  "agent-lost-found",
+  "agent-market-agents-negotiate-you-confirm",
+  "agent-mcp-beats",
+  "agent-mission-control-webmcp",
+  "agent-native-newsroom-portal",
+  "agent-native-portfolio",
+  "agent-operations-center",
+  "agent-plaza-3uxnkl",
+  "agent-prepared-fitting-room",
+  "agent-process",
+  "agent-quote-desk-webmcp-procurement-for-shopify",
+  "agent-readability-lab",
+  "agent-ready-business-with-webmcp",
+  "agent-ready-palm-desert",
+  "agent-ready-z9n2ad",
+  "agent-rescue",
+  "agent-riff",
+  "agent-search-console",
+  "agent-seo-studio",
+  "agent-shop",
+  "agent-snr",
+  "agent-surface-studio-by-agentmarkup",
+  "agent-theater",
+  "agent-utility-index",
+  "agent-web-gateway",
+  "agent-webmcp",
+  "agent-zen-garden",
+  "agentads",
+  "agentak-0e4ril",
+  "agentbridge-61u5qp",
+  "agentcampaign",
+  "agentcart-tx180m",
+  "agentcommerce",
+  "agentcut-webmcp-image-video-editor",
+  "agentdesk-8uwb6c",
+  "agentdesk-gf918v",
+  "agentfence",
+  "agentflow-oqw176",
+  "agentgate-g23jic",
+  "agentgate-t51v8l",
+  "agentic-algorithm-visualizer",
+  "agentic-sandbox",
+  "agentic-self-service-website-compliance-and-discoverability",
+  "agentic-service-dispatch",
+  "agentic-shift-search",
+  "agentic-stores-ams-by-40rty",
+  "agentic-sudoku",
+  "agentic-textbook",
+  "agentic-webmcp-allowlisted-origin-tools-for-commerce-agents",
+  "agenticroom",
+  "agentinbox",
+  "agentis-lux-for-your-second-audience",
+  "agentmarket-nemu7y",
+  "agentops-command-center",
+  "agentops-pv13xa",
+  "agentperf",
+  "agentpress",
+  "agentready-js-instant-webmcp-for-every-website",
+  "agentready-l0y76f",
+  "agentready-network",
+  "agentready-rzcxt1",
+  "agentready-webmcp-builder-for-framer",
+  "agentrep",
+  "agentronics",
+  "agentsignal",
+  "agentwire",
+  "agidj",
+  "agmcp",
+  "ai-act-shield-webmcp",
+  "ai-aided-design",
+  "ai-api-prices",
+  "ai-boardroom",
+  "ai-clinic",
+  "ai-evidence-in-action",
+  "ai-governance-watch-a-source-grounded-webmcp-briefing-desk",
+  "ai-house-helper",
+  "ai-lead-desk",
+  "ai-lovey-dovey-kyun-kyun-our-first-mission-together",
+  "ai-native-contract-maker-with-webmcp",
+  "ai-nomos",
+  "ai-slop-check",
+  "ai-stylist-x92cd5",
+  "ai-usage-skill-visualizer-webmcp-edition",
+  "ai-watermelon-smash",
+  "aic-risk-permissions-and-discovery-for-webmcp-apps",
+  "aidpath-agent-bridge",
+  "aidra-0oq5kj",
+  "aiendpoint-service-discovery-for-the-agentic-web",
+  "aimec-alpha-from-business-opportunity-to-ai-implementation",
+  "aimily-context-review",
+  "aimural",
+  "ainder",
+  "ainumbers",
+  "aira-bank",
+  "airlines-check-in-agent",
+  "airlock-3anf0i",
+  "airlock-agent-native-data-workspace",
+  "airlock-audience-overlap-without-sharing-customer-data",
+  "airlock-obr935",
+  "airlock-relay",
+  "airlock-t91fnr",
+  "aisle-ai-wedding-seating",
+  "aiweb-the-agentic-business-page",
+  "albugent-webmcp",
+  "alertkick-agent-native-website-and-server-monitoring",
+  "aletheia-kyr84n",
+  "algoosh-agentic-shopping",
+  "aliigo-action-layer-aal",
+  "almari-a-pinboard-that-flags-which-words-are-data",
+  "alpha-investing",
+  "alpha7-tank-arena",
+  "alphax-ls2y54",
+  "alpix",
+  "alun-agent-desk",
+  "alza",
+  "amaphupho-webmcp",
+  "ambios-ai-am-bee-os",
+  "anai-the-operating-layer-for-webmcp",
+  "anastatica",
+  "anywebmcp",
+  "aozu",
+  "apartment-intelligence",
+  "api-canvas",
+  "applyflow-5xj8a2",
+  "applyflow-ai-8elp7r",
+  "appraiseai",
+  "approval-desk",
+  "appstory",
+  "apptome",
+  "aquaeye",
+  "arcade-ehcu0f",
+  "arcadeops-relay",
+  "arcana-table-rpg-with-an-ai-dm-do-push-ups-for-natural-20s",
+  "archbro-webmcp",
+  "archflow-4tuyos",
+  "archflow-85tv4h",
+  "archie-voice-first-webmcp-agent",
+  "archipelago",
+  "archive-evidence-room",
+  "archmorph",
+  "arena-la37yu",
+  "arenamcp",
+  "aria-grande",
+  "arialens-webmcp-accessibility-studio",
+  "arion-trip-planner",
+  "armored-ascent",
+  "arrastra-relay",
+  "artsoul-agent-native-art-auctions",
+  "as-i-am-9mdl6p",
+  "asasa-etlxd2",
+  "asdf-co1jr6",
+  "asia-trend-radar-read-only-webmcp-tools",
+  "ask-don-t-take",
+  "askew",
+  "assaylens-xtt-cell-viability-assay-app",
+  "assetscurator",
+  "assistant-studio",
+  "astrail",
+  "atelier-an-agent-native-studio",
+  "atinamos-agent-shop",
+  "atlas-bjldyg",
+  "atlas-lens",
+  "attic-eq1hor",
+  "attune-tlxwd8",
+  "auctioncopilot",
+  "aura-67z1od",
+  "auralis-webmcp",
+  "auraql-zero-server-ai-analytics-engine",
+  "auricle-z16nqi",
+  "ausschreibungsagenten-tender-agents",
+  "autolab-by-automoto",
+  "automata-a-webmcp-co-creation-playground",
+  "automating-urban-planning-and-geospatial-design-with-webmcp",
+  "autonomous-procurement-supply-chain-negotiator",
+  "autoshop",
+  "autowebmcp-teach-an-agent-to-fish",
+  "avera",
+  "aymateo-tickets",
+  "b2b-procurement",
+  "bananalabs-webmcp-dj",
+  "bandmate-webmcp",
+  "bankgraph",
+  "bargainer",
+  "barge-in",
+  "bashmcp-let-your-agents-control-websites-like-a-terminal",
+  "batcave_ebuilder_with_ai-alfred",
+  "baton-xj1wvo",
+  "bayshift",
+  "bazaar-agent-native-store",
+  "beat-the-agent",
+  "beat-z",
+  "beatforge",
+  "beatforge-for-beatsaber",
+  "beatmcp",
+  "beatscope-director",
+  "beaver-krieg",
+  "beforeapply",
+  "benchpilot-yczp9u",
+  "bestprice-shop-with-the-page-not-around-it",
+  "betatrace",
+  "bf-scratch",
+  "biddesk",
+  "bidlens-9x6y05",
+  "big-question-club-the-bigger-the-question-the-better",
+  "bingewatcher",
+  "bingus",
+  "biofold-e5bncy",
+  "biomech-emcee-shared-3d-movement-review-with-webmcp",
+  "bizgrid-ny3gho",
+  "blackout-escape-together",
+  "blast-radius-mle4bx",
+  "blickwinkel",
+  "blindfold-ikc9j5",
+  "blindfold-kls05r",
+  "blindspot-0wi8kl",
+  "blink-agent-relay",
+  "blockchain-agent-treasury",
+  "blocksmith",
+  "bluepulse",
+  "boardify-6qhnbe",
+  "boardspeak-see-the-tools-your-agent-can-use-in-a-game",
+  "bookhand",
+  "booksy-reloaded",
+  "borderless-canvas",
+  "bosai-governed-webmcp",
+  "botflo-ai-transformation-score-bats-for-s-p-500-companies",
+  "boundary-4r16g9",
+  "bouquet-studio",
+  "branchiverse",
+  "branchline-dgbnlf",
+  "breachglass",
+  "break-webmcp-consent-then-fix-it-with-a-mandate",
+  "brenych-studio-agent-interface",
+  "brickwright",
+  "bridge-studio",
+  "bridgeable-bridging-the-gap",
+  "brief-research-with-your-agent",
+  "briefly-qzed9o",
+  "browser-mcp-firewall-protection",
+  "bubblesurface",
+  "bucky-6qlec1",
+  "buddy-your-webmcp-browser-agent",
+  "budget-bench",
+  "buildai-command",
+  "buildbrief-studio",
+  "buildbrief-studio-9q7fem",
+  "buildcheck",
+  "builder-run",
+  "buildparty",
+  "buildready",
+  "buildvsbuy-ai",
+  "buki-aucj4i",
+  "bullet-heaven",
+  "business-central-webmcp-factbox",
+  "c-p8ulve",
+  "c2c-cancellation-to-compensation",
+  "cabinet-maker-xtreme",
+  "cachelens-webmcp",
+  "cadding",
+  "cadence-7a08zy",
+  "cadence-workout-studio",
+  "cafe-techo",
+  "caios-webmcp-agent-gateway",
+  "cairn-agent-fills-human-checks-out",
+  "callingly-webmcp",
+  "callreclaim-agent-rescue-desk",
+  "callscope",
+  "calma-seg-webmcp-demo",
+  "calmkitchen-designer",
+  "campaign-arena",
+  "campusverify-o8tpq6",
+  "can-i-get-in",
+  "canceldesk",
+  "canon-ledger",
+  "canter-dev",
+  "cantiere-live",
+  "canvas-co-pilot-webmcp-mindmap",
+  "canvasly",
+  "canvasmind-26osxu",
+  "canvasops",
+  "capability-navigator-give-browser-agents-tools-not-pixels",
+  "capex-iq",
+  "capro",
+  "capspace-pro",
+  "capstash-webgpu-verification-lab",
+  "captain-claw",
+  "captain-s-table",
+  "card-table",
+  "cardea-k69nz3",
+  "cardscout",
+  "care-watchdesk-webmcp",
+  "careercompass-i9qe2p",
+  "careercrew",
+  "careers-webmcp",
+  "careloop-webmcp-for-a-toddler-s-first-allergy",
+  "careportal",
+  "careweave-udqoe2",
+  "cargomesh",
+  "cargopilot",
+  "cartpilot-agent-native-webmcp-store",
+  "cartpilot-s5kqhf",
+  "cartridge-t7byp1",
+  "cartwright-webmcp-native-storefronts",
+  "cascade-3k8zpi",
+  "casefile-1p9h7s",
+  "cashlatch",
+  "catchfly",
+  "causaflow-an-urban-flood-forensic-lab",
+  "causal-mission-gate",
+  "causalens",
+  "cdence-ai",
+  "cedarfield-clinic",
+  "ceiling",
+  "centre-remix",
+  "chalkboard-master-vszfr5",
+  "chalkline-j1dtcn",
+  "chameleon-ehdxmj",
+  "champagne-agentic-music-mastering",
+  "changegate",
+  "chapa-the-badge-you-and-your-agent-build-together",
+  "character-animation-for-agents",
+  "chardesk",
+  "chatgpt-webmcp",
+  "chenchess-live-coaching-board",
+  "cherry-0glas2",
+  "cherry-agent-native-finance",
+  "chessup",
+  "chez-amelie-s-morning-rush",
+  "chinamarketing-ai-labs-webmcp-geo-workbench",
+  "chinese-chess-webmcp-how-to-win-grandpa-s-respect",
+  "chip-t64dro",
+  "chiptunes-app",
+  "chisel-vgbh2t",
+  "cineops-ai-film-production-agent",
+  "circuit-canvas",
+  "circuit-co-pilot",
+  "circuit-lab",
+  "circuitbench",
+  "citeapply",
+  "citely-deal-room",
+  "citizen-s-easy-cze",
+  "city-for-you",
+  "citydefense-fork-the-future",
+  "civicflow-a-webmcp-public-benefit-portal",
+  "civicguide-ai",
+  "civium-systems-for-code-review",
+  "claimdesk-agent-native-lost-property-recovery",
+  "claimgate",
+  "claimready-fy4toi",
+  "classsignal-tu8dm4",
+  "clauseproof",
+  "clauseproof-or3fbd",
+  "claustrum",
+  "claw-post-webmcp-clawpost-net",
+  "clawdeals",
+  "clawpost-your-agent-at-the-postal-counter",
+  "clawroom",
+  "cleanroom",
+  "cleanroom-cy64z1",
+  "cleansheet",
+  "clear-dose-ty4jzx",
+  "clearance-pukrgn",
+  "clearpath-webmcp-accessibility-planning-studio",
+  "clearrights",
+  "clever-mango-s-ai-tool-scout-cleverkitools-com",
+  "clideck-mcp-network-evidence-workbench",
+  "client-weave",
+  "cliffcheck",
+  "clinical-ttrial-scope",
+  "closeout-proof-of-handoff",
+  "clotho-in-progress",
+  "cloudswarm-agent-native-cloud-infrastructure-cad",
+  "clunk",
+  "clunk-x16w5o",
+  "co-cart",
+  "co-draft",
+  "co-shop",
+  "coachpoint",
+  "coauth",
+  "cobweb-webmcp-enabled-micropython-ide",
+  "cocanvas",
+  "cockpit-2jeot0",
+  "codeatlas-wfokqe",
+  "codepath-73kuzp",
+  "codesign-webmcp",
+  "codex-ascend",
+  "codraw-app",
+  "cognistration-webmcp",
+  "cograph",
+  "cohabby-living",
+  "colino",
+  "colorwake",
+  "comake",
+  "comicsol-web",
+  "commandcanvas",
+  "commanddeck",
+  "commercegov-governed-ai-commerce-via-webmcp",
+  "commerceops-bridge",
+  "commitweb",
+  "common-table-4gj9ny",
+  "commonground-shared-decisions-made-visible",
+  "commonground-travel",
+  "commonmesh",
+  "commonplace",
+  "commonplace-gw8tm1",
+  "commons-bivk12",
+  "companion-5hrj83",
+  "companion-sketch",
+  "competitor-tracker-co-webmcp",
+  "compute",
+  "con-sche-a-construction-schedule-an-agent-can-operate",
+  "concierge-qf4x5b",
+  "concierge-uic9nv",
+  "concord-an-agent-that-cannot-overpromise",
+  "conductor-webmcp",
+  "conode-visual-workflow-builder",
+  "consensus-dz20ml",
+  "consensus-square",
+  "consensus-u31y6x",
+  "consequence-flow",
+  "consequence-sq8j5c",
+  "consilium-webmcp",
+  "conspiracy",
+  "constellation-7rhqat",
+  "constraint-canvas",
+  "constraintlab",
+  "consular",
+  "contextdock-upim8b",
+  "contextkraft-loop",
+  "contract-clarity-nxmb3k",
+  "contractlab",
+  "conversational-individual-tax-filing-with-webmcp",
+  "conversion-lab",
+  "cooktree",
+  "cookup",
+  "coop-queue",
+  "coplan-ndlq3w",
+  "corealm",
+  "corep",
+  "corotum",
+  "correlact",
+  "corsen-context",
+  "cortex-g4y38i",
+  "coshop-the-agent-native-storefront",
+  "cospace-5bthv6",
+  "cosynth",
+  "counterask",
+  "counterask-5osmu0",
+  "counterfactual",
+  "counterparty",
+  "countersign-3w2d0k",
+  "countersign-4ym0tq",
+  "countersign-5mdsva",
+  "countersign-t267ef",
+  "countersign-vmy83b",
+  "countersign-xdqkz6",
+  "countrylab",
+  "courseadvisorai",
+  "coursemcp",
+  "cove-a-webmcp-native-fertility-journey",
+  "cowork-protocol",
+  "cowriter-kj01pz",
+  "creatorflow-whjry3",
+  "credsutra",
+  "crisisdesk-agent-native-incident-response",
+  "crisisroom-ai",
+  "crit-studio",
+  "critiqor-webmcp",
+  "crm-health-doctor",
+  "crom-s-research-desk-webmcp-powered-agentic-publishing",
+  "crosstalk-gtp0ed",
+  "crosstalk-sklh3x",
+  "crown-and-cipher",
+  "crystal-ui",
+  "cuf",
+  "curbcut-w12qtb",
+  "cursus-3h8uzd",
+  "cutlet",
+  "cutline-l4dkh8",
+  "cutoff",
+  "cutoverproof",
+  "cutroom",
+  "cyber-seeds-human-authority-for-the-agentic-web",
+  "cyberguard-agent-native-cybersecurity-investigation-platform",
+  "cycase-incident-response-you-play-with-an-agent",
+  "cyfix",
+  "dabble-me",
+  "dabdabdab",
+  "dag-studio-agent-ready-causal-modeling-with-webmcp",
+  "data-airlock",
+  "data-canvas",
+  "data-playground",
+  "databridge-agent",
+  "datasweep-pro-agent-human-data-cleaning-on-webmcp",
+  "day-canvas",
+  "dayflow-hrms-the-agent-drafts-the-human-commits",
+  "dayshift",
+  "dd-04hput",
+  "dealpilot-5mk4sf",
+  "dealtable-webmcp-negotiation",
+  "decision-desk",
+  "decision-passport",
+  "decision-patch",
+  "decision-support-network",
+  "decision-workspace",
+  "decisionchange-os",
+  "decisionplay-live",
+  "deckhand",
+  "deep-age",
+  "deeptrail",
+  "degreelume",
+  "delta-universal-webmcp",
+  "demomotion-x-webmcp-collaborative-demo-studio",
+  "dentalsculptor-webmcp",
+  "dependency-war-room",
+  "deputy",
+  "deshi-digest",
+  "deskintab",
+  "deskmate",
+  "desksembly",
+  "dev-webmcp",
+  "devsmith",
+  "dhwani-a-support-desk-whose-forms-are-the-tools",
+  "diamond-control",
+  "didaction-space",
+  "dim-hour",
+  "disaster-safety-web-mcp",
+  "discounthub-webmcp",
+  "discoveryhub",
+  "dish-decider-doym9q",
+  "dispatch-gxl6hr",
+  "dispatchguard-webmcp",
+  "dissent",
+  "dmxready-agent-ready",
+  "doa2a",
+  "doceo-7f1r9y",
+  "docket-lens",
+  "documake",
+  "documesh",
+  "dogaga",
+  "doingly",
+  "dojo-n1fm6c",
+  "dolly-dev-human-agent-multiplayer-ux",
+  "dom-collective",
+  "dom-surgeon",
+  "domain-tools-for-webmcp",
+  "domhamster",
+  "dominaitrix",
+  "done-proven",
+  "doodleduo",
+  "draft-room",
+  "draft-smith-powered-by-excalidraw",
+  "drawcms-motion-diagram-editor-for-ai-agent",
+  "dream-realm-webmcp",
+  "dreamhome-agent",
+  "drill-day",
+  "drishti-wlf59v",
+  "drop-grow",
+  "dry-run",
+  "dsh-project-atlas",
+  "dstar",
+  "duckstudio",
+  "duel-a1di8j",
+  "duel-of-lands",
+  "duet-ahwdyg",
+  "duet-ai-should-create-art-with-you-not-instead-of-you",
+  "duet-c6f3sn",
+  "duet-e5o0ci",
+  "duet-joqp14",
+  "duet-nj9e0r",
+  "duet-studio",
+  "dug-ru8eia",
+  "dungeon-crawl-n0o5rb",
+  "dungeonq",
+  "dusky",
+  "dust-off",
+  "duz-ui",
+  "dwa-na-jeden-wedding-dance-ai-coach",
+  "dwellwise",
+  "dynamic-1o8bkz",
+  "e-ternal-x-webmcp",
+  "earshot-your-agent-can-hear-now",
+  "easel-q9xyt4",
+  "easel-xrpgf8",
+  "easy-query",
+  "echo-1jfhgp",
+  "echo-eym9rc",
+  "edaad-schema-architect",
+  "edgewright",
+  "eevee-mcp",
+  "egolens-teach-your-browser-any-driving-dataset",
+  "el-em-key",
+  "elane-clothing-boutique",
+  "elara-verify",
+  "elbow-room",
+  "elcaro",
+  "electronics-mcp",
+  "elijahos",
+  "embeddoctor",
+  "embers-webmcp",
+  "emid-proofline-integrity-before-intelligence",
+  "empeirik",
+  "emr-webmcp",
+  "enactive-wonderland",
+  "enclave-ls2z4k",
+  "endotoxin",
+  "enquiryos-revenue-incident-response-for-the-agentic-web",
+  "ensemble-a38n5f",
+  "entorno-camaleon",
+  "entrelineas",
+  "eol-desk",
+  "equaltrace",
+  "erwin-s-survival",
+  "esbiko-webmcp-science-lab",
+  "escape-rooms-403",
+  "estro",
+  "euterpe-ytwml3",
+  "even-split",
+  "eventos-as-an-mcp-server",
+  "eventready",
+  "every-real-invoices-from-an-ai-browser-no-sign-up",
+  "evidence-answer-check-what-your-ai-tells-you",
+  "evidence-desk",
+  "evidence-dhafck",
+  "evidence-workspace",
+  "evidencebound-webmcp-authority-compiler",
+  "evidenceflow-human-agent-incident-investigation",
+  "exactcue",
+  "exactdelta",
+  "excalidraw-webmcp",
+  "exceptionosmcp",
+  "execution-receipt",
+  "exit-desk-x-webmcp",
+  "expediente-vivo-evidence-review-desk",
+  "exposed-fdezx4",
+  "exposure-incident-zero",
+  "extenddb-memory-ledger",
+  "eylit-learn-piano-the-next-key-is-already-glowing",
+  "ezapply-webmcp-job-command-center",
+  "ezi-chemlab",
+  "fablecut",
+  "fabric-nqhp31",
+  "fabrica-de-agentes-de-ia",
+  "factory-maker-factory-floor",
+  "fairground",
+  "falsify-8d5a6t",
+  "familiar-ce3tg4",
+  "family-stay-compiler",
+  "fangorn-tv",
+  "faraday-3n1zdh",
+  "fashion-learning-studio",
+  "fashion-passport",
+  "fasting-tracker",
+  "faultline-s9f81w",
+  "faultline-xm5usv",
+  "favor-6zowv1",
+  "feather-webmcp",
+  "fediverse-hashtag",
+  "fenoa",
+  "fentanyl-watch",
+  "ferrule",
+  "fidelio-r04c1o",
+  "field-assist",
+  "fieldcraft-sports-play-designer",
+  "fieldset-ai-native-form-platform-using-webmcp",
+  "figurefoundry",
+  "filika",
+  "finalpick",
+  "fineprint-pn5dl2",
+  "finish-small-app-release-evidence-desk",
+  "finite-hxvgnd",
+  "finite-witness",
+  "firebreak",
+  "firebreak-pyabc9",
+  "firebro",
+  "firenow",
+  "first-key",
+  "first-look",
+  "fitcheck-jqvxyr",
+  "fitzyo",
+  "fix-this-5jqfgc",
+  "flightsweeper",
+  "flint-agentgate",
+  "flock-docs",
+  "floorplan-5nspcg",
+  "floorplay",
+  "floortris",
+  "floralink",
+  "flow-9cmox5",
+  "flow-control",
+  "flow-sten16",
+  "flowlens-95r68e",
+  "flowline-1qh4a3",
+  "flowproof-b1j2ca",
+  "flowpulse-5deiva",
+  "fluent-notebook",
+  "focus-contract-studio",
+  "fog-wf58me",
+  "foldboard-complexity-folded-into-clarity",
+  "fondof",
+  "food-disclosure",
+  "foodloop-ve8kl6",
+  "forecast-ledger",
+  "forge-mqvixh",
+  "forge-uqaext",
+  "forgemcp-multi-agent-research-game-studio",
+  "forgenote",
+  "forkline",
+  "form-less",
+  "formcoach-an-ai-coach-that-sees-numbers-not-your-video",
+  "formesign-webmcp-document-to-signature-form",
+  "formpilot-2yeqm1",
+  "formproof",
+  "formulate-j1287l",
+  "formwork",
+  "forsyningsdata-danmark-webmcp",
+  "frame-design-with-your-agent",
+  "frameguard-mpwhb2",
+  "freenet-free",
+  "frictionglass",
+  "front-desk-xyo91i",
+  "frontmend",
+  "full-loop",
+  "funk-trainer",
+  "funlabkids",
+  "furrow-n32lyi",
+  "future-doors",
+  "gadaa-eco-builder-ai-powered",
+  "galleon-xm69pi",
+  "gallery-402",
+  "gameslab",
+  "garden-center-web-mcp",
+  "gates-of-galloo",
+  "gather-y54g09",
+  "gatherlight",
+  "gatherwire",
+  "generative-learning",
+  "genevault-ai-check-dna-file-without-ever-seeing-it",
+  "genga-studio",
+  "genscape-webmcp",
+  "geodesics",
+  "geomart",
+  "gfx-computer",
+  "ghosted-4nok09",
+  "ghostlayer-agent-speed-human-authority",
+  "ghostwriter-wkcjqb",
+  "gigoo",
+  "gigr-kht63j",
+  "gildongmu",
+  "github-web-mcp",
+  "gitwand-agent",
+  "givens",
+  "glassbook",
+  "glassmap",
+  "glimpse-ai",
+  "glitch-studio",
+  "glyph-motion-studio-for-webmcp",
+  "go-lmm-best",
+  "gomimcp",
+  "goodfolder",
+  "google-forms-mcp",
+  "gopic-for-agents",
+  "gosx-3d-studio",
+  "gotothearchive",
+  "gotpaid-agent-desk",
+  "govbridge-at",
+  "gpuixwebmcp",
+  "graft-o1mpdy",
+  "grandgrandmcp",
+  "grant-scout-webmcp",
+  "grapevine-care",
+  "graphcontract",
+  "graphweave",
+  "great-adventure-engine",
+  "greenroom-od80r9",
+  "greenwindow",
+  "grenz-a-policy-layer-for-webmcp",
+  "grid-search",
+  "grid-spreadsheets-with-your-agent",
+  "gridboard",
+  "gridbrief-tr",
+  "gridfall",
+  "gridtwin",
+  "ground-one-document-different-roles",
+  "ground-truth-a-webmcp-co-op-sci-fi-puzzle-game",
+  "grounded-389n56",
+  "groundline-1lw4f8",
+  "groundline-p6hq9m",
+  "groundplan",
+  "groundtrace-webmcp",
+  "groundtruth-a21w4r",
+  "groundtruth-akvx7p",
+  "guacadoc",
+  "guardian-travel-webmcp",
+  "guild-9phql5",
+  "guildhall",
+  "gulawo-tendering-workspace-with-a-built-in-webmcp-agent",
+  "gwen-zero-credential-agent-authority",
+  "gym-tonic",
+  "gymdeck",
+  "gyst-get-your-stuff-together",
+  "habitat-null",
+  "hacklist-de7i8c",
+  "haggle-arhzs5",
+  "haggle-e4h6ds",
+  "halcyon-a-rescue-for-two-crew-you-and-your-agent",
+  "hand-off-helper",
+  "handback-universal-agent-handoff-links",
+  "handoff-6vtbyr",
+  "handoff-agent-native-media-editor",
+  "handoff-i2cgy1",
+  "handoff-nqhs51",
+  "handrail-0xgqyj",
+  "handrail-8v6gls",
+  "handrail-webmcp",
+  "handsfree-one-line-of-webmcp-for-voice-gesture",
+  "handshake-ai",
+  "haoku-study-workspace-driven-by-your-agent-over-webmcp",
+  "happy-coffee-the-agent-native-data-developer-portal",
+  "harmonium-music-intrumental-webmcp",
+  "healthbook-rp03gy",
+  "healthy-wmcp",
+  "hear-my-site",
+  "hearth-design-a-home-with-your-agent",
+  "hearth-e-commerce",
+  "hearthkeeper",
+  "heatgrid",
+  "heatline-6gkc1s",
+  "hellobusan",
+  "hemloop",
+  "henryknows-webmcp",
+  "her-ai-studio-webmcp-interactive-ai-learning-platform",
+  "her-shopping",
+  "here4homes-uk-smart-job-brief",
+  "hexmend",
+  "hi-audit-triage-room",
+  "highwater",
+  "hintel",
+  "hitch-by-agent9",
+  "hold-the-bill",
+  "hold-the-pen-toy2vg",
+  "holdslot",
+  "home-gym-creator",
+  "homeops",
+  "hooraai",
+  "hopyard-designer-webmcp-for-hop-farms",
+  "horizon-studio",
+  "host-stand",
+  "host-whisperer",
+  "house-design-tool",
+  "houselights",
+  "how-i-choose",
+  "howtopc",
+  "hsdf",
+  "hubit",
+  "huge-zucchini-1",
+  "huginn",
+  "human-for-ai",
+  "humanagentmultiplayer",
+  "humankey-7nez58",
+  "humanlock",
+  "hustl-cyebiu",
+  "hyphened-a-3d-neural-motion-studio",
+  "hyphosphere-follow-the-infowar-market",
+  "identitymap-witness",
+  "ieum",
+  "ihateaudio",
+  "ikor",
+  "ikuyo",
+  "ilma-weather-agents-can-trust",
+  "image-editor-webmcp",
+  "imagelens",
+  "imc-guardian",
+  "impresspress-dev-sandbox-dev-impresspress-org",
+  "incident-command",
+  "incident-relay",
+  "incident-room-2m4an5",
+  "incidentlens-webmcp",
+  "incidentos",
+  "inclusivepatch",
+  "inference-chip-index",
+  "infinite-awareness-agent-lab",
+  "infinite-canvas-agent-design-lab",
+  "infinite-canvas-webmcp-challenge-edition",
+  "infratwin",
+  "ingram-sheets",
+  "inkframe-an-agent-native-motion-studio",
+  "inkling-zksvyq",
+  "inkwitness",
+  "inneros-webmcp-mission-control",
+  "innpilot-hotel-pms",
+  "inquisitive",
+  "insurasync",
+  "intelligent-process-diagrams",
+  "intent-8tpn1v",
+  "intent-for-sale",
+  "intent-handoff",
+  "intent-relay",
+  "intentbridge-8ny9v4",
+  "intentlock-rdl1e2",
+  "intentos-brx2m7",
+  "intentrank",
+  "interactive-star-lab",
+  "interface-passport",
+  "interleave-syoiaz",
+  "investigation-canvas",
+  "islanding-restore-critical-power-w-o-energizing-the-fault",
+  "itemized",
+  "itta-recovery-dna",
+  "iwb-home-base",
+  "jam-2rdgo7",
+  "janux",
+  "jazzboard",
+  "jennifer-webmcp-multimodal-agentic-designer",
+  "jhola-a-trip-finder-whose-slow-searches-you-can-stop",
+  "jibe-zjutme",
+  "jig-yrwiue",
+  "jipsa",
+  "jiutuanzhuo",
+  "job-application-os",
+  "job-scout-webmcp-career-os",
+  "jobbbler",
+  "jobcontext-your-career-agent-ready-in-the-browser",
+  "jobjam-webmcp",
+  "jobly-turn-a-resume-into-a-completed-application",
+  "joepro-webmcp-challenge",
+  "joy-of-painting",
+  "jsonloupe",
+  "jumping-beans",
+  "jupyterlite-webmcp",
+  "jurismind-private-legal-desk",
+  "kata-i3khsl",
+  "keep",
+  "keep-it-offline",
+  "keepsake-avpueo",
+  "kenny",
+  "kepler-gl-webmcp",
+  "kern",
+  "kesslershield-leo-conjunction-debris-avoidance-flight",
+  "keycap-forge",
+  "khum",
+  "kineticflow-ai-motion-design-studio",
+  "kinstead",
+  "kitespot-atlas",
+  "kitty-hwcydn",
+  "klipvia",
+  "knot-your-table",
+  "know-before-yes",
+  "known-good-webmcp-verifier",
+  "knowngate",
+  "knowngate-t6emi3",
+  "knoww-g4yo7z",
+  "knowyouragent-merchant-safety-gate",
+  "kodi-agent-native-tax-workspace",
+  "koko-v12ok6",
+  "kontier-ri",
+  "kopilotti-webmcp",
+  "koshara",
+  "kujo-ssg",
+  "kumidraw",
+  "kurdish-calendar-agent",
+  "kuro-agent",
+  "kuwait-life",
+  "kylrix",
+  "la-ban-agent-native-career-guidance-for-ai-transition",
+  "lab-hipaa-technology",
+  "label-loop",
+  "labmcp",
+  "laboria",
+  "labspace-atlas",
+  "ladder-qvyzpe",
+  "lafryhi-agentcut",
+  "lander-5-cleaning-at-conversation-speed",
+  "lantern-fsipnk",
+  "lapor-ai",
+  "lapse-what-webmcp-tools-actually-accept",
+  "lasso-draw-what-your-agent-can-touch",
+  "last-city",
+  "last-door",
+  "lastest-qa-reports-with-webmcp-site-tools",
+  "latch-ktr7ez",
+  "lattice-lr9pm7",
+  "lattice-perps",
+  "launchmate-hmdjr9",
+  "launchpad-dzomub",
+  "laxfinder",
+  "le-monde-des-personnages-ia",
+  "leaf-j0yf64",
+  "learning-world-dax-mission",
+  "learnlogos-com-webmcp-learning-assistant",
+  "least-privilege-access-review-workbench-remove-risky-access",
+  "lectern-m2970e",
+  "ledgerrehearsal",
+  "legalize-kr-webmcp",
+  "lego-claw-assembly-lab",
+  "leia-atjqod",
+  "lemma-ik9xmy",
+  "lemma-zvuc3p",
+  "lense",
+  "lessonique",
+  "let-me-eat-the-eggs",
+  "let-your-ai-send-letters-and-postcards-on-pieterpost-com",
+  "life-links",
+  "life-shift",
+  "lifeops-ctsua3",
+  "lifeos-z063ix",
+  "lifesim-ai-agent-project-simulation",
+  "lightcone-game",
+  "liha-live-preview",
+  "liha-webmcp-adapter",
+  "liminal-wiki-bvtz5j",
+  "line-mate",
+  "linecall",
+  "linelab-rehearse-the-rush",
+  "lingji",
+  "lingomargin",
+  "lingya-cosmos",
+  "liquidhr-agent-workspace",
+  "listen-the-synth-your-agent-can-hear",
+  "listingpilot",
+  "littlelibrary",
+  "live-layer",
+  "livesignal",
+  "living-ark-webmcp",
+  "living-evidence",
+  "living-memory-launcher",
+  "livingpage",
+  "livingtown",
+  "llama-war",
+  "loadguard-3d",
+  "loadshed",
+  "lobastes",
+  "lobby-a-concierge-for-humans-and-their-agents",
+  "local-buzz-9whi31",
+  "lockshot",
+  "locus-84039k",
+  "locuslocal",
+  "logo-maker",
+  "logopacker",
+  "loomlace",
+  "looop-tquv5l",
+  "loopfix-webmcp",
+  "looproof",
+  "loopsmith",
+  "lopaka-app-embedded-gui-builder",
+  "lore-wjdexz",
+  "lostloop-human-grounded-recovery-companion",
+  "lumenapeiron",
+  "lumi-d7ih9x",
+  "lumlon",
+  "lumos-human-first-webmcp-for-transparent-ai-collaboration",
+  "luxesalon-spa-webmcp-autonomous-storefront",
+  "lyrashield-ai-webmcp-assurance",
+  "maav",
+  "mac-inventory-workbench",
+  "mace",
+  "machine-passport",
+  "macro-dashboard-dch42v",
+  "magpie-cy3jt0",
+  "mahaba",
+  "maintenance-required",
+  "make_layouts",
+  "mandaneum",
+  "mandate-0bmige",
+  "mandate-ix29ek",
+  "mantle-builder",
+  "mapbox-ai-trip-planner",
+  "mapsmcp",
+  "maptruth",
+  "marble-maddness",
+  "marginalia-8olys5",
+  "marinela-ai-concierge",
+  "markdown-stripper",
+  "marketbench",
+  "marketingwebmcp",
+  "marqops-evidence-layer",
+  "masil-reconnecting-korean-elders-to-creative-life",
+  "mastery-gate",
+  "match-cut",
+  "match-room-football-s-shared-language",
+  "matchday-accessible-football-with-webmcp",
+  "matched-p98xai",
+  "material-notes",
+  "mathburst",
+  "mausam",
+  "maybe-c2xm0r",
+  "mcp-meet-pcm",
+  "mcp-siege",
+  "mcpation",
+  "mcpencil",
+  "mcpilot-adaptive-interactive-play-lab",
+  "mcpixels",
+  "mcpmatic",
+  "mcpx",
+  "meabs",
+  "meant",
+  "mechanism-canvas",
+  "median-viz",
+  "memory-canvas",
+  "memorybook-2ow7ty",
+  "mend-a-local-first-recovery-workspace",
+  "mend-safe-verified-website-repairs-with-webmcp",
+  "mendsignal",
+  "mentria-ai-an-extensible-toolbox-with-on-device-ai",
+  "merchant-hq",
+  "merchant-stock-rescue",
+  "merchantos-webmcp-storefront-co-pilot",
+  "merge-queue-yxa1b3",
+  "meridian-bank-a-webmcp-banking-demo",
+  "meridian-voyager",
+  "mermaid-mcp",
+  "mermail",
+  "meshful",
+  "metaedit",
+  "metawebmcp",
+  "microduck-lab",
+  "mike-s-moonlight-run",
+  "mimir-4lovju",
+  "minecraft-build",
+  "minecraft-builder",
+  "minecraft-webmcp-player",
+  "minesweeper-rx7v63",
+  "mini-paint-webmcp",
+  "minimal-protocol-witness",
+  "mintpaw",
+  "mirror-hltgu4",
+  "mirror-loop",
+  "mirror-webmcp-secure",
+  "mise-m98dei",
+  "mise-u17a8w",
+  "mission-center-webmcp-human-in-command",
+  "mission-control-shield-wall",
+  "mission-deck",
+  "mission-graph",
+  "mockniner",
+  "mocks-your-agent-sits-a-real-exam-in-a-browser-tab",
+  "modelo-z0ctqj",
+  "mohae",
+  "moirae-console",
+  "mol-webmcp-agent-native-structural-biology",
+  "monstersdna",
+  "mood-a-system-for-creative-thinking",
+  "moon-gate",
+  "morph-qnxg3f",
+  "morphe-forms",
+  "morphus-the-3d-world-editor-your-agent-can-operate",
+  "moshimo-tag",
+  "moth-forge-quampute",
+  "motificons",
+  "motionarena",
+  "move-board",
+  "movetogermany-lol",
+  "movie-webmcp-video-co-editor",
+  "multicom",
+  "murph-food-lab",
+  "museflow-qgm9xf",
+  "music-catalog-scout",
+  "music-synth-creator",
+  "muster-the-agentic-fire-drill",
+  "mustermind-the-wearability-agent-buy-restyle-or-skip",
+  "mutua-shared-state-for-humans-and-agents",
+  "my-calendar-planner",
+  "myprovence-agent-ready",
+  "mysoci-agent-city",
+  "mysynote",
+  "mythweaver-paint-together-on-web",
+  "n-a-o93v7l",
+  "nagara",
+  "name-ib6n1o",
+  "name-pv8j57",
+  "napkinlab",
+  "naturex-live-commerce-agent",
+  "navigator-berlin",
+  "naviquest",
+  "navwebmcp",
+  "nearcast-webmcp",
+  "necivia",
+  "neighbors-decide",
+  "nema",
+  "nepal-disaster-watch",
+  "nest-hunt-flats-with-your-agent",
+  "netawatch-jqwxtc",
+  "netify-cn6wma",
+  "netlab",
+  "netspectre-human-led-cyber-investigation",
+  "never-ask-twice-7hpvzc",
+  "newda",
+  "nexacard-webmcp-relationship-copilot",
+  "nextplay",
+  "nexus-ade2kj",
+  "nexus-deal-room-agent-native-decision-environment",
+  "nexus-weave-zero-egress-webmcp-engine",
+  "nexuscanvas",
+  "nexusops-ls5hcn",
+  "night-sky-atlas",
+  "nightstand-a-health-diary-you-run-by-voice",
+  "nightwatch-lrpi6u",
+  "ninthtool",
+  "nirnay",
+  "nivra-fx8ekd",
+  "no-seat-without-a-route",
+  "no-upload-mcp",
+  "nodebook",
+  "nodecraft",
+  "noema-blueprint",
+  "nonprofit-pass",
+  "nook-nest",
+  "northstar-jfw4sh",
+  "notasprint",
+  "nova-lab-ouzdmb",
+  "novna",
+  "nullrun",
+  "nwa-growth-signal",
+  "oa-network-webmcp-for-native-vulkan-applications",
+  "observatory-ghpk10",
+  "observatory-vtphg9",
+  "ocheck-agent-ready-official-guides",
+  "odyssey-wtg3h1",
+  "offcut",
+  "office-of-kaiju-affairs-webmcp",
+  "offroof",
+  "offroof-e6kdr9",
+  "ohmni",
+  "ojs-webmcp-agent-native-scholarly-publishing",
+  "olfaria-crystal-atlas-neural-erdos",
+  "olos-ai-mini-budget-planner",
+  "olympus-mcp-harness",
+  "ombuds",
+  "omnidata-webmcp",
+  "omniflow-studio",
+  "omnistrand",
+  "omros-webmcp-health-intelligence",
+  "once-h2pdtk",
+  "once-opn5ly",
+  "once-upon-v4ibgn",
+  "ondex-ai-agent-powered-food-logistics-platform",
+  "one-pixel",
+  "one-q59fb6",
+  "one-trip-win",
+  "onepath",
+  "onionskin",
+  "open-application-desk",
+  "open-dots",
+  "open-racer-webmcp-racing-line-editor",
+  "open-web-concierge",
+  "openact",
+  "openagent-ledger",
+  "openagora",
+  "openappeal",
+  "openassist-daily-workspace",
+  "openbento",
+  "opencast",
+  "openclawcity",
+  "opendeal",
+  "opendoor-access",
+  "openfinance-agentic-b2b-supplier-portals",
+  "openhardware",
+  "openings-agent-native-job-discovery",
+  "openinquiry",
+  "openlms-webmcp",
+  "openmemoz",
+  "openoperator",
+  "openpath-studio",
+  "openquest-j81n7z",
+  "openreceipt",
+  "openroom",
+  "openscene-studio",
+  "opensketch",
+  "openslot-t2yk59",
+  "opensource-release-feed",
+  "openspiderweb",
+  "openx",
+  "opportunityos-adcl6f",
+  "ops-co-pilot",
+  "opsflow-webmcp-fulfillment-console-for-solo-operators",
+  "opsrelay-z2lcnh",
+  "orano",
+  "orbit-d8r6ow",
+  "orbitflo-co",
+  "orbweaver",
+  "orchestra-8k10lb",
+  "organize-hackathons-using-codex-with-webmcp",
+  "orgmemory-ngmewz",
+  "origami-gratis",
+  "origamiwebmcp",
+  "orish-s-world-ai-ready-children-s-learning-universe",
+  "orpheus-a-mystery-neither-can-solve-alone",
+  "orqis",
+  "out-of-service-srykun",
+  "outcome-network",
+  "outcomemesh",
+  "outpocket",
+  "overhead",
+  "overloaded",
+  "overturn-hbk9dq",
+  "ownerops-sphtwc",
+  "pa-in-your-pocket-household-actions",
+  "package-g-webmcp",
+  "packedup",
+  "pact-y06ur9",
+  "page2webmcp",
+  "pagecontrol",
+  "pagepatch",
+  "pairalgo-ai-webmcp-algorithm-interview-workspace",
+  "pairboard",
+  "paleoscope",
+  "palm92-lead-recovery-os",
+  "panoptik-bygdf7",
+  "pantrypilot-raeq03",
+  "pantrypilot-udzi4y",
+  "pantrypilot-your-kitchen-co-piloted",
+  "paper-trail-9b2q4x",
+  "paperbridge",
+  "paperpilot-1t3au4",
+  "paperpilot-kjglan",
+  "paperpilot-qidwys",
+  "paperpup",
+  "paperquant-lab",
+  "papertrail-v8rkjl",
+  "paperveil",
+  "paperwork-a-form-your-agent-fills-while-you-watch",
+  "paqly",
+  "paradox-qzsn3g",
+  "parallax-spatial-mcp",
+  "parley-ai-agents-negotiate-your-lease-via-webmcp",
+  "parley-omq7ab",
+  "part-ner",
+  "particle-atlas",
+  "party-of-two",
+  "passbook-sb3tp6",
+  "patchwork-8oaxim",
+  "patchwork-hj962r",
+  "patchwork-webmcp",
+  "patchwork-webmcp-challenge",
+  "pathfinder-se6u8a",
+  "patiently-a-clinic-your-agent-can-actually-use",
+  "patronus-webscan",
+  "pawball-arena",
+  "pawpilot",
+  "payablepilot-2dgsb9",
+  "payment-recovery-agent",
+  "payoff-9z3lwm",
+  "pdx-reviewdesk",
+  "peira",
+  "pending-human",
+  "perpetual-video",
+  "persistent-web-skills-runtime",
+  "perso-xxl",
+  "persona-s8fqvy",
+  "persona-the-embodied-webmcp-ai-agent",
+  "personal-data-rights-workbench",
+  "personalize-this-page",
+  "personalwebmcp",
+  "phlegm-spitting-old-man-coughing-fit-generator",
+  "physical-ai-webmcp-command-center",
+  "pillbox-ktnp5v",
+  "pilotcircuits",
+  "pinboard-9sahlt",
+  "pinnwall",
+  "pip-the-mug",
+  "pipeline-os",
+  "pit-wall",
+  "pixael",
+  "pixel-art-tutor",
+  "pixel-generator-ibjpfc",
+  "pixelforge-32rotm",
+  "pixelforge-studio-56psei",
+  "pixelmesh-webmcp-image-studio",
+  "pixelplace",
+  "pixlpal",
+  "placard",
+  "places-1ythsl",
+  "planonit",
+  "plantneeds",
+  "plateweave-reliable-96-well-designs-avoid-costly-mistakes",
+  "playable-arena",
+  "playable-nzm7bq",
+  "playing-cards-simulator-dupbvz",
+  "plot-vyrc2b",
+  "pluno-webmcp-for-anything",
+  "pocket-change-0jglh4",
+  "pocket-kc7rp5",
+  "podhood-webmcp-for-podcasts-youtube",
+  "pointcanvas-webmcp-collaborative-3d-point-cloud-inspector",
+  "pokefinder-app-webmcp",
+  "pokemon-js-one-trainer-many-agents",
+  "polaris-chat",
+  "polkaswap-5pcxgy",
+  "poll-5v48ys",
+  "poolwart-a-safe-agent-to-human-handoff-for-water-care",
+  "port-authority",
+  "portego",
+  "post-purchase-resolution",
+  "potter-s-wheel",
+  "power_canvas",
+  "powerforge-web-verified-webmcp-for-static-sites",
+  "praxaapp",
+  "praxis-human-agent-nle",
+  "precidra",
+  "prepwise-lite",
+  "presence-yzjk9s",
+  "previz-etag85",
+  "pricemcp",
+  "pricepilot-xw12er",
+  "printchum",
+  "prism-xur62f",
+  "prismlaunch",
+  "privacy-nutrition-label",
+  "prizepilot-webmcp",
+  "probepilot-studio",
+  "processtwin-pull-requests-for-application-state",
+  "procura-7xpobg",
+  "procuremesh",
+  "prodpermit",
+  "project-desk",
+  "project-forge-3zyvef",
+  "project-grapevine-human-agent-disaster-response",
+  "project-notebook",
+  "project-y79pb23hj1mz",
+  "promise-gate",
+  "prompt-canvas",
+  "prompt-injection-red-team-playground",
+  "promptdecor",
+  "promptflow-ai-ai-software-architect",
+  "promptmygame",
+  "proof-courier",
+  "proof-gate",
+  "proofboard-acfnyl",
+  "proofdone",
+  "proofmesh-webmcp",
+  "proofpath-ai-yes",
+  "proofpilot-g12fb3",
+  "proofsheet",
+  "protocol-mirror",
+  "protocolos",
+  "prove-it-verifiable-ai-for-screen-reader-users",
+  "prsim",
+  "prune-pldstv",
+  "przedwysylka-webmcp-lab",
+  "pulse-voice-steered-drums",
+  "punchpilot-field-review-drawn-on-the-sheet",
+  "pursuit-permit",
+  "pyroscan-incident-twin",
+  "qianshou",
+  "qr-code-crafter",
+  "quantmcp",
+  "quantumjs-webmcp",
+  "quarantine-d1ke6l",
+  "queplan-x-webmcp-a-real-insurance-comparator-agent-ready",
+  "queryhost",
+  "queueless-ng76jk",
+  "quillprint-webmcp-add-on",
+  "quorum-agent-native-decision-rooms",
+  "quorum-awbqyk",
+  "quoteflow-webmcp",
+  "rabbit-hole-s50cgh",
+  "rabbithole-quid04",
+  "rai-dq1bjx",
+  "rally-by-agent9",
+  "rapier",
+  "ratefloor-negotiation-intelligence",
+  "ratiflow",
+  "re-entry-zj6ynh",
+  "re-pair",
+  "re-turn",
+  "readycounter",
+  "real-me-deepmatch",
+  "recall-me-maybe",
+  "recall-response-workbench-recall-the-right-items",
+  "recall-user-controlled-ai-memory",
+  "recallops-webmcp",
+  "recallradar-mup26v",
+  "receipts-the-trust-layer-for-agentic-commerce",
+  "recipebridge-for-cyberchef",
+  "recovery-desk",
+  "recovery-radar",
+  "redactly-o86lem",
+  "redini-atelier",
+  "redline-enw67x",
+  "redline-fko6xd",
+  "redline-review-with-your-agent",
+  "redline-the-agent-reads-the-fine-print-you-keep-the-pen",
+  "reflex-h6m0fn",
+  "regia",
+  "rehearse-zka9f8",
+  "relay-ai-adaptive-emergency-training",
+  "relay-df26mq",
+  "relay-jp8ea7",
+  "relay-o56i9a",
+  "relay-one-intent-many-websites",
+  "relay-proof-before-power",
+  "relay-room",
+  "relay-safe-shift-handoffs-via-webmcp",
+  "relay-social-ai",
+  "relay-tw7mo9",
+  "relaybench",
+  "relaygrid",
+  "relaylab",
+  "relaypay",
+  "relayplan",
+  "relayroom",
+  "release-airlock",
+  "release-evidence-room",
+  "release-sentinel-webmcp-proof-arena",
+  "relief-forge-from-prompt-to-printable-wall-art",
+  "reliefmesh",
+  "relocates-io",
+  "reloop-kvy796",
+  "remap-qx3gol",
+  "remix-fe8zt5",
+  "remnic-canvas",
+  "remy-9vueon",
+  "repair-relay",
+  "repairmcp",
+  "replan-agentic-travel-recovery",
+  "replanix",
+  "replay-fk0ua2",
+  "repo-board",
+  "repro-ledger",
+  "repro-webmcp",
+  "rescasap-uy",
+  "rescuerelay",
+  "research-audit-workbench",
+  "research-control-panel",
+  "research-devices-webmcp",
+  "resolve-guard",
+  "resolvia",
+  "respira-safe-webmcp-site-tools-for-any-wordpress-site",
+  "restock-8oam1c",
+  "restock-room",
+  "resume-match",
+  "retailagentos-webmcp-agent-storefront",
+  "reticle",
+  "returnready",
+  "returns-desk",
+  "reuseroute",
+  "revaiew-evidence-room",
+  "revelus-webmcp",
+  "review-gate",
+  "reviewline",
+  "rewind-01wez3",
+  "rewind-siqgzb",
+  "rhythm-pshl1n",
+  "riff-smith",
+  "rigforge-the-ai-assisted-pc-builder",
+  "rightsops-rights-aware-campaign-operations",
+  "ringlight-3jkmbx",
+  "roarcad",
+  "robo-bridge-mcp",
+  "robobuddy-ide",
+  "robodepo-checkout-for-shopping-agents",
+  "rocketturtle",
+  "rockfoundry",
+  "rogerthat-49mbtz",
+  "roleprobe",
+  "room-a-web-page-that-argues-back",
+  "roomcraft-3wlqf5",
+  "roomcraft-dsqifg",
+  "roomdex",
+  "roomwright",
+  "roomwright-fca8bq",
+  "root-4gyjc1",
+  "roque-nights-plan-the-sky-with-your-agent",
+  "rota-agent-collaborative-shift-scheduling",
+  "rotaproof",
+  "rough-cut",
+  "routineforge",
+  "rove-8cmv9f",
+  "roya-ai-film-production-manager",
+  "ruleloom",
+  "ruleripple",
+  "runbook-studio",
+  "runbook-zero",
+  "runcard",
+  "rundown-agentic-dashboard-builder",
+  "runline",
+  "runner-agent-x-thailand-in-motion",
+  "runtime-truth",
+  "runwire",
+  "rutic",
+  "s-m-r-t",
+  "s-o-l-v-e-r",
+  "sable-1ink36",
+  "saeti-aurora-hall",
+  "safe-agent-assisted-booking",
+  "safeshare-ky18bw",
+  "safestaff-shift-commander-webmcp",
+  "safety-critical-roadway-design-engine",
+  "salesive-graphics",
+  "samestate-redux_webmcp",
+  "samu",
+  "san-ch-i",
+  "sardrobe",
+  "saturate",
+  "sauna-quote-x-ray",
+  "save-my",
+  "savedpocket",
+  "savs-visual-proof-for-webmcp-agents",
+  "saw-bridge-self-assembling-webmcp-bridge",
+  "scanwebmcp-com",
+  "scenarioforge-cjxv8k",
+  "sceneindex",
+  "schedule-rank-webmcp-adapter",
+  "schemapair",
+  "schematic",
+  "scholarsathi",
+  "scholarship-scout",
+  "science-lab-3ajx1q",
+  "scistudio",
+  "scopebox",
+  "scopeshift-evidence-lease-native-webmcp",
+  "scrapi",
+  "screen-blueprint-studio",
+  "screen-readers-webmcp",
+  "scummwebmcp",
+  "sealed-1iorgh",
+  "sealed-case",
+  "search-to-sale",
+  "seatcraft",
+  "seating-repair",
+  "seatline-kolkata",
+  "second-cursor-moving-day",
+  "second-mayor-build-a-city-with-your-agent",
+  "second-serve-fvab39",
+  "secureflow-ewmsj3",
+  "seigyo",
+  "semantic-city-a-webmcp-city-simulator",
+  "semantic-loop-devops-demonstrator",
+  "semaphore-hvc3ar",
+  "sendero",
+  "sensemaking-studio",
+  "sentinel-desk",
+  "seostrich-get-discovered",
+  "seqcraft",
+  "serendipity-qey93x",
+  "seriessafe",
+  "seven-rooms",
+  "shadow-u1o5rc",
+  "sharableworlds",
+  "shared-reference-canvas",
+  "shared-room-mcp",
+  "sheetcanvas",
+  "sheshat",
+  "shieldon",
+  "shipaso",
+  "shipcheap",
+  "shipgate",
+  "shipmail-webmcp",
+  "shipment-document-check",
+  "shipreel",
+  "shopcanvas",
+  "shopfront-copilot",
+  "shopify-catalog-health-copilot",
+  "shoplens-va4plw",
+  "shopmate-60kf9p",
+  "shopmcp",
+  "shopnearme",
+  "shopping-mcp",
+  "shoppulse",
+  "shortlist-a-store-that-turns-your-need-into-filters",
+  "showbranch",
+  "showme-uw39zq",
+  "showmeonmap",
+  "showonce-webmcp-for-do-what-i-did",
+  "shredly",
+  "shrinekeep-webmcp",
+  "shuispace",
+  "sidekicks",
+  "sidequest-dayops-for-real-life",
+  "sift-hnf1u7",
+  "siftio",
+  "sightline-lxuw25",
+  "sightline-mndf14",
+  "sightline-moavk1",
+  "sightline-tmkrfx",
+  "sightsinger-agentic-ai-session-singer",
+  "sigmastudio",
+  "sigmora-live-relay",
+  "signal-desk",
+  "signal-f4vnid",
+  "signal-ps7l56",
+  "signal-self-extending-task-board",
+  "signal-timing-workbench",
+  "signett",
+  "signoff-the-agent-proposes-you-decide",
+  "signpost-a8iuk9",
+  "signwise-ie5qxr",
+  "simple-post",
+  "singularity-inc",
+  "site2webmcp",
+  "sitescope-fj58mc",
+  "siteworks-webmcp",
+  "situationroom",
+  "sivan-ai",
+  "skillmcp",
+  "skillspace-lctnbr",
+  "skillswebmcp",
+  "skulora-outfitter",
+  "sky-to-porch",
+  "skyringai-webmcp",
+  "slideforge-zlbnmx",
+  "slip2form",
+  "sloth-4btenr",
+  "smart-course-advisor",
+  "smarterboard-gjpmfq",
+  "sms-florin-esim-webmcp-checkout-on-a-live-product",
+  "snipr-webmcp",
+  "socialsum",
+  "sodium-by-result",
+  "solaris-agent-native-solar-sizing-lab",
+  "solo-map-secure-agent-bus",
+  "sonicviz",
+  "sourcing-scenario-room",
+  "space-auto-dealership-mcp",
+  "spacescale",
+  "spacienta",
+  "spacio",
+  "spatialize",
+  "speak-ahead",
+  "spec-commerce",
+  "spendgate",
+  "spendmcp",
+  "spendshield-ai-procurement-guardrail",
+  "splat-studio",
+  "split-circle-webmcp",
+  "split-webmcp",
+  "splitsight-erfg87",
+  "splittrip-h34rnd",
+  "spokes-sd13ax",
+  "spool-mzf8es",
+  "spot-kxz3rf",
+  "spotcheck-usdp21",
+  "spotlight-x9ha3u",
+  "spread-uo3j4x",
+  "sprintfy",
+  "sql-caterpillar",
+  "squirrel-board",
+  "squishai",
+  "stack-underflow-your-ai-agent-plays-in-the-office",
+  "stackkits-webmcp-planner",
+  "stagedops",
+  "stagehand-i5xuht",
+  "stagepair",
+  "stamped-1j6u25",
+  "stand-an-arranging-studio-your-agent-writes-in",
+  "stapler-15q9da",
+  "starshape",
+  "staywelll-with-proof",
+  "stealthdraft",
+  "steward-6jf0b8",
+  "stillhere-guxdjz",
+  "stock-pilot",
+  "stock-screener-3qx8yh",
+  "stockpilot-x2lwgb",
+  "stocksbrew-decision-room",
+  "storyforge-9yefiu",
+  "storymaker-kb6izo",
+  "storyroom-q41hev",
+  "stow",
+  "strategyshifu",
+  "strategyview",
+  "stratum-4bsq0r",
+  "streambot-agent-edition",
+  "streaming-lens-streaming-market-data-agent-native",
+  "structsketch",
+  "structural-evolution",
+  "strudel-webmcp",
+  "strudelwebmcp",
+  "study-map-9ezvia",
+  "study-with-your-agent",
+  "studybench",
+  "studyflow-bc2qku",
+  "studyloop-yq4zej",
+  "studypilot-oc5ae7",
+  "studytree",
+  "substrate-ys7ta2",
+  "suede-agent-studio-webmcp-storefront",
+  "suede-agent-studio-webmcp-storefront-yz2xk6",
+  "suggestibility-webmcp",
+  "summarizer-explainer",
+  "sundae-metrics",
+  "supperclub-ai",
+  "supplymesh-x5anm3",
+  "supplypilot",
+  "surf-agent-control",
+  "surveyguard",
+  "svgent-agent-stage",
+  "swagger-ui-webmcp",
+  "swarm-spaces-where-humans-and-agents-work-together",
+  "sweet-spot-ecpuwb",
+  "swiftxr",
+  "switchback",
+  "switchboard-psz0hq",
+  "switchboard-zero",
+  "synapse-studio",
+  "synaptable",
+  "synesthetic-curator",
+  "synspace",
+  "taams-import-sourcing-desk",
+  "tabby-d3ic48",
+  "tablee-play-together-human-and-agent",
+  "tablemap-a-seating-chart-your-agent-can-help-with",
+  "tableread",
+  "taboo-webmcp-game",
+  "tabulaflow",
+  "tagtitan-listing-studio",
+  "tail-risk",
+  "tailor-d4ufvj",
+  "take-five",
+  "takt_shift",
+  "talk-fast",
+  "talli",
+  "tama-information-display",
+  "tandem-26ohky",
+  "tandem-41l52d",
+  "tandem-c82l4y",
+  "tandem-ib6u78",
+  "tangible-coding-studio-mission-builder",
+  "tapfill",
+  "tartarian-ai-webmcp-mmo-prototype",
+  "task-liaison-ai-command-center",
+  "taskbridge-gko1dj",
+  "taskdrop",
+  "taskfence",
+  "taste-gate",
+  "tax-pundit",
+  "taxis",
+  "tbd-h5st0w",
+  "tbr",
+  "teachback-de9cr3",
+  "team-rocket-command-center",
+  "techpulse",
+  "televerse",
+  "temp-or6aih",
+  "templateforge",
+  "tempo-vo0s97",
+  "tenderlens-v8ijb4",
+  "tendero-webmcp-for-a-colombian-corner-store",
+  "tengu-a-restaurant-your-agent-can-actually-use",
+  "tenscore",
+  "termlens",
+  "termwise",
+  "terrain-leads",
+  "tessera-36h4k0",
+  "test-ehnqlm",
+  "testpilot",
+  "tether-z90f5l",
+  "the-best-board-meeting-you-ve-ever-had",
+  "the-board-1rpyk6",
+  "the-cartographer-s-cabinet",
+  "the-commons-byi3eh",
+  "the-coop",
+  "the-gaffer-q7imak",
+  "the-intent-horizon",
+  "the-last-signal-6hrzdf",
+  "the-last-terminal",
+  "the-last-word-j1zlr9",
+  "the-line-list",
+  "the-listening-glass",
+  "the-mcp-mpc",
+  "the-meal-planner",
+  "the-pass-tr82wq",
+  "the-spark-between-us",
+  "the-unattested-click",
+  "theraflow-ethical-clinical-webmcp-agent",
+  "therasync",
+  "thermalmesh-lab",
+  "thought-amplifier-evidence-workspace-for-webmcp",
+  "thread-exyid5",
+  "threadline-debug-the-argument",
+  "threatcanvas",
+  "threattriage-webmcp",
+  "threatweaver",
+  "three-in-the-loop",
+  "threshold-7jhnxb",
+  "tickadoo-book-a-west-end-night-with-your-agent",
+  "ticketing-system-webmcp",
+  "ticketnauta-ai-seat-concierge",
+  "time-dime",
+  "timetrail-l1t649",
+  "tincan-webmcp",
+  "tinypilot-webmcp",
+  "toban",
+  "tobidas",
+  "todo-96bx0k",
+  "tokenkiller",
+  "tokenwatch-shared-llm-cost-decisions",
+  "tokuchu",
+  "toolbraid",
+  "toolforge-j4pe2t",
+  "toolforge-safc6r",
+  "toolgap",
+  "tooling-ready",
+  "toolmint",
+  "toolproof",
+  "toolproof-by-invarra",
+  "toolsmith-1sanqy",
+  "toolsmith-p9st3m",
+  "tooltruth",
+  "torque-run",
+  "tour-community",
+  "tour-de-controle",
+  "tourbrick",
+  "tours-booking-webmcp",
+  "trace-ta9wup",
+  "traceai-ai-handwriting-coach-powered-by-webmcp",
+  "tracebound-provenance-research-without-inventing-history",
+  "tracedesk",
+  "tracelayer-e1xf5t",
+  "traces-3snwtz",
+  "track-record-webmcp",
+  "tradeoff-cafe-simulator",
+  "trader-network",
+  "trafo",
+  "transcriptly",
+  "transfer-window-sandbox",
+  "tree-radar",
+  "treetree",
+  "trellis-a-personal-webmcp-marketplace",
+  "tremor-agentic-blast-radius-cockpit-webmcp",
+  "trialbook",
+  "trialfindr",
+  "triangulate-h4ngc3",
+  "trinity-gate",
+  "tripcanvas-yewm6j",
+  "tripster-f3hk60",
+  "tripwise",
+  "true-remote-jobs",
+  "trustfill",
+  "trustscore-atlas",
+  "trustwright-the-trust-layer-for-the-agent-web",
+  "tubesaku-live-schedule",
+  "tulip-trips-a-webmcp-trip-planner",
+  "tuneql",
+  "turnspace",
+  "tweaksy",
+  "u9itus-political-purview",
+  "uce-evidence-lens",
+  "ufo-web",
+  "uk-ai-radar-read-the-government-with-your-agent",
+  "ukebaco-file-requests-your-agent-can-open-and-answer",
+  "umegga",
+  "understudy-35mgb8",
+  "understudy-48o7pj",
+  "understudy-eg6rl3",
+  "unfolded",
+  "unitrack-3yi7d9",
+  "unitscope",
+  "unitwatch",
+  "univ-deploy",
+  "unsaid-private-context-shared-agreement",
+  "unspoiled-u1qyr0",
+  "uranus-8sfbgy",
+  "usemyresearch-com-your-research-connected-to-your-agent",
+  "utlovat-se-compare-politics-with-me",
+  "v-devs",
+  "vaanzari",
+  "valence-s47wvp",
+  "vast-6te8ap",
+  "velaire-webmcp-agreements-for-service-businesses",
+  "vellar",
+  "velvet-signal",
+  "venue-studio",
+  "venuemind",
+  "verb-sign-off-voice-on",
+  "verdant-0r8iu5",
+  "verdict-ai-decision-engine-for-webmcp",
+  "verdiqt",
+  "verified-giving-protocol-agent-readable-donate-pages",
+  "verified-mission-control",
+  "verifyhere",
+  "verrocchio",
+  "versailles-the-thread-of-time",
+  "vettory",
+  "vibecheck-4so5hq",
+  "vibecheck-nc09wl",
+  "vibefarmer",
+  "vibestudio",
+  "vibetide",
+  "vide-os8lye",
+  "video-evidence-lab",
+  "viernes-autonomous-gym-erp-visual-floor-commander",
+  "vigil-hjtq9b",
+  "village-ojh723",
+  "virtual-billboard-autonomous-ai-agent-screen-network",
+  "virtual-closet-8ibt5n",
+  "virtual-try-on-ai-stylist",
+  "virtulab-lskboe",
+  "visaflow-the-adaptive-webmcp-agent",
+  "vistect-independent-visual-authorship",
+  "vitals-incident-room",
+  "vivid-9sajwf",
+  "vlad-s-personal-website",
+  "vocalapply-voice-driven-web-application-built-with-webmcp",
+  "voice-web-mcp",
+  "voiceguard-lfyzjv",
+  "voivent-mv-studio",
+  "voltage-dashboard",
+  "vouchsafe-m3xziq",
+  "vouchsafe-v5toyl",
+  "voxchain-qh9pma",
+  "voxel-webmcp",
+  "vroom-9f370g",
+  "vt-y4n8u0",
+  "wadi-design-a-house-with-your-agent",
+  "waggle",
+  "waggle-webmcp",
+  "wall-alive",
+  "wardround",
+  "warrant-4ywaz2",
+  "watch-dog-abg08e",
+  "watch-floor",
+  "watch-with-codex",
+  "wattkeep",
+  "wattweave",
+  "waveframe",
+  "wayfinder-o9ucx3",
+  "waygo-agent-native-travel-marketplace-for-africa",
+  "waypoint-eb0pig",
+  "waypoint-plan-trips-with-your-agent-beside-you",
+  "wcrew",
+  "weave-16xa28",
+  "weave-1nyq6x",
+  "web-mcp-consent",
+  "web2mcp",
+  "webcam-funapp-io",
+  "webclerk",
+  "webhud",
+  "webmc-p",
+  "webmcp",
+  "webmcp-05b3k7",
+  "webmcp-2hipkw",
+  "webmcp-ai",
+  "webmcp-angular-kit-tool",
+  "webmcp-auth-identity-and-reputation-layer",
+  "webmcp-btw3nd",
+  "webmcp-challenge",
+  "webmcp-challenge-wo0exr",
+  "webmcp-chess",
+  "webmcp-chess-coach",
+  "webmcp-computer",
+  "webmcp-consent-layer",
+  "webmcp-course-planner",
+  "webmcp-demo-a-live-map-for-thinking-with-your-own-agent",
+  "webmcp-dental-booking",
+  "webmcp-design-studio",
+  "webmcp-devtool-ultimate-ide",
+  "webmcp-doctor",
+  "webmcp-for-react",
+  "webmcp-forge-7gr6cj",
+  "webmcp-foundry",
+  "webmcp-guard",
+  "webmcp-guard-studio",
+  "webmcp-guardrail-labs",
+  "webmcp-labor-index",
+  "webmcp-n6yd7v",
+  "webmcp-on-saasmail",
+  "webmcp-openmind-travel-agent-tool",
+  "webmcp-operator-workspace",
+  "webmcp-portfolio-kit",
+  "webmcp-proving-ground",
+  "webmcp-qcg-quantum-call-gate",
+  "webmcp-retrofit-studio",
+  "webmcp-security-lab",
+  "webmcp-simulator",
+  "webmcp-studio",
+  "webmcp-studio-agent-native-portfolio",
+  "webmcp-super-chrome-extension",
+  "webmcp-tda",
+  "webmcp-title",
+  "webmcp-trust-gateway",
+  "webmcp-video-by-agentcdn",
+  "webmcp-x-x402-agents-that-buy-exactly-the-data-they-need",
+  "webmcpexplore",
+  "webmcpify",
+  "webmcpify-mq4bux",
+  "webmcpsentinel",
+  "webops-commander",
+  "webreform-ai",
+  "webtrace-atlas",
+  "wellauth",
+  "wellset",
+  "weople-wtadg4",
+  "werkstern-podcast",
+  "wetaego",
+  "wexspace-proofdesk",
+  "whentoprofit",
+  "whiteboard-live",
+  "whiteboard-web-mcp",
+  "whofollows",
+  "widgentic",
+  "widgetr",
+  "wiki-agent",
+  "will-you-stay-human-heart-in-the-machine",
+  "wilofox-deck-studio",
+  "wimy-what-s-in-my-room-interior-planner",
+  "wired-future-collaborative-3d-agent-canvas",
+  "wishlist-concierge",
+  "wishopai-pocket-merchant",
+  "withgex-human-agent-collaborative-planning-with-webmcp",
+  "withheld-56n90j",
+  "wizard-chess-972vfz",
+  "wordlift-ai-audit",
+  "workhub-goal-room",
+  "workspec-studio",
+  "worldline-v65kme",
+  "wornpage-projects",
+  "woven-wzefyv",
+  "wyd-dfituy",
+  "xact-foundry",
+  "xagent-id-webmcp-onboarding",
+  "xingyu-zodiac",
+  "xyle",
+  "yadl-n2cx96",
+  "yallaqueue-agent-desk",
+  "yange-2-0-bring-this-look-home",
+  "yesmcp-agent-native-booking-the-human-keeps-the-click",
+  "yolo-learn",
+  "zatom-v4zyke",
+  "zenith-studio",
+  "zero-knowledge-webmail-yozz",
+  "zeroedit",
+  "zingposts",
+  "zipcheckup-agent",
+  "zshop-agent-cart",
+  "zzaim-the-agent-reads-the-contract-not-the-screen"
+ ],
+ "disagreement": [
+  "a-7tlm8j",
+  "a11yfix-sh6aep",
+  "aal-agent-access-layer",
+  "access-canvas",
+  "actionflow-bsp5v4",
+  "adamastor",
+  "aegis-agent-native-emergency-dispatch",
+  "aeon-7bzqct",
+  "agent-mission-control-webmcp",
+  "agent-ready-palm-desert",
+  "agent-web-gateway",
+  "agent-webmcp",
+  "agentads",
+  "agentbridge-61u5qp",
+  "agentcart-tx180m",
+  "agentflow-oqw176",
+  "agentgate-t51v8l",
+  "agentinbox",
+  "agentis-lux-for-your-second-audience",
+  "agentready-l0y76f",
+  "agentronics",
+  "agentsignal",
+  "ai-act-shield-webmcp",
+  "ai-api-prices",
+  "ai-clinic",
+  "ai-stylist-x92cd5",
+  "ai-usage-skill-visualizer-webmcp-edition",
+  "ainumbers",
+  "alertkick-agent-native-website-and-server-monitoring",
+  "alphax-ls2y54",
+  "applyflow-ai-8elp7r",
+  "appraiseai",
+  "appstory",
+  "apptome",
+  "aquaeye",
+  "archbro-webmcp",
+  "aria-grande",
+  "arion-trip-planner",
+  "atlas-bjldyg",
+  "attune-tlxwd8",
+  "bargainer",
+  "baton-xj1wvo",
+  "beat-the-agent",
+  "beatforge",
+  "beaver-krieg",
+  "beforeapply",
+  "bestprice-shop-with-the-page-not-around-it",
+  "bf-scratch",
+  "bidlens-9x6y05",
+  "bingus",
+  "bookhand",
+  "break-webmcp-consent-then-fix-it-with-a-mandate",
+  "bridgeable-bridging-the-gap",
+  "brief-research-with-your-agent",
+  "buddy-your-webmcp-browser-agent",
+  "buildai-command",
+  "buildparty",
+  "cafe-techo",
+  "calma-seg-webmcp-demo",
+  "capex-iq",
+  "cargopilot",
+  "castra",
+  "cdence-ai",
+  "champagne-agentic-music-mastering",
+  "chapa-the-badge-you-and-your-agent-build-together",
+  "cineops-ai-film-production-agent",
+  "circuit-lab",
+  "citizen-s-easy-cze",
+  "civicguide-ai",
+  "clever-mango-s-ai-tool-scout-cleverkitools-com",
+  "clunk-x16w5o",
+  "cobweb-webmcp-enabled-micropython-ide",
+  "cockpit-2jeot0",
+  "cognistration-webmcp",
+  "comicsol-web",
+  "commonplace-gw8tm1",
+  "companion-sketch",
+  "concierge-qf4x5b",
+  "contract-clarity-nxmb3k",
+  "cookup",
+  "coop-queue",
+  "corealm",
+  "coshop-the-agent-native-storefront",
+  "creatorflow-whjry3",
+  "credsutra",
+  "crisisroom-ai",
+  "databridge-agent",
+  "decisiondesk",
+  "deshi-digest",
+  "deskmate",
+  "dev-webmcp",
+  "devsmith",
+  "diamond-control",
+  "discounthub-webmcp",
+  "dispatchguard-webmcp",
+  "dissent",
+  "documake",
+  "dreamhome-agent",
+  "drill-day",
+  "drop-grow",
+  "duel-a1di8j",
+  "edaad-schema-architect",
+  "el-em-key",
+  "enactive-wonderland",
+  "enterprise-webmcp",
+  "entrelineas",
+  "eol-desk",
+  "erwin-s-survival",
+  "evidence-workspace",
+  "ezapply-webmcp-job-command-center",
+  "fabrica-de-agentes-de-ia",
+  "fashion-learning-studio",
+  "fidelio-r04c1o",
+  "finalpick",
+  "fineprint-pn5dl2",
+  "first-look",
+  "floralink",
+  "flow-sten16",
+  "formesign-webmcp-document-to-signature-form",
+  "gadaa-eco-builder-ai-powered",
+  "gigr-kht63j",
+  "givens",
+  "go-lmm-best",
+  "google-forms-mcp",
+  "gpuixwebmcp",
+  "grant-scout-webmcp",
+  "greenroom-od80r9",
+  "grid-search",
+  "gridbrief-tr",
+  "gridnode-sync",
+  "groundline-1lw4f8",
+  "gymdeck",
+  "handoff-agent-native-media-editor",
+  "handoff-i2cgy1",
+  "handoff-nqhs51",
+  "hellobusan",
+  "homeops",
+  "hooraai",
+  "hsdf",
+  "huge-zucchini-1",
+  "hyphened-a-3d-neural-motion-studio",
+  "image-editor-webmcp",
+  "imagelens",
+  "itemized",
+  "khum",
+  "kineticflow-ai-motion-design-studio",
+  "knowyouragent-merchant-safety-gate",
+  "kujo-ssg",
+  "kylrix",
+  "la-ban-agent-native-career-guidance-for-ai-transition",
+  "laboria",
+  "lafryhi-agentcut",
+  "lastest-qa-reports-with-webmcp-site-tools",
+  "legalize-kr-webmcp",
+  "liquidhr-agent-workspace",
+  "living-memory-launcher",
+  "lobby-a-concierge-for-humans-and-their-agents",
+  "looop-tquv5l",
+  "loopsmith",
+  "lore-wjdexz",
+  "luxesalon-spa-webmcp-autonomous-storefront",
+  "macro-dashboard-dch42v",
+  "maintenance-required",
+  "make_layouts",
+  "marginalia-8olys5",
+  "marinela-ai-concierge",
+  "matched-p98xai",
+  "material-notes",
+  "mcp-siege",
+  "memorybook-2ow7ty",
+  "merchantos-webmcp-storefront-co-pilot",
+  "minecraft-build",
+  "minesweeper-rx7v63",
+  "mirror-loop",
+  "mission-control-shield-wall",
+  "moon-gate",
+  "morphe-forms",
+  "moshimo-tag",
+  "movie-webmcp-video-co-editor",
+  "mysynote",
+  "name-pv8j57",
+  "navwebmcp",
+  "netawatch-jqwxtc",
+  "nexacard-webmcp-relationship-copilot",
+  "nexus-deal-room-agent-native-decision-environment",
+  "nexus-weave-zero-egress-webmcp-engine",
+  "observatory-ghpk10",
+  "ocheck-agent-ready-official-guides",
+  "omnistrand",
+  "openbento",
+  "openreceipt",
+  "openslot-t2yk59",
+  "opensource-release-feed",
+  "openspiderweb",
+  "openx",
+  "opsflow-webmcp-fulfillment-console-for-solo-operators",
+  "orano",
+  "orbit-d8r6ow",
+  "orchestra-8k10lb",
+  "orqis",
+  "pa-in-your-pocket-household-actions",
+  "packedup",
+  "page2webmcp",
+  "pairalgo-ai-webmcp-algorithm-interview-workspace",
+  "pantrypilot-raeq03",
+  "pantrypilot-your-kitchen-co-piloted",
+  "paperpup",
+  "patchbay",
+  "persona-the-embodied-webmcp-ai-agent",
+  "phlegm-spitting-old-man-coughing-fit-generator",
+  "pipeline-os",
+  "pixlpal",
+  "plantneeds",
+  "pointcanvas-webmcp-collaborative-3d-point-cloud-inspector",
+  "post-purchase-resolution",
+  "powerforge-web-verified-webmcp-for-static-sites",
+  "praxis-human-agent-nle",
+  "pricemcp",
+  "private-lingerie-fitting-room",
+  "prizepilot-webmcp",
+  "procuremesh",
+  "proofboard-acfnyl",
+  "proofpath-ai-yes",
+  "prsim",
+  "pulse-voice-steered-drums",
+  "queryhost",
+  "ratefloor-negotiation-intelligence",
+  "re-entry-zj6ynh",
+  "real-me-deepmatch",
+  "rehearse-zka9f8",
+  "relay-jp8ea7",
+  "relay-social-ai",
+  "relayplan",
+  "reloop-kvy796",
+  "remap-qx3gol",
+  "remix-fe8zt5",
+  "replanix",
+  "resolvia",
+  "reticle",
+  "rogerthat-49mbtz",
+  "root-4gyjc1",
+  "runner-agent-x-thailand-in-motion",
+  "s-o-l-v-e-r",
+  "safe-agent-assisted-booking",
+  "safestaff-shift-commander-webmcp",
+  "savedpocket",
+  "scenarioforge-cjxv8k",
+  "schedule-rank-webmcp-adapter",
+  "schematic",
+  "scholarsathi",
+  "scistudio",
+  "scrapi",
+  "seatline-kolkata",
+  "semantic-loop-devops-demonstrator",
+  "sendero",
+  "sentinel-desk",
+  "seostrich-get-discovered",
+  "shared-room-mcp",
+  "shieldon",
+  "shipcheap",
+  "shoplens-va4plw",
+  "shredly",
+  "sightline-lxuw25",
+  "simple-post",
+  "skillmcp",
+  "skillspace-lctnbr",
+  "skillswebmcp",
+  "sloth-4btenr",
+  "sms-florin-esim-webmcp-checkout-on-a-live-product",
+  "solo-map-secure-agent-bus",
+  "sourcing-scenario-room",
+  "space-auto-dealership-mcp",
+  "split-circle-webmcp",
+  "split-webmcp",
+  "spool-mzf8es",
+  "stamped-1j6u25",
+  "stock-pilot",
+  "strudelwebmcp",
+  "study-with-your-agent",
+  "studypilot-oc5ae7",
+  "suede-agent-studio-webmcp-storefront",
+  "suggestibility-webmcp",
+  "surf-agent-control",
+  "taboo-webmcp-game",
+  "tapfill",
+  "task-liaison-ai-command-center",
+  "taxis",
+  "tbr",
+  "techpulse",
+  "televerse",
+  "termlens",
+  "terrain-leads",
+  "test-ehnqlm",
+  "the-between-visiting-minds",
+  "the-commons-byi3eh",
+  "the-last-terminal",
+  "the-meal-planner",
+  "theraflow-ethical-clinical-webmcp-agent",
+  "thread-exyid5",
+  "threattriage-webmcp",
+  "time-dime",
+  "tokenkiller",
+  "tokenwatch-shared-llm-cost-decisions",
+  "toolsmith-p9st3m",
+  "tour-de-controle",
+  "transfer-window-sandbox",
+  "tripster-f3hk60",
+  "tripwise",
+  "true-remote-jobs",
+  "tulip-trips-a-webmcp-trip-planner",
+  "turnspace",
+  "u9itus-political-purview",
+  "unitwatch",
+  "vaanzari",
+  "venue-studio",
+  "verdiqt",
+  "virtual-billboard-autonomous-ai-agent-screen-network",
+  "virtual-closet-8ibt5n",
+  "vistect-independent-visual-authorship",
+  "weave-16xa28",
+  "webcam-funapp-io",
+  "webmcp-auth-identity-and-reputation-layer",
+  "webmcp-openmind-travel-agent-tool",
+  "webmcp-simulator",
+  "webmcp-studio",
+  "webmcp-studio-agent-native-portfolio",
+  "webmcp-super-chrome-extension",
+  "webmcpsentinel",
+  "webops-commander",
+  "wetaego",
+  "whofollows",
+  "wiki-agent",
+  "wilofox-deck-studio",
+  "wornpage-projects",
+  "yange-2-0-bring-this-look-home",
+  "zshop-agent-cart"
+ ],
+ "n_scored": 2469
+}

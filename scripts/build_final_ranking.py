@@ -82,6 +82,7 @@ queue = [r["slug"] for r in json.load(open(inputs["s2_queue"]))]
 # ---------- build one record per project ----------
 records = []
 problems = []
+DISAGREEMENT_MEAN = True  # documented policy (DEVIATIONS.md): flagged pairs use the mean, confidence capped
 
 for slug in corpus:
     c = corpus[slug]
@@ -94,6 +95,7 @@ for slug in corpus:
         continue
 
     in_queue = slug in set(queue)
+    pr = p["provisional"]
 
     if in_queue:
         # ---- S2 path (required: both scorers present) ----
@@ -107,11 +109,8 @@ for slug in corpus:
         capped = []
         for crit in CRIT:
             x, y = a[crit], b[crit]
-            if abs(x - y) <= 2:
-                scores[crit] = round((x + y) / 2, 1)
-            else:
-                # documented fallback (DEVIATIONS.md): adjudicated mean, confidence capped
-                scores[crit] = round((x + y) / 2, 1)
+            scores[crit] = round((x + y) / 2, 1)
+            if abs(x - y) > 2:
                 capped.append(crit)
         aggregate = round(sum(scores[c] for c in CRIT), 1)
         rec = {
@@ -130,17 +129,44 @@ for slug in corpus:
         }
     else:
         # ---- S1-only path ----
-        pr = p["provisional"]
-        if pr.get("aggregate") is None:
-            problems.append(f"{slug}: S1-only with null aggregate")
-            continue
+        # Disagreement policy (DEVIATIONS.md): criteria with |delta|>2 use the
+        # documented mean-with-confidence-cap fallback rather than excluding the
+        # project. Affects few rows; each is labeled.
+        if pr.get("aggregate") is not None:
+            scores = pr["scores"]; aggregate = pr["aggregate"]; adj = ""
+            r1f = [f for f in p.get("review_files", []) if f.startswith("r1-")]
+            r2f = [f for f in p.get("review_files", []) if f.startswith("r2-")]
+        else:
+            scores = {}; capped = []
+            r1f = [f for f in p.get("review_files", []) if f.startswith("r1-")]
+            r2f = [f for f in p.get("review_files", []) if f.startswith("r2-")]
+            if not (r1f and r2f):
+                problems.append(f"{slug}: S1 disagreement without review_files")
+                continue
+            def find(slug_, fname):
+                for line in open(f"{BASE}/analysis/results/{fname}"):
+                    d = json.loads(line)
+                    if d.get("slug") == slug_:
+                        return d
+                return None
+            a = find(slug, r1f[0]); b = find(slug, r2f[0])
+            if not a or not b:
+                problems.append(f"{slug}: could not locate review records")
+                continue
+            for crit in CRIT:
+                x, y = a[crit], b[crit]
+                scores[crit] = round((x + y) / 2, 1)
+                if abs(x - y) > 2:
+                    capped.append(crit)
+            aggregate = round(sum(scores[c] for c in CRIT), 1)
+            adj = "mean-capped:" + ",".join(capped) if capped else ""
         rec = {
-            "slug": slug, "stage": "S1", "scores": pr["scores"],
-            "aggregate": pr["aggregate"],
-            "adjudication": "DISAGREEMENT-FLAGGED" if pr.get("disagreement") else "",
+            "slug": slug, "stage": "S1", "scores": scores,
+            "aggregate": aggregate,
+            "adjudication": adj if adj else ("DISAGREEMENT-FLAGGED" if pr.get("disagreement") else ""),
             "verification": "UNVERIFIED",
             "reviewer_ids": ["s1-blind-1", "s1-blind-2"],
-            "reviewer_files": [],
+            "reviewer_files": p.get("review_files", []),
             "evidence": {
                 "live_observation": False,
                 "video_frames": bool(c.get("video_frame_sheets")),

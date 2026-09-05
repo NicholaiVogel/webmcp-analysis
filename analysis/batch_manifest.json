@@ -1,0 +1,242 @@
+[
+ {
+  "round": 1,
+  "slot": 0,
+  "n": 142,
+  "path": "r1-slot00.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 1,
+  "n": 141,
+  "path": "r1-slot01.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 2,
+  "n": 141,
+  "path": "r1-slot02.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 3,
+  "n": 141,
+  "path": "r1-slot03.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 4,
+  "n": 141,
+  "path": "r1-slot04.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 5,
+  "n": 141,
+  "path": "r1-slot05.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 6,
+  "n": 141,
+  "path": "r1-slot06.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 7,
+  "n": 142,
+  "path": "r1-slot07.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 8,
+  "n": 141,
+  "path": "r1-slot08.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 9,
+  "n": 141,
+  "path": "r1-slot09.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 10,
+  "n": 141,
+  "path": "r1-slot10.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 11,
+  "n": 141,
+  "path": "r1-slot11.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 12,
+  "n": 141,
+  "path": "r1-slot12.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 13,
+  "n": 142,
+  "path": "r1-slot13.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 14,
+  "n": 142,
+  "path": "r1-slot14.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 15,
+  "n": 141,
+  "path": "r1-slot15.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 16,
+  "n": 141,
+  "path": "r1-slot16.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 17,
+  "n": 141,
+  "path": "r1-slot17.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 18,
+  "n": 141,
+  "path": "r1-slot18.jsonl"
+ },
+ {
+  "round": 1,
+  "slot": 19,
+  "n": 141,
+  "path": "r1-slot19.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 0,
+  "n": 142,
+  "path": "r2-slot00.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 1,
+  "n": 141,
+  "path": "r2-slot01.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 2,
+  "n": 141,
+  "path": "r2-slot02.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 3,
+  "n": 141,
+  "path": "r2-slot03.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 4,
+  "n": 141,
+  "path": "r2-slot04.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 5,
+  "n": 141,
+  "path": "r2-slot05.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 6,
+  "n": 141,
+  "path": "r2-slot06.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 7,
+  "n": 142,
+  "path": "r2-slot07.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 8,
+  "n": 141,
+  "path": "r2-slot08.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 9,
+  "n": 141,
+  "path": "r2-slot09.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 10,
+  "n": 141,
+  "path": "r2-slot10.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 11,
+  "n": 141,
+  "path": "r2-slot11.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 12,
+  "n": 141,
+  "path": "r2-slot12.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 13,
+  "n": 142,
+  "path": "r2-slot13.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 14,
+  "n": 142,
+  "path": "r2-slot14.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 15,
+  "n": 141,
+  "path": "r2-slot15.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 16,
+  "n": 141,
+  "path": "r2-slot16.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 17,
+  "n": 141,
+  "path": "r2-slot17.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 18,
+  "n": 141,
+  "path": "r2-slot18.jsonl"
+ },
+ {
+  "round": 2,
+  "slot": 19,
+  "n": 141,
+  "path": "r2-slot19.jsonl"
+ }
+]

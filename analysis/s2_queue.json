@@ -1,0 +1,6874 @@
+[
+{
+"slug": "3way",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://3way.dev/demo/halden/",
+"demo_alive": "alive"
+},
+{
+"slug": "a-7tlm8j",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "a11yfix-sh6aep",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://a11y-fix-front.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "a11ymcp-websites-that-adapt-themselves",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://a11ymcp.vercel.app/demo?judge=1",
+"demo_alive": "alive"
+},
+{
+"slug": "aal-agent-access-layer",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "http://demo.skish.ai",
+"demo_alive": "alive"
+},
+{
+"slug": "access-canvas",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://access-canvas.shiboding.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "actionflow-bsp5v4",
+"lanes": [
+"DISAGREEMENT"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "adamastor",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://canvas-boards.dtoearth.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "adaptab",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://adaptab.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "aegis-agent-native-emergency-dispatch",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://aegis-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "aeon-7bzqct",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://aeon-swifnatechnologyltd.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "aergebra",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://enchanted-realities.github.io/aergebra/",
+"demo_alive": "alive"
+},
+{
+"slug": "aether-ybvlaf",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://d1.awsstatic.com/events/reinvent/2019/Scaling_Hotstar.com_for_25_million_concurrent_viewers_CMY302.pdf",
+"demo_alive": "alive"
+},
+{
+"slug": "agenomics-agent-spend-console",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://agent-spend-console-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-hands-task-board",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://webmcp-board.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-mcp-beats",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://mc-beats.txdnrkt228.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-mission-control-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agent-mission-control-webmcp-roan.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-native-school-erp-powered-by-webmcp-4yex91",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://schoolerp123.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-plaza-3uxnkl",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://agent-plaza-one.vercel.app/#s=sunfair",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-quote-desk-webmcp-procurement-for-shopify",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://packrift.com/pages/agent-desk?demo=1",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-ready-palm-desert",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://palm-desert-agent-ready.sunshinefm.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-riff",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://agent-riff.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-theater",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://theater.needle.tools",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-web-gateway",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agent-web-gateway.djrookie99.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "agent-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://demo.projectnovus.dev/agentwebmcp",
+"demo_alive": "alive"
+},
+{
+"slug": "agentads",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.oasy.ai",
+"demo_alive": "alive"
+},
+{
+"slug": "agentbridge-61u5qp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agentbridge-production-dce4.up.railway.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "agentcart-tx180m",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agentcart-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "agentgate-t51v8l",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agentgate-gamma.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "agentic-sandbox",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://webmcp-challenge-seven.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "agentic-service-dispatch",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://agentic-service-dispatch.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "agentic-wijaywi",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "agentis-lux-for-your-second-audience",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agentislux.io",
+"demo_alive": "alive"
+},
+{
+"slug": "agentready-l0y76f",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.agentready.it.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "agentronics",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://chromewebstore.google.com/detail/webmcp-model-context-tool/gbpdfapgefenggkahomfgkhfehlcenpd",
+"demo_alive": "alive"
+},
+{
+"slug": "agentsignal",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agentsignal-jaw06006.jaw06006.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "ai-act-shield-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://iaciao.com",
+"demo_alive": "alive"
+},
+{
+"slug": "ai-aided-design",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/",
+"demo_alive": "alive"
+},
+{
+"slug": "ai-api-prices",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ai-prices.oxweb.xyz/",
+"demo_alive": "alive"
+},
+{
+"slug": "ai-assistant-webmcp",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://webmcp-front-en.onrender.com",
+"demo_alive": "alive"
+},
+{
+"slug": "ai-clinic",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://medtests.de/",
+"demo_alive": "alive"
+},
+{
+"slug": "ai-watermelon-smash",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://ai-watermelon-smash.cacao-ixora-coccinea.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "aimily-context-review",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://aimily-webmcp-challenge.vercel.app/webmcp-challenge",
+"demo_alive": "alive"
+},
+{
+"slug": "ainumbers",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ainumbers.co/chaingraph/art-220-reg-z-threshold-lookup.html",
+"demo_alive": "alive"
+},
+{
+"slug": "aira-bank",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://at-attin.astronebulae.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "airlock-agent-native-data-workspace",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "http://airlock-webmcp.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "airlock-audience-overlap-without-sharing-customer-data",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT"
+],
+"demo_url": "https://chromewebstore.google.com/detail/model-context-tool-inspec/gbpdfapgefenggkahomfgkhfehlcenpd",
+"demo_alive": "alive"
+},
+{
+"slug": "airlock-t91fnr",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://airlock-console.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "aisle-ai-wedding-seating",
+"lanes": [
+"RESCUED",
+"TOP_EXECUTION"
+],
+"demo_url": "https://aisle-three.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "aizoya-opportunity-intelligence",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://aizoya-intelligence-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "alertkick-agent-native-website-and-server-monitoring",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://alertkick.com",
+"demo_alive": "alive"
+},
+{
+"slug": "alpha7-tank-arena",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://alpha7.asabeko.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "alphax-ls2y54",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://alphax-chi.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "apartment-intelligence",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://apartments.senibina.com.sg",
+"demo_alive": "alive"
+},
+{
+"slug": "applyflow-ai-8elp7r",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://apply-flow-ai-web.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "appraiseai",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://web-mcp-challenge-demo.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "apptome",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://stub-crm.rampalli1.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "archbro-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://archbro-webmcp.magicdala.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "archforge",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://archforge-tau.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "arena-la37yu",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://webmcp-arena.zippy17.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "aria-grande",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://karhuton.com/aria-grande-test-site",
+"demo_alive": "alive"
+},
+{
+"slug": "arion-trip-planner",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://arion-trip-planner-ui.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "arrastra-relay",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://durable-handoff.aggie-king21.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "ask-don-t-take",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://konect4ai-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "askew",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://askew.xpworx.com",
+"demo_alive": "alive"
+},
+{
+"slug": "atlas-bjldyg",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://atlas.paperclips.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "attune-tlxwd8",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://developer.chrome.com/docs/ai/webmcp",
+"demo_alive": "alive"
+},
+{
+"slug": "autoflow-web-agent",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://autoflow-web-agent.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "automating-urban-planning-and-geospatial-design-with-webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://3dstreet.app",
+"demo_alive": "alive"
+},
+{
+"slug": "autowebmcp-teach-an-agent-to-fish",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://auto-web-mcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "bandmate-webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://mrinkl.github.io/bandmate/",
+"demo_alive": "alive"
+},
+{
+"slug": "bargainer",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://bargainer.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "barge-in",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://mcp.kitemir.jp/canvas/",
+"demo_alive": "alive"
+},
+{
+"slug": "bashmcp-let-your-agents-control-websites-like-a-terminal",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://bashmcpdemo.apptory.ai/",
+"demo_alive": "alive"
+},
+{
+"slug": "baton-xj1wvo",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://baton-cqy.pages.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "bayshift",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://bayshift-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "beat-the-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://beat-the-agent.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "beat-z",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://beat-z.jbm111.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "beatforge",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "beaver-krieg",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://beaver.somedudes.ch",
+"demo_alive": "alive"
+},
+{
+"slug": "beforeapply",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-challenge.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "bf-scratch",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ai-pc-assembly-workspace.aigenerator04.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "biddesk",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://biddesk.n-schadewald.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "bidlens-9x6y05",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://425cf10f.your-next-step.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "bingus",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://sushidaw.com",
+"demo_alive": "alive"
+},
+{
+"slug": "blindfold-ikc9j5",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://blindfold.blindfold.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "blindfold-kls05r",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://beeeeen.github.io/blindfold/",
+"demo_alive": "alive"
+},
+{
+"slug": "blindspot-0wi8kl",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://blindspot-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "bookhand",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://bookhand.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "borderless-canvas",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://paperspace.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "bosai-governed-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://bosai.syncguard.fr/webmcp-challenge/index.html",
+"demo_alive": "alive"
+},
+{
+"slug": "branchline-dgbnlf",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://trybranchline.vercel.app/?fresh=1",
+"demo_alive": "alive"
+},
+{
+"slug": "break-webmcp-consent-then-fix-it-with-a-mandate",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://crowley.nl/webmcp-challenge/",
+"demo_alive": "alive"
+},
+{
+"slug": "bridgeable-bridging-the-gap",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED",
+"TOP_IMPACT"
+],
+"demo_url": "https://developer.chrome.com/docs/ai/webmcp/imperative-api",
+"demo_alive": "alive"
+},
+{
+"slug": "brief-research-with-your-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://omercelik.github.io/brief-webmcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "briefly-qzed9o",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://briefly-1.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "bubblesurface",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://arxiv.org/abs/2606.06387",
+"demo_alive": "alive"
+},
+{
+"slug": "buddy-your-webmcp-browser-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://buddy-webmcp-market.engrtitooo.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "buildai-command",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://buildai-command.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "buildparty",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://buildparty.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "buy-canadian-from-the-shopify-global-catalog",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://buycanadian.bricks2clicks.online/",
+"demo_alive": "alive"
+},
+{
+"slug": "cafe-techo",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://cafe-techo.kouno.org",
+"demo_alive": "alive"
+},
+{
+"slug": "calma-seg-webmcp-demo",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://lively-pika-916d97.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "capex-iq",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://capexiq.jaybharti.me",
+"demo_alive": "alive"
+},
+{
+"slug": "captain-s-table",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://captains-table-webmcp-1017459622661.us-east1.run.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "carcare-webmcp",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://carcare-mcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "cargopilot",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://cargopilot-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "cartridge-t7byp1",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://cartridge.karanjot.co.in/",
+"demo_alive": "alive"
+},
+{
+"slug": "cartwright-webmcp-native-storefronts",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://demo.cartwright.app",
+"demo_alive": "alive"
+},
+{
+"slug": "castra",
+"lanes": [
+"DISAGREEMENT"
+],
+"demo_url": "https://castra.superlworks.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "causaflow-an-urban-flood-forensic-lab",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://causaflow.fifthavatar.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "cdence-ai",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://cadence-ai-jade.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "cerveza-tools-lab",
+"lanes": [
+"CATEGORY_LEADERS"
+],
+"demo_url": "https://three-fourteen.github.io/cerveza-tools-lab/",
+"demo_alive": "alive"
+},
+{
+"slug": "chameleon-ehdxmj",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://chameleon-webmcp.ryan-970.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "champagne-agentic-music-mastering",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://champagne.vossx.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "chapa-the-badge-you-and-your-agent-build-together",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://chapa.thecreativetoken.com",
+"demo_alive": "alive"
+},
+{
+"slug": "chatgpt-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://keydler.com",
+"demo_alive": "alive"
+},
+{
+"slug": "chisel-vgbh2t",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://chisel-webmcp.helenkwok.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "cineops-ai-film-production-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://cineops-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "circuit-lab",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "citeapply",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://citeapply.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "citizen-s-easy-cze",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "http://cze-webapp-mcp-demo.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "civicguide-ai",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://civicguide-ai-nu.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "claimgate",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://ds.zlbdh.top:8443",
+"demo_alive": "alive"
+},
+{
+"slug": "claustrum",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://claustrum.ochinimus.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "clawroom",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://clawroom.thankywal-bkk.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "cleanroom",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://frabjous-squirrel-07823a.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "clearhealth-ai-webmcp-healthcare-price-transparency-agent",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://frontend-challenge-1-delta.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "clever-mango-s-ai-tool-scout-cleverkitools-com",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://cleverkitools.com",
+"demo_alive": "alive"
+},
+{
+"slug": "cliffcheck",
+"lanes": [
+"RESCUED",
+"TOP_IMPACT"
+],
+"demo_url": "http://www.cliffcheck.com",
+"demo_alive": "alive"
+},
+{
+"slug": "clunk-x16w5o",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://clunk.games/webmcp",
+"demo_alive": "alive"
+},
+{
+"slug": "codesign-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_EXECUTION"
+],
+"demo_url": "https://codesign-webmcp.pages.dev/tote/?reset=true",
+"demo_alive": "alive"
+},
+{
+"slug": "codraw-app",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://codraw.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "cognistration-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://cognistration.com",
+"demo_alive": "alive"
+},
+{
+"slug": "cogsmith",
+"lanes": [
+"CATEGORY_LEADERS"
+],
+"demo_url": "https://cogsmith.bainer.ca/",
+"demo_alive": "alive"
+},
+{
+"slug": "comicsol-web",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "commonplace-gw8tm1",
+"lanes": [
+"CATEGORY_LEADERS",
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "http://commonplace-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "commonthread",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://commonthread-webmcp-txawwgqv4a-an.a.run.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "companion-sketch",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webapp5.keepitlowkey.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "concierge-qf4x5b",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "http://webmcp.talcr.com",
+"demo_alive": "alive"
+},
+{
+"slug": "concord-an-agent-that-cannot-overpromise",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://concord-coordinator.vercel.app/judge.html",
+"demo_alive": "alive"
+},
+{
+"slug": "conode-visual-workflow-builder",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://conode-7d6wbf06k-sinhaabhishekaakash-9586s-projects.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "consequence-flow",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "consequence-sq8j5c",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://consequence-webmcp.ashrafahmed1232.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "contract-clarity-nxmb3k",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://nicoh-yay.github.io/contractclarity/",
+"demo_alive": "alive"
+},
+{
+"slug": "cookup",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://cookupmusic.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "coop-queue",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://symbiosis-queue.shasesbases.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "corealm",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://abcdmku.github.io/Corealm/",
+"demo_alive": "alive"
+},
+{
+"slug": "corre-it9d3c",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://corre.bond",
+"demo_alive": "alive"
+},
+{
+"slug": "coshop-the-agent-native-storefront",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://co-shop-puce.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "cosynth",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://coSynth.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "countersign-3w2d0k",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://countersign-theta.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "countersign-4ym0tq",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://countersign-theta.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "countersign-vmy83b",
+"lanes": [
+"RESCUED",
+"TOP_IMPACT"
+],
+"demo_url": "https://countersign.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "cowriter-kj01pz",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://ekene-111.github.io/cowriter-webmcp",
+"demo_alive": "alive"
+},
+{
+"slug": "creative-hub",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://nimrodthedev.github.io/Drawing-App/",
+"demo_alive": "alive"
+},
+{
+"slug": "creatorflow-whjry3",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "credsutra",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://credsutra.in/mcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "crisisroom-ai",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://crisisroom-ai.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "critiqor-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://critiqor-crema-reliability.terrence-qiu-7311.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "crosstalk-sklh3x",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://morcoan.github.io/crosstalk/",
+"demo_alive": "alive"
+},
+{
+"slug": "curbcut-w12qtb",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://curbcut-one.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "data-airlock",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://data-airlock-webmcp.pages.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "databridge-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://data-bridge-agent.replit.app",
+"demo_alive": "alive"
+},
+{
+"slug": "decisiondesk",
+"lanes": [
+"DISAGREEMENT"
+],
+"demo_url": "https://decisiondesk-878882784771.europe-west2.run.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "deputy",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://deputy-webmcp.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "deshi-digest",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://deshi-digest.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "deskmate",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://deskmate-cc.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "dev-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "devsmith",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://dev-smith-navy.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "diamond-control",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://kiencuongnguyen88.github.io/diamond-control-webmcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "disaster-safety-web-mcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "discounthub-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discounthub.uz",
+"demo_alive": "alive"
+},
+{
+"slug": "dispatchguard-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://dispatch-guard-web-mcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "dissent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://trydissent.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "doceo-7f1r9y",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://fluffy-croquembouche-b4a03f.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "documake",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://documake.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "dojo-n1fm6c",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION"
+],
+"demo_url": "https://webmcp-dojo.billowing-frost-066e.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "dom-collective",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://dom-collective-tau.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "dreamhome-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://dreamhome-agent-508342565239.asia-southeast1.run.app",
+"demo_alive": "alive"
+},
+{
+"slug": "drill-day",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "drop-grow",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://drop-grow.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "dstar",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://www.thinkofu.ai/dstar/",
+"demo_alive": "alive"
+},
+{
+"slug": "duel-a1di8j",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://moiseshernandez26.github.io/collateral/",
+"demo_alive": "alive"
+},
+{
+"slug": "duel-of-lands",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://duel-of-lands.maxpostnikov138297.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "duet-studio",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://duetstudio.mehmetcan.me",
+"demo_alive": "alive"
+},
+{
+"slug": "edaad-schema-architect",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://edaad-schema.saad-abushendi.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "eevee-mcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://eevee-mcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "egolens-teach-your-browser-any-driving-dataset",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://egolens.org",
+"demo_alive": "alive"
+},
+{
+"slug": "el-em-key",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://elemkey.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "enactive-wonderland",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "enclave-ls2z4k",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://enclave-bay.vercel.app/app",
+"demo_alive": "alive"
+},
+{
+"slug": "enterprise-webmcp",
+"lanes": [
+"DISAGREEMENT"
+],
+"demo_url": "https://enterprise-web-mcp.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "entrelineas",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://entrelineas-libros.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "eol-desk",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://eol-desk.pages.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "equaltrace",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://ricardonp51.github.io/equaltrace-webmcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "erwin-s-survival",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://jungle-base.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "euterpe-ytwml3",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://webmachinelearning.github.io/webmcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "evidence-desk",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://evidence.centennialdefense.systems",
+"demo_alive": "alive"
+},
+{
+"slug": "evidence-workspace",
+"lanes": [
+"CATEGORY_LEADERS",
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://anand-0038.github.io/evidence-workspace/",
+"demo_alive": "alive"
+},
+{
+"slug": "exactcue",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://exactcue-webmcp.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "exposure-incident-zero",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://incidentzero.swarmaxis.ai",
+"demo_alive": "alive"
+},
+{
+"slug": "eyelet-webmcp-probe",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://alwayscarrybubbles.github.io/Eyelet-WebMCP-Probe/",
+"demo_alive": "alive"
+},
+{
+"slug": "ezapply-webmcp-job-command-center",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "fabric-nqhp31",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://fabric.keshav-agr2007.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "fabrica-de-agentes-de-ia",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "fairground",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://justicegap.lsc.gov/",
+"demo_alive": "alive"
+},
+{
+"slug": "familiar-ce3tg4",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://dungeon.ashutoshmishra.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "fantasy-premier-league-fpl-webmcp",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://fpl-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "fashion-learning-studio",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://unikon-webmcp-demo.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "fidelio-r04c1o",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "http://sizel.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "field-assist",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT"
+],
+"demo_url": "https://webmcp.donaldmurillo.com",
+"demo_alive": "alive"
+},
+{
+"slug": "finalpick",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://finalpick.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "fineprint-pn5dl2",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://fine-print-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "firebreak",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://firebreak-eosin.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "firebreak-pyabc9",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://neel-error404.github.io/firebreak-webmcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "first-look",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://rafalai.com/first-look/",
+"demo_alive": "alive"
+},
+{
+"slug": "flightdeck-qevg7o",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://exrector.github.io/webmcp_test_flight/",
+"demo_alive": "alive"
+},
+{
+"slug": "floralink",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://floralinkmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "flow-sten16",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "fluent-notebook",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://victorious-sea-029fc1400.6.azurestaticapps.net/",
+"demo_alive": "alive"
+},
+{
+"slug": "focus-contract-studio",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://focus-contract-studio-package-0.newmailforyouvignesh.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "forge-ai-gap69o",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://forge-787205308580.us-west1.run.app",
+"demo_alive": "alive"
+},
+{
+"slug": "formesign-webmcp-document-to-signature-form",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://formesign.com",
+"demo_alive": "alive"
+},
+{
+"slug": "gadaa-eco-builder-ai-powered",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://t.me/gadaaecobuilderbot",
+"demo_alive": "alive"
+},
+{
+"slug": "gatherlight",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://link.excalidraw.com/p/readonly/lX8oa1Na6l5lssJpnOWL",
+"demo_alive": "alive"
+},
+{
+"slug": "genevault-ai-check-dna-file-without-ever-seeing-it",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://gene-vault.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "ghost-operator-c3kswf",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://ghost-operator-xi.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "gigr-kht63j",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://gigrr.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "gildongmu",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://gildongmu.dodoplanet.space/en",
+"demo_alive": "alive"
+},
+{
+"slug": "givens",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://givens.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "go-link-shortener",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://e.hugojava.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "go-lmm-best",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://go.lmm.best",
+"demo_alive": "alive"
+},
+{
+"slug": "gosx-3d-studio",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://gosx3d.m31labs.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "gpuixwebmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://gpuixwebmcp.avikm744.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "graft-o1mpdy",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://graft-webmcp.vercel.app/#verify-deployment",
+"demo_alive": "alive"
+},
+{
+"slug": "grant-scout-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://grant-scout-jayblast.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "greenroom-od80r9",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "grenz-a-policy-layer-for-webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://grenz-webmcp.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "grid-search",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://grid-search.versus-3.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "gridnode-sync",
+"lanes": [
+"DISAGREEMENT"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "ground-one-document-different-roles",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://ground.shj.rip/",
+"demo_alive": "alive"
+},
+{
+"slug": "groundline-1lw4f8",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "groundline-p6hq9m",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://groundline-dun.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "groundplan",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://groundplan-nine.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "guild-9phql5",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "guildhall",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://guildhall.kimetsu-dev.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "gymdeck",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://gymdeck.yanbocheng01234.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "halcyon-a-rescue-for-two-crew-you-and-your-agent",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://halcyon-opal.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "hamburger-roulette-with-webmcp",
+"lanes": [
+"CATEGORY_LEADERS"
+],
+"demo_url": "https://food.makosoyo.net/hamburger-roulette/?lang=en",
+"demo_alive": "alive"
+},
+{
+"slug": "handback-universal-agent-handoff-links",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://handback.link",
+"demo_alive": "alive"
+},
+{
+"slug": "handoff-agent-native-media-editor",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://handoff-agent-studio.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "handoff-i2cgy1",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://handoff-ai-webmcp.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "handoff-nqhs51",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://handoff-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "hands-on-the-keys",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://handsonthekeys.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "haven-r957gx",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "hear-my-site",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://hear-my-site-meeting-demo.jacob.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "hearth-design-a-home-with-your-agent",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://hearth.yadneshsalvi.com",
+"demo_alive": "alive"
+},
+{
+"slug": "heartsync-ai",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://papaya-frangollo-bfa93e.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "heatline-6gkc1s",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://heatline-nyc.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "hellobusan",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://hellobusan.kr",
+"demo_alive": "alive"
+},
+{
+"slug": "hexmend",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://hexmend.hex-machina.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "highwater",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://highwater-six.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "hitch-by-agent9",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://hitch.agent9.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "hold-the-pen-toy2vg",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://holdthepen.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "homeops",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://homeops-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "hooraai",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://hooraai-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "how-i-choose",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://how-i-choose.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "hsdf",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://sugarstack.kartik-bhalala.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "huge-zucchini-1",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "huginn",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://halmir-ai.github.io/huginn/",
+"demo_alive": "alive"
+},
+{
+"slug": "human-for-ai",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://humanforai.dev/together",
+"demo_alive": "alive"
+},
+{
+"slug": "humanlock",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://humanlock.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "hyphened-a-3d-neural-motion-studio",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://hyphened-motion.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "identitymap-witness",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://identitymap-witness.onrender.com",
+"demo_alive": "alive"
+},
+{
+"slug": "ieum",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://ieum.wlvlxlrkt.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "image-editor-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://image-editor-webmcp.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "imagelens",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://imagelens.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "incident-room-2m4an5",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://incident-room.fongse.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "inclusivepatch",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://inclusivepatch.aiconic-innovations.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "inkling-zksvyq",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://inkling.aniruddhachaudhari95.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "intent-8tpn1v",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://intent-commerce.gowtham0992.chatgpt.site/intent",
+"demo_alive": "alive"
+},
+{
+"slug": "intent-relay",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://intent-relay-workbench.pages.dev/workbench",
+"demo_alive": "alive"
+},
+{
+"slug": "interface-passport",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://interface-passport-custodian-webmcp.anynickin.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "interleave-syoiaz",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://interleave-iota.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "islanding-restore-critical-power-w-o-energizing-the-fault",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://webmaxru.github.io/webmcp-grid-resilience/",
+"demo_alive": "alive"
+},
+{
+"slug": "itemized",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://warranty-vault.nlpwire.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "jig-yrwiue",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION"
+],
+"demo_url": "https://www.sistermountain.com/blog/grade-knitting-patterns-spreadsheet",
+"demo_alive": "alive"
+},
+{
+"slug": "jobbbler",
+"lanes": [
+"RESCUED",
+"TOP_EXECUTION"
+],
+"demo_url": "https://jobbbler.com",
+"demo_alive": "alive"
+},
+{
+"slug": "joepro-webmcp-challenge",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://www.thewringer.ai",
+"demo_alive": "alive"
+},
+{
+"slug": "joy-of-painting",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://bobross.prompthabbit.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "jsonloupe",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://jsonloupe.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "keepsake-avpueo",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://keepsake-timeline.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "kern",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://kern.nxnom.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "kesslershield-leo-conjunction-debris-avoidance-flight",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "keycap-forge",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://keycap-forge.yoon-dev.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "khum",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "kineticflow-ai-motion-design-studio",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://kinetic-flow.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "kujo-ssg",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "kylrix",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.kylrix.space",
+"demo_alive": "alive"
+},
+{
+"slug": "laboria",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://laboria.0809android.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "ladder-qvyzpe",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://ladder-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "lafryhi-agentcut",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://lafryhi-agentcut-webmcp-production.up.railway.app",
+"demo_alive": "alive"
+},
+{
+"slug": "lasso-draw-what-your-agent-can-touch",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://smkzz.github.io/Lasso/",
+"demo_alive": "alive"
+},
+{
+"slug": "lastest-qa-reports-with-webmcp-site-tools",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://app.lastest.cloud/r/02PU3rqVfArPEW5maatXOw",
+"demo_alive": "alive"
+},
+{
+"slug": "launchpad-dzomub",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://launchpad.hello18528.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "ledgerrehearsal",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://ledger-rehearsal-ar.zaitahar.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "legalize-kr-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-legalize-kr.pages.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "lemma-ik9xmy",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://lemma-webmcp.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "lightcone-game",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://lightcone-webmcp.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "linecall",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "http://grassy-lotus-7dr8.here.now",
+"demo_alive": "alive"
+},
+{
+"slug": "liquidhr-agent-workspace",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://liquidhr-agent-workspace.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "listen-the-synth-your-agent-can-hear",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://listen-synth.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "living-ark-webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://living-ark-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "living-evidence",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://living-evidence.doralemon.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "living-memory-launcher",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://living-memory.app",
+"demo_alive": "alive"
+},
+{
+"slug": "livingpage",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "livingtown",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://livingtown-webmcp.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "lobby-a-concierge-for-humans-and-their-agents",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://lobby.host/c/arenna",
+"demo_alive": "alive"
+},
+{
+"slug": "looop-tquv5l",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://looop-orpin.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "loopsmith",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://loopsmith.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "lore-wjdexz",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "luxesalon-spa-webmcp-autonomous-storefront",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-ochre.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "mace",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://pointoforder.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "macro-dashboard-dch42v",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://superturbo.app/asset-analysis",
+"demo_alive": "alive"
+},
+{
+"slug": "mahaba",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://mahabari.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "maintenance-required",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://maintenance-required.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "make_layouts",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://make-layout.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "mandate-0bmige",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://mandate-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "mandate-ix29ek",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://webmcp-weld.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "mapforge",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "marginalia-8olys5",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "marinela-ai-concierge",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.marinelahairdesign.com/concierge",
+"demo_alive": "alive"
+},
+{
+"slug": "mastery-gate",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT"
+],
+"demo_url": "https://learn.powerplatform.fyi/pl-400",
+"demo_alive": "alive"
+},
+{
+"slug": "match-room-football-s-shared-language",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://footballaidata-match-room.daviddmerino.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "matched-p98xai",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://matched-webmcp.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "material-notes",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://material.sc/webmcp-demo",
+"demo_alive": "alive"
+},
+{
+"slug": "mathburst",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://mathburst.fireheartjerry.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "mcp-siege",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://siegempc.lol/",
+"demo_alive": "alive"
+},
+{
+"slug": "mcpilot-adaptive-interactive-play-lab",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://second-player-lab.asterai.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "mcpx",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://mcpx-mcpx-web.vercel.app/app",
+"demo_alive": "alive"
+},
+{
+"slug": "mechanism-canvas",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://mihirduvedi.github.io/mechanism-canvas/?demo=1",
+"demo_alive": "alive"
+},
+{
+"slug": "merchantos-webmcp-storefront-co-pilot",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://merchant-os-app.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "merge-queue-yxa1b3",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://merge-queue-eta.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "messijo",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://isittaken.cmgriffing.com",
+"demo_alive": "alive"
+},
+{
+"slug": "miaunolog",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "minecraft-build",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://textshot.github.io/build-arena/",
+"demo_alive": "alive"
+},
+{
+"slug": "minesweeper-rx7v63",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://puppo.github.io/minesweeper/",
+"demo_alive": "alive"
+},
+{
+"slug": "mininotes-app-custom-notes-and-collections-using-webmcp",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://mininotes.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "mirror-loop",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://mirrorloopai.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "mission-control-shield-wall",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://mission-control-webmcp-safe-preview.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "mission-graph",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://missiongraph.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "mixerx",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://mixerx.aiooup.chatgpt.site/mixerx/",
+"demo_alive": "alive"
+},
+{
+"slug": "moon-gate",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://moon-gate.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "morph-qnxg3f",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "morphe-forms",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://web-omega-five-19.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "moshimo-tag",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://moshimo-tag.kazuomi-kuguiya.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "moxscore-v2yxr4",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://moxscore.com/agent",
+"demo_alive": "alive"
+},
+{
+"slug": "muster-the-agentic-fire-drill",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://muster-fire-drill.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "mysynote",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://mysynote.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "name-ib6n1o",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://webmcp-challenge-by-meefa.myshopify.com",
+"demo_alive": "alive"
+},
+{
+"slug": "name-pv8j57",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.youtube.com/@Spotigoo",
+"demo_alive": "alive"
+},
+{
+"slug": "navwebmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "nepal-disaster-watch",
+"lanes": [
+"RESCUED",
+"TOP_IMPACT"
+],
+"demo_url": "https://asmibasnet.github.io/webMCP/",
+"demo_alive": "alive"
+},
+{
+"slug": "netawatch-jqwxtc",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://netawatch.ai.studio",
+"demo_alive": "alive"
+},
+{
+"slug": "nexacard-webmcp-relationship-copilot",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://nexacard-webmcp.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "nextplay",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://next-play-lake.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "nexus-deal-room-agent-native-decision-environment",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "nexus-weave-zero-egress-webmcp-engine",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://nexus-weave.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "nexuscanvas",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://nexus-canvas-pink.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "nightwatch-lrpi6u",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://nightwatch-console.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "no-seat-without-a-route",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://www.ada.gov/resources/ticket-sales/",
+"demo_alive": "alive"
+},
+{
+"slug": "noa-fj2tsu",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://noa.triumphsystems.tech",
+"demo_alive": "alive"
+},
+{
+"slug": "northstar-a3lmkr",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://webmcp-frontend-production.up.railway.app",
+"demo_alive": "alive"
+},
+{
+"slug": "novelist-h8ry21",
+"lanes": [
+"CATEGORY_LEADERS"
+],
+"demo_url": "https://ainovelist.app",
+"demo_alive": "alive"
+},
+{
+"slug": "observatory-ghpk10",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://nimble-semifreddo-fc82c2.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "ocheck-agent-ready-official-guides",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ocheck-webmcp-challenge.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "offcut",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://ilyanaxo.github.io/offcut-webmcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "office-of-kaiju-affairs-webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://office-of-kaiju-affairs.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "ombuds",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://ombuds-mu.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "omnistrand",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "once-upon-v4ibgn",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://once-upon.clement-liang.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "one-pixel",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://onepixel.fun",
+"demo_alive": "alive"
+},
+{
+"slug": "open-application-desk",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://open-application-desk.syed3000.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "openarchitect-4cwn1p",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://open-architect.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "openbento",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://openbento.tv",
+"demo_alive": "alive"
+},
+{
+"slug": "openclawcity",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://openclawcity.ai",
+"demo_alive": "alive"
+},
+{
+"slug": "openhardware",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://donthiresami.com/openhardware",
+"demo_alive": "alive"
+},
+{
+"slug": "openreceipt",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://openreceipt.phreshplastic.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "openslot-t2yk59",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://openslot-webmcp-demo.faizmohammed178.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "opensource-release-feed",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ossreleasefeed.schalkneethling.com",
+"demo_alive": "alive"
+},
+{
+"slug": "openspiderweb",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://spider-terrarium.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "openwebos",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://docs.google.com/document/d/10fTfH6OD9ko_QSBCFFmbAupdYJXLtKVyLr_5qLP4Z_8/edit?usp=drivesdk",
+"demo_alive": "alive"
+},
+{
+"slug": "openx",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://openx-portal.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "opsflow-webmcp-fulfillment-console-for-solo-operators",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ops-flow-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "orano",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://oranoai.com/workspace",
+"demo_alive": "alive"
+},
+{
+"slug": "orbit-d8r6ow",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://orbit-frontn.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "orpheus-a-mystery-neither-can-solve-alone",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://orpheus-mcduff.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "orqis",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://orqis.xyz",
+"demo_alive": "alive"
+},
+{
+"slug": "outpocket",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://outpocket.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "pa-in-your-pocket-household-actions",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://pa-school-actions.web.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "packedup",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://packedup-wine.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "page2webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "pagecontrol",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://webmcp-nine.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "pairalgo-ai-webmcp-algorithm-interview-workspace",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://pairalgo-ai.vercel.app/?demo=true",
+"demo_alive": "alive"
+},
+{
+"slug": "paleoscope",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://paleoscope.aguvener.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "pantrypilot-raeq03",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "pantrypilot-your-kitchen-co-piloted",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://pantrypilot.205-234-170-110.sslip.io:8443",
+"demo_alive": "alive"
+},
+{
+"slug": "paperpup",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://rabbithole.alajo.org",
+"demo_alive": "alive"
+},
+{
+"slug": "parley-omq7ab",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://parley.zzhhuuggee.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "party-of-two",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://webmcp.nicolascardenas.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "passcraft-webmcp",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://pass-craft-webmcp.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "patchbay",
+"lanes": [
+"DISAGREEMENT"
+],
+"demo_url": "https://patchbay.help",
+"demo_alive": "alive"
+},
+{
+"slug": "patiently-a-clinic-your-agent-can-actually-use",
+"lanes": [
+"RESCUED",
+"TOP_IMPACT"
+],
+"demo_url": "https://patiently-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "peira",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://peira.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "persona-the-embodied-webmcp-ai-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://persona-iota-sepia.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "personal-ledger-fictional-webmcp-demo",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "phlegm-spitting-old-man-coughing-fit-generator",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://phlegm-old-man-generator.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "pillbox-ktnp5v",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://pillbox-care.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "pip-the-mug",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://pip-the-mug.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "pitch-the-ai",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://pitchtheai.com",
+"demo_alive": "alive"
+},
+{
+"slug": "pixlpal",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://pixlpal.com",
+"demo_alive": "alive"
+},
+{
+"slug": "placard",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://segregation-console.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "plantneeds",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://plantneeds-web.onrender.com",
+"demo_alive": "alive"
+},
+{
+"slug": "pointcanvas-webmcp-collaborative-3d-point-cloud-inspector",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "portego",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://tryportego.com",
+"demo_alive": "alive"
+},
+{
+"slug": "post-purchase-resolution",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://youtu.be/nbCvtMemO8k",
+"demo_alive": "alive"
+},
+{
+"slug": "powerforge-web-verified-webmcp-for-static-sites",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://officeimo.com/search/",
+"demo_alive": "alive"
+},
+{
+"slug": "praxis-human-agent-nle",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "presence-yzjk9s",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://presence-agents.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "pricemcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://pricemcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "private-lingerie-fitting-room",
+"lanes": [
+"DISAGREEMENT"
+],
+"demo_url": "https://nude-devnetwork-hackathon.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "prize-problem-lab",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://prize-problem-lab.nousernameyet.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "prizepilot-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://prizepilot-webmcp.snitterdk.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "probepilot-studio",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://probepilot.jules-tnk.com",
+"demo_alive": "alive"
+},
+{
+"slug": "procuremesh",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://procuremesh.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "prodpermit",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://recovery-control-room.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "project-grapevine-human-agent-disaster-response",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://project-grapevine.preflyhq.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "promo-1l6nrv",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://event-growth-os-neuraldeep-net.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "proof-courier",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://proof-courier-orcin.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "proofboard-acfnyl",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://proofboard-evidence.ljs2546.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "proofdone",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://proofdone-commerce-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "protocol-mirror",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://protocol-mirror.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "prsim",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://prsim.yafa.sh/#preview",
+"demo_alive": "alive"
+},
+{
+"slug": "pulse-voice-steered-drums",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://pulse-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "quarantine-d1ke6l",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "queplan-x-webmcp-a-real-insurance-comparator-agent-ready",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://queplan.github.io/queplan-webmcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "queryhost",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://query.host/",
+"demo_alive": "alive"
+},
+{
+"slug": "quorum-agent-native-decision-rooms",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://quorummeet.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "rapier",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://rapier.website/?demo=1&amp;preview=phone",
+"demo_alive": "alive"
+},
+{
+"slug": "ratefloor-negotiation-intelligence",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://celkinex-ratefloor.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "re-entry-zj6ynh",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://game.sleepless-kingdom.com/OpenAI-WebMCP-Challenge-Judge-Guide",
+"demo_alive": "alive"
+},
+{
+"slug": "real-me-deepmatch",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://realme-deepmatch.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "recallops-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://6n4hjbd6xh.execute-api.us-east-1.amazonaws.com",
+"demo_alive": "alive"
+},
+{
+"slug": "redini-atelier",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://redini-atelier.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "rehearse-zka9f8",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://rehearse-webmcp.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "relay-jp8ea7",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://relay-marketplace.adelzakirov.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "relay-one-intent-many-websites",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://relay-webmcp.creamy-ibex-1200.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "relay-proof-before-power",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://relay-proof-before-power.speedhamam.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "relay-social-ai",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://relay.dzcodes.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "relay-tw7mo9",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://relay.hackathon-webmcp.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "relayplan",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://relay.alx21.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "relayroom",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "relays-wz2xvy",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://relays.work/",
+"demo_alive": "alive"
+},
+{
+"slug": "release-airlock",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://release-airlock.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "relocates-io",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://relocates.io",
+"demo_alive": "alive"
+},
+{
+"slug": "reloop-kvy796",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://reloop-webmcp.vercel.app/demo",
+"demo_alive": "alive"
+},
+{
+"slug": "remap-qx3gol",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://remap-xi.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "remix-fe8zt5",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://remix-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "replanix",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://replanix.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "replay-fk0ua2",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://artem-musii.github.io/replay/",
+"demo_alive": "alive"
+},
+{
+"slug": "resolvia",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "retailagentos-webmcp-agent-storefront",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://www.retailagentos.com/webmcp-showcase",
+"demo_alive": "alive"
+},
+{
+"slug": "reticle",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://youtu.be/fYAuf8a__X8?si=l6Ix8_EYmcOI897X",
+"demo_alive": "alive"
+},
+{
+"slug": "review-gate",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://review-gate-iota.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "rightsops-rights-aware-campaign-operations",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "rippletrace",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "rogerthat-49mbtz",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://benchkeeper.gpj.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "root-4gyjc1",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://root.danieloyerinde.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "roque-nights-plan-the-sky-with-your-agent",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://roque-nights.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "rotaproof",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://rotaproof.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "routineforge",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://routine-forge-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "runbook-zero",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://runbook-zero.rookepoole.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "runner-agent-x-thailand-in-motion",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://thai-run-club-webmcp.humble-flea-4717.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "s-o-l-v-e-r",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://demo.twistedlabs.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "sable-1ink36",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://sablewebmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "saeti-aurora-hall",
+"lanes": [
+"RESCUED",
+"TOP_IMPACT"
+],
+"demo_url": "https://aurorahall.app",
+"demo_alive": "alive"
+},
+{
+"slug": "safe-agent-assisted-booking",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-challenge-2026.sergej87342.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "safestaff-shift-commander-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://safestaff-shift-commander-webmcp-production.up.railway.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "safety-critical-roadway-design-engine",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://roadway-design-compiler.gandidhyaneswar.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "san-ch-i",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://sanchoi.app",
+"demo_alive": "alive"
+},
+{
+"slug": "savedpocket",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://savedpocket.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "savs-visual-proof-for-webmcp-agents",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://savs-webmcp-challenge.onrender.com",
+"demo_alive": "alive"
+},
+{
+"slug": "saya-akan-lawan",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "scenarioforge-cjxv8k",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://cosmic-lebkuchen-d84f92.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "sceneindex",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://semantic-spatial-webmcp.swmengappdev.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "schedule-rank-webmcp-adapter",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://tomishninja.github.io/MCPDemos/sparkys-electrical/",
+"demo_alive": "alive"
+},
+{
+"slug": "scholarsathi",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://openai-hackathon-scholar-sathi.vercel.app/#home",
+"demo_alive": "alive"
+},
+{
+"slug": "school-of-freelancing",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://schooloffreelancing.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "scistudio",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://scistudio.io",
+"demo_alive": "alive"
+},
+{
+"slug": "scopebox",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://scopebox.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "scopedelta",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://scopedelta.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "scopeshift-evidence-lease-native-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://scopeshift-gateway-fhw3pwjsja-uc.a.run.app/judge",
+"demo_alive": "alive"
+},
+{
+"slug": "scrapi",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://scrapi-two.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "sealed-1iorgh",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://sealed-ten-chi.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "sealed-case",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://ai-q-labs.github.io/sealed-case/",
+"demo_alive": "alive"
+},
+{
+"slug": "seatline-kolkata",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://seatline.cityofjoy.workers.dev/_experiences/seatline-kolkata/",
+"demo_alive": "alive"
+},
+{
+"slug": "second-cursor-moving-day",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://second-cursor-moving-day.zzzzzzzzzz-phoebe.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "semantic-loop-devops-demonstrator",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "semaphore-hvc3ar",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "http://semaphore.ahmedxsaad.me",
+"demo_alive": "alive"
+},
+{
+"slug": "sendero",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://sendero-alpha.vercel.app/app/new?lang=en",
+"demo_alive": "alive"
+},
+{
+"slug": "sentinel-desk",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://sentinel-desk-webmcp.hakan-damar.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "seostrich-get-discovered",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.seostrich.works/",
+"demo_alive": "alive"
+},
+{
+"slug": "seriessafe",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://hyunsikparker.github.io/seriessafe/",
+"demo_alive": "alive"
+},
+{
+"slug": "shared-room-mcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://shared-room-mcp-next.zeabur.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "shieldon",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://shieldon-webmcp-challenge.vercel.app/webmcp-challenge",
+"demo_alive": "alive"
+},
+{
+"slug": "shipcheap",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://shipcheap.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "shoplens-va4plw",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://shoplens-theta.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "shredly",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://shredly.io/",
+"demo_alive": "alive"
+},
+{
+"slug": "sidequest-ntv6k5",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://dosidequest.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "sift-hnf1u7",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://sift-hackathon-production.up.railway.app",
+"demo_alive": "alive"
+},
+{
+"slug": "sightline-lxuw25",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://sightline-example.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "signal-desk-workboard",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "signal-f4vnid",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://sidbuilds.com/signal",
+"demo_alive": "alive"
+},
+{
+"slug": "signal-ps7l56",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://signal-rho-two.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "signett",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://www.youtube.com/watch?v=zS8zES15pH4",
+"demo_alive": "alive"
+},
+{
+"slug": "simple-post",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://simplepost.social/tools/social-media-post-preview/",
+"demo_alive": "alive"
+},
+{
+"slug": "singularity-inc",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://youtu.be/l3TZWy2bEUA",
+"demo_alive": "alive"
+},
+{
+"slug": "siteworks-webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://webmcp-demo-app.siteworks.cloud",
+"demo_alive": "alive"
+},
+{
+"slug": "skillmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://skillmcp.kro.kr",
+"demo_alive": "alive"
+},
+{
+"slug": "skillspace-lctnbr",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://skill-space-beta.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "skillswebmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://swmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "skulora-outfitter",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://outfitter.skulora.com",
+"demo_alive": "alive"
+},
+{
+"slug": "sloth-4btenr",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://sloth-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "smart-link-6l0wyz",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://www.by-smartlink.com",
+"demo_alive": "alive"
+},
+{
+"slug": "smartcart-ivmcok",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://smart-cart-ai-chi.vercel.app/#",
+"demo_alive": "alive"
+},
+{
+"slug": "sms-florin-esim-webmcp-checkout-on-a-live-product",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://flo-voice1.com/esim",
+"demo_alive": "alive"
+},
+{
+"slug": "solarfix-agent",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "solaris-agent-native-solar-sizing-lab",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://solaris-xi-olive.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "solo-map-secure-agent-bus",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://jack-low.github.io/solo-map-webmcp-demo/",
+"demo_alive": "alive"
+},
+{
+"slug": "sourcing-scenario-room",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://sourcing-scenario-room.replit.app",
+"demo_alive": "alive"
+},
+{
+"slug": "space-auto-dealership-mcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://evauto.com",
+"demo_alive": "alive"
+},
+{
+"slug": "spatialize",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://spatialize-pink.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "speak-ahead",
+"lanes": [
+"RESCUED",
+"TOP_IMPACT"
+],
+"demo_url": "https://speakahead.net",
+"demo_alive": "alive"
+},
+{
+"slug": "spendmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://x402-list.com/api/v1/stats",
+"demo_alive": "alive"
+},
+{
+"slug": "split-circle-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "split-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://split-webmcp.aishahamidm.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "splitsight-erfg87",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://lihu-001.github.io/SplitSight/",
+"demo_alive": "alive"
+},
+{
+"slug": "spool-mzf8es",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://spool-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "spotcheck-usdp21",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://spotcheck-rfq.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "stack-underflow-your-ai-agent-plays-in-the-office",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://play.devpowers.com",
+"demo_alive": "alive"
+},
+{
+"slug": "stamped-1j6u25",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.stampit.somee.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "stand-an-arranging-studio-your-agent-writes-in",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://stand.znehraks.workers.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "starshape",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://starshape-observatory.starshape-observatory-worker.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "stock-pilot",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "stratum-4bsq0r",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://stratum-two-chi.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "strudel-webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://strudel-webmcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "strudelwebmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://strudel-webmcp-six.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "study-with-your-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agent-study.socialworktestprepacademy.com",
+"demo_alive": "alive"
+},
+{
+"slug": "studypilot-oc5ae7",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://studypilot-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "stylemate-bc8xr7",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://stylemate-gilt.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "substrate-ys7ta2",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://substrate.grayhavenindustries.com",
+"demo_alive": "alive"
+},
+{
+"slug": "suede-agent-studio-webmcp-storefront",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp.suedeai.ai/agents",
+"demo_alive": "alive"
+},
+{
+"slug": "suggestibility-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://app.suggestibility.ai",
+"demo_alive": "alive"
+},
+{
+"slug": "supplymesh-x5anm3",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://supplymesh-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "swagger-ui-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://openapi-web-mcp.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "switchboard-psz0hq",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://switchboard-100.pages.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "synthcouncil",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://synthcouncil.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "taboo-webmcp-game",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://app.bigdata.com",
+"demo_alive": "alive"
+},
+{
+"slug": "tailor-d4ufvj",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://webmcp-openaihac-production.up.railway.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "take-five",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://take-five-lw7.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "talk-fast",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://talk-fast-git-codex-21-out-of-20-danielrjahn.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "tandem-41l52d",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://tandem-listening-lab.alx21.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "tandem-ib6u78",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://tandem-lac.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "tapfill",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "task-liaison-ai-command-center",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://task-liaison.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "tasteshelf",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://tasteshelf.build-memories.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "taxis",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://taxis-five.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "tbr",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://project-tbr.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "teachback-de9cr3",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://teachback-webmcp.haygsiiii.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "techpulse",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://techpulse-uk.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "televerse",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://televerse-egjd.onrender.com",
+"demo_alive": "alive"
+},
+{
+"slug": "temp-or6aih",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://gatehouse-app.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "tendero-webmcp-for-a-colombian-corner-store",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://josenobile.github.io/tendero/",
+"demo_alive": "alive"
+},
+{
+"slug": "termlens",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://termlens.pages.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "terrain-leads",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://terrain.danejw.com",
+"demo_alive": "alive"
+},
+{
+"slug": "test-ehnqlm",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://13-233-49-44.sslip.io/console",
+"demo_alive": "alive"
+},
+{
+"slug": "the-between-visiting-minds",
+"lanes": [
+"DISAGREEMENT"
+],
+"demo_url": "https://frostyproject.stillpoint13.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "the-board-1rpyk6",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://theboard-record.netlify.app/?code=dami-theboard",
+"demo_alive": "alive"
+},
+{
+"slug": "the-cartographer-s-cabinet",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://cabinet.varera.studio/",
+"demo_alive": "alive"
+},
+{
+"slug": "the-commons-byi3eh",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "the-intent-horizon",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://rhnvrm.github.io/alpha-centauri/",
+"demo_alive": "alive"
+},
+{
+"slug": "the-last-signal-6hrzdf",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://webmcp-lemon.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "the-last-terminal",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-blush.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "the-meal-planner",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://meal-planner-llai.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "theorem-demo",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://acctey.org",
+"demo_alive": "alive"
+},
+{
+"slug": "theraflow-ethical-clinical-webmcp-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://sultana717-debug.github.io/theraflow-webmcp/",
+"demo_alive": "alive"
+},
+{
+"slug": "thread-exyid5",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://thread.rylogix.com",
+"demo_alive": "alive"
+},
+{
+"slug": "threattriage-webmcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://joepetetiu.github.io/jorene-repo/",
+"demo_alive": "alive"
+},
+{
+"slug": "threshold-7jhnxb",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://threshold-hub.onrender.com",
+"demo_alive": "alive"
+},
+{
+"slug": "ticketing-system-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "time-dime",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://time-and-dime.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "tinypilot-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://tinypilot-webmcp-demo.innoiso.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "tokenkiller",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://tokenkiller.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "tokenwatch-shared-llm-cost-decisions",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://tokenwatch.wyrdwerk.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "tonic",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://tonic.stranica.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "toolbraid",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://toolbraid-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "toolgap",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://toolgap.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "toolproof-by-invarra",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://thurstone.invarra.ai/judge",
+"demo_alive": "alive"
+},
+{
+"slug": "toolsmith-p9st3m",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://chudi.dev/tools/toolsmith",
+"demo_alive": "alive"
+},
+{
+"slug": "tour-de-controle",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://control-tower-491595433989.europe-west9.run.app/demo",
+"demo_alive": "alive"
+},
+{
+"slug": "trace-ta9wup",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://trace-webmcp.callboard.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "tracebound-provenance-research-without-inventing-history",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://webmaxru.github.io/webmcp-provenance-workbench/",
+"demo_alive": "alive"
+},
+{
+"slug": "tracelayer-e1xf5t",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://tracelayer-native-spike.raidsn.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "traces-3snwtz",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://traces.ribdsp.com",
+"demo_alive": "alive"
+},
+{
+"slug": "transfer-window-sandbox",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.skysports.com/football/news/11671/13107642/everton-deducted-two-points-for-breaching-premier-league-profitability-and-sustainability-rules-for-second-time",
+"demo_alive": "alive"
+},
+{
+"slug": "trialbook",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://minewefu.github.io/trialbook/",
+"demo_alive": "alive"
+},
+{
+"slug": "tripster-f3hk60",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://tripster-ten.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "tripwise",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://tripewise.netlify.app",
+"demo_alive": "alive"
+},
+{
+"slug": "true-remote-jobs",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://trueremotejobs-mu.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "tulip-trips-a-webmcp-trip-planner",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ads.getlulu.dev/webmcp/demo",
+"demo_alive": "alive"
+},
+{
+"slug": "turnspace",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://unitedspinal.org/accessibility-ideas-studio-apartment/",
+"demo_alive": "alive"
+},
+{
+"slug": "u9itus-political-purview",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.u9itus.com/webmcp",
+"demo_alive": "alive"
+},
+{
+"slug": "ufo-web",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://universalfileopener.com",
+"demo_alive": "alive"
+},
+{
+"slug": "umegga",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://umegga.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "understudy-35mgb8",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://nvidia-production-f205.up.railway.app",
+"demo_alive": "alive"
+},
+{
+"slug": "unitwatch",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-unitwatch.mbrush-ltd.workers.dev/",
+"demo_alive": "alive"
+},
+{
+"slug": "univ-deploy",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://univ-witness-proof.seemoreas0-0.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "unsaid-private-context-shared-agreement",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://unsaid-agreement.kbelcher.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "unspoiled-u1qyr0",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://unspoiled-psi.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "vaanzari",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://vaanzari.com/developers/webmcp",
+"demo_alive": "alive"
+},
+{
+"slug": "velaire-webmcp-agreements-for-service-businesses",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://velaire-hvac.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "venue-studio",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://venue-studio-nine.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "verb-sign-off-voice-on",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://verb-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "verdiqt",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://verdiqt-web.onrender.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "village-ojh723",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://village-family.jp-hickey.chatgpt.site/",
+"demo_alive": "alive"
+},
+{
+"slug": "virtual-billboard-autonomous-ai-agent-screen-network",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://livebillboards.lol",
+"demo_alive": "alive"
+},
+{
+"slug": "virtual-closet-8ibt5n",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://virtual-closet.com",
+"demo_alive": "alive"
+},
+{
+"slug": "visionboard-6i9avj",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://beta.vision-board.tech",
+"demo_alive": "alive"
+},
+{
+"slug": "vistect-independent-visual-authorship",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED",
+"TOP_IMPACT"
+],
+"demo_url": "https://vistect.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "vouchsafe-m3xziq",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://vouchsafe-lettings.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "voxel-webmcp",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://voxel-webmcp.netlify.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "wadi-design-a-house-with-your-agent",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://wadi.house",
+"demo_alive": "alive"
+},
+{
+"slug": "waggle",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://app.waggle.thecrowbarcrew.cc",
+"demo_alive": "alive"
+},
+{
+"slug": "warrant-4ywaz2",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://warrant-gray.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "waypoint-eb0pig",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "weave-16xa28",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://drive.google.com/drive/folders/1OA56ZB6VfMFG1dIzqcJiOLojGptgHV85?usp=sharing",
+"demo_alive": "alive"
+},
+{
+"slug": "webcam-funapp-io",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webcam.funapp.io",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://triprescue.slate-app.online",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-auth-identity-and-reputation-layer",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-computer",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://computer.webmcp.com/",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-foundry",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://kokkonenjori-arch.github.io/webmcp-foundry/",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-openmind-travel-agent-tool",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://status.openai.com/incidents/01M1KWEDH417T2CF44YYHZDFCR",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-simulator",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-simulator.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-studio",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-studio-agent-native-portfolio",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://narcisojavier.vercel.app",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-super-chrome-extension",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcp-tda",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://webmcp-tda.pages.dev",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcpexplore",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED"
+],
+"demo_url": "https://labmate-webmcp.active-dog-7947.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "webmcpsentinel",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "webops-commander",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "wellset",
+"lanes": [
+"RESCUED",
+"TOP_EXECUTION"
+],
+"demo_url": "https://wellset-webmcp.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "wetaego",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ourmenuos.online/m/demo",
+"demo_alive": "alive"
+},
+{
+"slug": "whofollows",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://whofollows.net/webmcp-demo",
+"demo_alive": "alive"
+},
+{
+"slug": "wiki-agent",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://discord.com/invite/HP4BhW3hnp",
+"demo_alive": "alive"
+},
+{
+"slug": "wilofox-deck-studio",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://wilofox-agentic-deck-studio.wilsonlavio9.chatgpt.site",
+"demo_alive": "alive"
+},
+{
+"slug": "worldline-v65kme",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://openforagents-webmcp-challenge.vercel.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "wornpage-projects",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "http://projectsdemo.org",
+"demo_alive": "alive"
+},
+{
+"slug": "yange-2-0-bring-this-look-home",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://web-jet-one-21.vercel.app/?view=mission",
+"demo_alive": "alive"
+},
+{
+"slug": "zero-knowledge-webmail-yozz",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://support.google.com/mail/answer/17101213?hl=en",
+"demo_alive": "alive"
+},
+{
+"slug": "zshop-agent-cart",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://zshop.zwlab.app/",
+"demo_alive": "alive"
+},
+{
+"slug": "actionwitness",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://actionwitness.onrender.com/",
+"demo_alive": "unknown"
+},
+{
+"slug": "adaptive-world",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://sundaytable.openai.chatgpt.site/that",
+"demo_alive": "dead"
+},
+{
+"slug": "agentdesk-gf918v",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://webmcp.agentsdesk.dev/",
+"demo_alive": "unknown"
+},
+{
+"slug": "agentflow-oqw176",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agentflow-hackathon.pages.dev",
+"demo_alive": "dead"
+},
+{
+"slug": "agentic-price-hunter",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "http://localhost:5173",
+"demo_alive": "unknown"
+},
+{
+"slug": "agentinbox",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://agentinbox1.onrender.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "ai-stylist-x92cd5",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ai-stylist-co-shopping-web-mcp.vercel.app/",
+"demo_alive": "dead"
+},
+{
+"slug": "ai-usage-skill-visualizer-webmcp-edition",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://ai-usage-visualizer-webmcp.onrender.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "alza",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://alza-dev.pages.dev",
+"demo_alive": "unknown"
+},
+{
+"slug": "appstory",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://openai.com/webmcp-challenge/",
+"demo_alive": "dead"
+},
+{
+"slug": "aquaeye",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://upgrade-services-trademarks-strike.trycloudflare.com/",
+"demo_alive": "unknown"
+},
+{
+"slug": "bestprice-shop-with-the-page-not-around-it",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.bestprice.gr/",
+"demo_alive": "unknown"
+},
+{
+"slug": "brickwright",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://brickwrite.tech",
+"demo_alive": "unknown"
+},
+{
+"slug": "clauseproof-or3fbd",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION"
+],
+"demo_url": "https://by42ppcrps-dev.github.io/clauseproof/",
+"demo_alive": "unknown"
+},
+{
+"slug": "cobweb-webmcp-enabled-micropython-ide",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.npmjs.com/package/use-webmcp-tool",
+"demo_alive": "dead"
+},
+{
+"slug": "cockpit-2jeot0",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://analytics-partner.example/collect.%E2%80%9D",
+"demo_alive": "unknown"
+},
+{
+"slug": "doorman-webmcp-z7ga3u",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://dannybaanks.github.io/DoormanWebMCP",
+"demo_alive": "dead"
+},
+{
+"slug": "elbow-room",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://elbowroom.jonathanandrei.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "ferrule",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://ferrule-desk-mcp.netlify.app",
+"demo_alive": "unknown"
+},
+{
+"slug": "formproof",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://formproof-webmcp.skywalker1226.chatgpt.site",
+"demo_alive": "unknown"
+},
+{
+"slug": "google-forms-mcp",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://www.linkedin.com/in/kishore-ramu/",
+"demo_alive": "unknown"
+},
+{
+"slug": "gridbrief-tr",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://gridbrief-tr.vercel.app/en",
+"demo_alive": "dead"
+},
+{
+"slug": "jupyterlite-webmcp",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://jupyterlite-web-mcp.vercel.app/lab/index.html",
+"demo_alive": "unknown"
+},
+{
+"slug": "kata-i3khsl",
+"lanes": [
+"RESCUED",
+"TOP_CREATIVITY"
+],
+"demo_url": "https://kata-webmcp.vercel.app/",
+"demo_alive": "unknown"
+},
+{
+"slug": "knowyouragent-merchant-safety-gate",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://knowyouragent.xyz/webmcp-demo",
+"demo_alive": "unknown"
+},
+{
+"slug": "la-ban-agent-native-career-guidance-for-ai-transition",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-the-agent-native-career-compass.onrender.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "memorybook-2ow7ty",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://memorybook-app.onrender.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "mod-mixture-of-dulus-using-gemini-as-main-brain",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "",
+"demo_alive": "unknown"
+},
+{
+"slug": "movie-webmcp-video-co-editor",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp-video-coeditor.onrender.com/index.html",
+"demo_alive": "unknown"
+},
+{
+"slug": "orchestra-8k10lb",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://orchestra-web-gmvv.onrender.com/",
+"demo_alive": "unknown"
+},
+{
+"slug": "out-of-service-srykun",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://www.mta.info/article/accessibility-disability-pride-month-2026",
+"demo_alive": "unknown"
+},
+{
+"slug": "paradox-qzsn3g",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://www.paradoxwebmcp.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "pipeline-os",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://pipelineos-lkol.onrender.com/",
+"demo_alive": "unknown"
+},
+{
+"slug": "proofpath-ai-yes",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://elastic-cloud-7bddb2h.shipstatic.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "prune-pldstv",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_IMPACT"
+],
+"demo_url": "https://useprune.vercel.app",
+"demo_alive": "unknown"
+},
+{
+"slug": "recipe-radar-28hsig",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "",
+"demo_alive": "unknown"
+},
+{
+"slug": "repo-board",
+"lanes": [
+"RESCUED",
+"TOP_AGGREGATE"
+],
+"demo_url": "https://webmcp-repo-board.zacwhite.workers.dev/boards/zac/test-repo-board",
+"demo_alive": "unknown"
+},
+{
+"slug": "schematic",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://schematic-hardware-workspace.decipherer71.chatgpt.site",
+"demo_alive": "dead"
+},
+{
+"slug": "stranger-in-the-middle",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://stranger-in-the-middle.onrender.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "studymesh",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://studymesh.onrender.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "surf-agent-control",
+"lanes": [
+"DISAGREEMENT",
+"RESCUED"
+],
+"demo_url": "https://webmcp.surf.security",
+"demo_alive": "unknown"
+},
+{
+"slug": "tail-risk",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_EXECUTION",
+"TOP_IMPACT",
+"TOP_LEVERAGE"
+],
+"demo_url": "https://tail-risk.onrender.com",
+"demo_alive": "unknown"
+},
+{
+"slug": "tessera-36h4k0",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_EXECUTION",
+"TOP_IMPACT"
+],
+"demo_url": "https://tessera.kbates9611.chatgpt.site/",
+"demo_alive": "unknown"
+},
+{
+"slug": "vouchsafe-v5toyl",
+"lanes": [
+"CATEGORY_LEADERS",
+"RESCUED",
+"TOP_AGGREGATE",
+"TOP_CREATIVITY",
+"TOP_IMPACT"
+],
+"demo_url": "https://vouchsafe-app.vercel.app'%5D:",
+"demo_alive": "unknown"
+},
+{
+"slug": "what-should-i-click",
+"lanes": [
+"RANDOM_CONTROL"
+],
+"demo_url": "https://blog.zepto.com/clickhouse-ingestion-at-scale-an-open-source-zepto-engineering-story-7f57309e2175",
+"demo_alive": "dead"
+}
+]
