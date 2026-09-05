@@ -1,0 +1,192 @@
+---
+import Base from '../layouts/Base.astro';
+import { FORMAT } from '../components/format';
+
+// All numbers below are build-time constants sourced from VOLUME.md and the
+// analysis artifacts (verified 2026-09-05). Static page: no client JS needed.
+
+const stats = {
+  projects: 2500,
+  judgments: 9150,          // 2,824 r1 + 2,824 r2 + 717 obs + 1,432 s2rescore + 1,353 rr
+  agentHours: 80.2,
+  subagents: 1032,
+  apiCalls: 10193,
+  tokensBillable: 59.3,     // millions, non-cached input + output
+  tokensCache: 526.3,       // millions, provider cache reads
+  wallCompression: 20,      // agent-hours inside delegation windows vs sequential
+};
+
+// Stage flow for the saner-ish bar: corpus -> S2 live / S1R rescored / S1 as-reviewed
+const flow = [
+  { label: 'Full corpus', n: 2500, note: 'every public submission' },
+  { label: 'S2 · live-product tested', n: 716, note: 'observer drove the real product; 217 runtime-verified' },
+  { label: 'S1R · re-scored', n: 1353, note: 'video-evidence defect corrected, single fresh reviewer each' },
+  { label: 'S1 · as first reviewed', n: 431, note: 'two blind reviewers, no defect found' },
+];
+
+// Where the 9,150 judgments came from
+const judgmentSources = [
+  { label: 'S1 round 1 blind reviews', n: 2824 },
+  { label: 'S1 round 2 blind reviews', n: 2824 },
+  { label: 'S2 live observations', n: 717 },
+  { label: 'S2 blind re-scores', n: 1432 },
+  { label: 'S1R remediation re-scores', n: 1353 },
+];
+
+// Rescore delta histogram: what happened when video evidence was finally counted
+const deltaHist = [
+  { d: '-4..', n: 13 }, { d: '-3', n: 6 }, { d: '-2', n: 58 }, { d: '-1', n: 50 },
+  { d: '0', n: 363 }, { d: '+1', n: 168 }, { d: '+2', n: 446 }, { d: '+3', n: 94 },
+  { d: '+4', n: 133 }, { d: '+5..', n: 27 },
+];
+
+// Verification split among the 716 live-tested projects
+const verS2 = [
+  { label: 'Runtime verified', n: 217 },
+  { label: 'Video verified', n: 69 },
+  { label: 'Repo verified', n: 15 },
+  { label: 'Claim only', n: 236 },
+  { label: 'Unverified', n: 72 },
+  { label: 'Failed at test time', n: 107 },
+];
+
+const maxDelta = Math.max(...deltaHist.map((b) => b.n));
+const maxJudg = Math.max(...judgmentSources.map((s) => s.n));
+
+// Incident ledger: honest engineering
+const incidents = [
+  { what: 'S2 adjudication drop-out', fix: '8 projects restored via mean-capped adjudication' },
+  { what: 'Video-metadata gap (YouTube IP wall)', fix: '1,353 projects re-scored with corrected evidence (S1R)' },
+  { what: 'Music-audio modality penalty', fix: 'audio-neutral re-scores + published sensitivity table' },
+  { what: 'Ranking sort defect', fix: 'tracked builder with fail-closed monotonic assertions' },
+];
+---
+
+<Base title="Volume — webmcp/analysis" active="volume" description="The compute, judgment, and effort ledger behind the WebMCP analysis."
+  hero={{ eyebrow: 'WebMCP analysis · compute ledger', title: 'Volume', lede: 'What it cost to look at everything honestly — receipts included.' }}>
+
+    <section style="margin: 26px 0 40px;">
+      <p class="sec-mark"><span class="n">01</span> The scale</p>
+      <p style="margin: 0 0 18px; max-width: 62ch;">
+        Every number on this site came out of a fresh-context AI agent that re-read its
+        instructions, rubric, and evidence from scratch. No reviewer saw another's output.
+        Isolation is expensive; these are the receipts.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px;">
+        {[
+          ['Projects analyzed', stats.projects.toLocaleString()],
+          ['Independent judgments', stats.judgments.toLocaleString()],
+          ['Subagent reviewers', stats.subagents.toLocaleString()],
+          ['Cumulative agent time', `${stats.agentHours}h`],
+          ['API calls', stats.apiCalls.toLocaleString()],
+          ['Tokens (billable-shape)', `${stats.tokensBillable}M`],
+          ['Wall-clock compression', `~${stats.wallCompression}×`],
+        ].map(([label, value]) => (
+          <div style="border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px;">
+            <div style="font-size: var(--text-xs); color: var(--ink-3);">{label}</div>
+            <div style="font-size: 26px; font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 2px;">{value}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin: 0 0 40px;">
+      <p class="sec-mark"><span class="n">02</span> Where the ranking comes from</p>
+      <p style="margin: 0 0 14px; max-width: 62ch;">
+        Each project's final score rests on the strongest evidence available for it —
+        not the same pipeline for everyone, but the same bar.
+      </p>
+      <div style="display: grid; gap: 10px; max-width: 720px;">
+        {flow.map((f) => (
+          <div style="display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px; align-items: baseline;">
+            <span style="font-weight: 600; font-size: var(--text-sm);">{f.label}</span>
+            <span style="font-variant-numeric: tabular-nums; font-weight: 600;">{f.n.toLocaleString()}</span>
+            <span style="grid-column: 1 / -1; color: var(--ink-3); font-size: var(--text-xs);">{f.note}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin: 0 0 40px;">
+      <p class="sec-mark"><span class="n">03</span> 9,150 judgments</p>
+      <p style="margin: 0 0 14px; max-width: 62ch;">
+        Every judgment was an isolated agent reading its own full packet. This is what
+        "we looked at everything" quantifies to.
+      </p>
+      <div style="display: grid; gap: 8px; max-width: 640px;">
+        {judgmentSources.map((s) => (
+          <div style="display: grid; grid-template-columns: 220px 1fr 60px; gap: 12px; align-items: center;">
+            <span style="font-size: var(--text-sm);">{s.label}</span>
+            <div style="background: rgb(0 0 0 / 4%); border-radius: 4px; height: 18px; overflow: hidden;">
+              <div style={`width: ${(s.n / maxJudg) * 100}%; height: 100%; background: rgb(0 0 0 / 72%);`}></div>
+            </div>
+            <span style="font-variant-numeric: tabular-nums; font-size: var(--text-sm); text-align: right;">{s.n.toLocaleString()}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin: 0 0 40px;">
+      <p class="sec-mark"><span class="n">04</span> What the re-score changed</p>
+      <p style="margin: 0 0 14px; max-width: 62ch;">
+        1,353 projects were re-scored after a data bug hid their demo videos from
+        reviewers. Aggregate-score movement: 1,022 rose, 192 fell, 139 held. Corrected
+        evidence helped most projects — and honestly hurt the ones whose videos
+        didn't survive a second look.
+      </p>
+      <div style="display: grid; grid-template-columns: repeat(10, 1fr); gap: 4px; max-width: 640px; align-items: end;">
+        {deltaHist.map((b) => (
+          <div style="display: grid; gap: 4px; justify-items: center;">
+            <div style={`width: 100%; height: ${Math.max(4, (b.n / maxDelta) * 120)}px; background: ${b.d.startsWith('-') ? 'rgb(0 0 0 / 32%)' : b.d === '0' ? 'rgb(0 0 0 / 20%)' : 'var(--accent)'}; border-radius: 3px 3px 0 0;`}></div>
+            <span style="font-size: 10px; color: var(--ink-3);">{b.d}</span>
+          </div>
+        ))}
+      </div>
+      <p style="color: var(--ink-3); font-size: var(--text-xs); margin-top: 8px;">
+        Aggregate delta (new − prior), 1,353 re-scored projects. Coral = rose, gray = fell or unchanged.
+      </p>
+    </section>
+
+    <section style="margin: 0 0 40px;">
+      <p class="sec-mark"><span class="n">05</span> Runtime verification, among the 716 live-tested</p>
+      <div style="display: grid; gap: 6px; max-width: 560px;">
+        {verS2.map((v) => (
+          <div style="display: grid; grid-template-columns: 180px 1fr 60px; gap: 12px; align-items: center;">
+            <span style="font-size: var(--text-sm);">{v.label}</span>
+            <div style="background: rgb(0 0 0 / 4%); border-radius: 4px; height: 16px; overflow: hidden;">
+              <div style={`width: ${(v.n / 716) * 100}%; height: 100%; background: rgb(0 0 0 / 60%);`}></div>
+            </div>
+            <span style="font-variant-numeric: tabular-nums; font-size: var(--text-sm); text-align: right;">{v.n}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin: 0 0 40px;">
+      <p class="sec-mark"><span class="n">06</span> The incident ledger</p>
+      <p style="margin: 0 0 14px; max-width: 62ch;">
+        Four defects were found and fixed during the run, each with a scoped re-run
+        rather than a silent patch. They're listed in the repo's DEVIATIONS.md with
+        full before/after.
+      </p>
+      <div style="display: grid; gap: 8px; max-width: 720px;">
+        {incidents.map((i) => (
+          <div style="display: grid; grid-template-columns: 1fr; gap: 2px; border: 1px solid var(--border); border-radius: 10px; padding: 12px 16px;">
+            <span style="font-weight: 600; font-size: var(--text-sm);">{i.what}</span>
+            <span style="color: var(--ink-2); font-size: var(--text-xs);">{i.fix}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="margin: 0 0 20px;">
+      <p class="sec-mark"><span class="n">07</span> Why so many tokens</p>
+      <p style="max-width: 62ch;">
+        Blind review is bought with re-read tokens: ~46k true input tokens per subagent,
+        every time, because no reviewer may inherit another's context. Re-runs were scoped
+        to affected subsets — 1,353 of 2,500 re-scored rather than everything. The full
+        ledger, including cache-accounting methodology, lives in the repo as VOLUME.md.
+      </p>
+    </section>
+  </div>
+</Base>

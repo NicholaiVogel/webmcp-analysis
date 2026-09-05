@@ -1,4 +1,5 @@
 ---
+import { ClientRouter } from 'astro:transitions';
 import '@fontsource-variable/inter';
 import '../styles/global.css';
 import { FORMAT } from '../components/format';
@@ -6,11 +7,12 @@ import { FORMAT } from '../components/format';
 interface Props {
   title: string;
   description?: string;
-  active?: 'rankings' | 'explore' | 'methodology' | 'about';
+  active?: 'rankings' | 'explore' | 'volume' | 'methodology' | 'about';
+  hero?: { eyebrow: string; title: string; lede?: string };
   /** suppress the default hero paddings for full-bleed pages */
   compact?: boolean;
 }
-const { title, description = 'Independent qualitative analysis of roughly 2,500 WebMCP Challenge submissions.', active, compact } = Astro.props;
+const { title, description = 'Independent qualitative analysis of roughly 2,500 WebMCP Challenge submissions.', active, hero, compact } = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
@@ -21,20 +23,33 @@ const { title, description = 'Independent qualitative analysis of roughly 2,500 
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <ClientRouter />
   </head>
   <body>
-    <header class="masthead">
+    <header class="masthead masthead-transparent">
       <div class="wrap masthead-inner">
         <a class="wordmark" href="/">webmcp<span class="slash">/</span><span class="sub">analysis</span></a>
         <nav class="nav" aria-label="Main">
           <a href="/" aria-current={active === 'rankings' ? 'page' : undefined}>Rankings</a>
           <a href="/explore/" aria-current={active === 'explore' ? 'page' : undefined}>Explore</a>
+          <a href="/volume/" aria-current={active === 'volume' ? 'page' : undefined}>Volume</a>
           <a href="/methodology/" aria-current={active === 'methodology' ? 'page' : undefined}>Methodology</a>
           <a href="/about/" aria-current={active === 'about' ? 'page' : undefined}>About</a>
         </nav>
       </div>
     </header>
     <main class={compact ? undefined : undefined}>
+      {hero ? (
+        <section class="hero hero-texture">
+          <div class="wrap hero-row">
+            <div>
+              <p class="eyebrow">{hero.eyebrow}</p>
+              <h1>{hero.title}</h1>
+              {hero.lede ? <p class="lede">{hero.lede}</p> : null}
+            </div>
+          </div>
+        </section>
+      ) : null}
       <slot />
     </main>
     <footer class="footer">
