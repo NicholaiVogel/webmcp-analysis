@@ -163,7 +163,10 @@ p, li { overflow-wrap: break-word; }
   }
 }
 
-.volume-page { padding-top: 26px; }
+.volume-page {
+  max-width: calc(var(--measure) + 80px);
+  padding-top: 26px;
+}
 
 /* ---------- controls ---------- */
 .controls {
